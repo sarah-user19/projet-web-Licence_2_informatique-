@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Connexion / Inscription  Boutique Crochet</title>
+  <link rel="stylesheet" href="authentification.css">
+
+</head>
+<body>
+  <div class="container">
+    <!-- Formulaire Connexion -->
+    <div id="login-form">
+      <h2>Connexion</h2>
+      <form action="traitement_login.php" method="POST">
+        <div class="form-group">
+          <label for="login-email">Adresse e-mail</label>
+          <input type="email" id="login-email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="login-password">Mot de passe</label>
+          <input type="password" id="login-password" name="password" required />
+        </div>
+        <button type="submit" class="btn">Se connecter</button>
+      </form>
+      <div class="toggle-link">
+        Pas encore de compte ? <span onclick="toggleForms()">Créer un compte</span>
+      </div>
+    </div>
+
+    <!-- Formulaire Inscription -->
+    <div id="register-form" class="hidden">
+      <h2>Créer un compte</h2>
+      <form action="traitement_inscription.php" method="POST">
+        <div class="form-group">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Adresse e-mail</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Mot de passe</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirmer le mot de passe</label>
+          <input type="password" id="confirm-password" name="confirm_password" required />
+        </div>
+        <button type="submit" class="btn">Créer un compte</button>
+      </form>
+      <div class="toggle-link">
+        Déjà inscrit ? <span onclick="toggleForms()">Se connecter</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleForms() {
+      document.getElementById("login-form").classList.toggle("hidden");
+      document.getElementById("register-form").classList.toggle("hidden");
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knot.co</title>
+    <script src="https://kit.fontawesome.com/8428a8ab72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+     
+    <header id="Home">
+        <img id="logo" src="./image/logo.png" alt="logo knot.co">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#preview">preview</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li class="dropdown" id="pt">
+                <a href="#">Categories  <img src="image/chevron.svg" id="flech1"></img></a>
+                <ul class="dropdown-content">
+                    <li><a href="page3.html">accessoires</a></li>
+                    <li><a href="page5.html">décoration</a></li>
+                    <li><a href="page4.html">outils</a></li>
+                    <li><a href="page2.html">vetements</a></li>
+                </ul>
+            </li>
+        </ul>
+
+     <div class="btn-header">
+        <button class="btn">
+            <a target="_blank" href="authentification.html"><img src="image/user.svg" alt=""><p><span> Connexion</span></p></a>
+        </button>
+     </div>
+
+
+
+<div class="cart-icon" onclick="toggleCart()">
+  <img src="image/panier.svg" alt="">
+  <span id="cart-count">0</span>
+</div>
+
+
+
+
+        </div>
+    </header>
+    <br>
+    <br>   
+    <section class="home-section">
+        
+       
+        <div class="left">
+            
+           
+            <img class="left-image-1" src="./image/pic1.png" alt="">
+            <img class="left-image-2" src="./image/pic3.png" alt="">
+        </div>
+        <div   class="right">
+            <div> 
+                
+                <b><span class="test-right"></span></b>
+                <h1>Trouve ton style</h1>
+                <p>Ajoute une touche unique et artisanale à ton quotidien !</p>
+                <p>Chaque maille raconte une
+                    histoire <br>et chaque fil est tissé avec passion🧶 </p>
+
+                <br>
+                <button class="btn-sparkle">Ici la magie opere!✨</button>
+                <div id="sparkle-container"></div>
+                <script>
+                    const button = document.querySelector('.btn-sparkle');
+                    const container = document.getElementById('sparkle-container');
+
+                    button.addEventListener('mouseenter', () => {
+                        let i = 0;
+                        const interval = setInterval(() => {
+                            if (i >= 50) {
+                                clearInterval(interval);
+                                return;
+                            }
+
+                            const star = document.createElement('div');
+                            star.classList.add('star');
+                            star.innerText = '⭐';
+
+                            const x = Math.random() * window.innerWidth;
+                            const y = 0;
+
+                            const drift = (Math.random() - 0.5) * 100 + 'px';
+                            star.style.setProperty('--drift', drift);
+
+                            star.style.left = `${x}px`;
+                            star.style.top = `${y}px`;
+
+                            container.appendChild(star);
+
+                            setTimeout(() => {
+                                star.remove();
+                            }, 2000);
+
+                            i++;
+                        }, 100); // 100ms entre chaque étoile
+                    });
+                </script>
+
+
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+
+    <section id="vetements" class="category1">
+        <br >
+        <div class="div1">
+        <h1 id="preview" >Vetements</h1>
+        <p > Nos vêtements en crochet sont faits à la main avec soin et amour. <br><br>
+          Chaque pièce est unique, confortable et de qualité. <br><br>
+          On choisit des matières douces et solides pour créer des pièces uniques, confortables et pleines de style. <br><br>
+           Un mélange de tradition et de modernité à porter au quotidien. <br><br>
+            Porter nos vêtements en crochet, c’est adopter un style bohème et raffiné, tout en soutenant un savoir-faire traditionnel. <br><br>
+        <span>Parce que chaque détail compte,nous créons pour vous des pièces qui racontent une histoire.</span>
+        </p>
+        </div  >
+        <img  id="vt" src="./image/vtm1.jpg" >
+        <div  class="div2">
+        <a href="page2.html"><img id="vt2" src="./image/vtm5.jpg"></a>
+
+        </div>
+   
+       
+
+       
+    </section>
+    
+
+
+        <section id="accessoires" class="category2">
+            <br>
+            <div class="d3">
+              <h2>Accessoires</h2> <br><br>
+                <p>
+                    La beauté de nos créations en crochet se reflète dans la douceur des matières,<br><br> <span> la finesse des détails et le soin apporté à chaque pièce </span> <br><br>
+                   Nos créations en crochet se distinguent par leur finesse et leur charme naturel. <br><br>
+                   pour révéler toute la beauté de l’artisanat. Un style unique qui allie douceur, élégance et authenticité.
+                </p>
+            </div>
+            <img id="vt3" src="./image/a1.jpg" alt="">
+            <a href="page3.html"><img id="vt4" src="./image/a2.jpg" alt=""></a>
+     
+        </section>
+          
+                    
+
+            <section id="décoration" class="category3">
+                <br>
+                <div class="div1">
+                    <h1>Décoration</h1>
+                    <p> Une décorations en crochet apportent une touche unique et chaleureuse à votre intérieur. <br><br>       
+                           créer une ambiance douce, authentique et pleine de charme</p>
+                    </div>
+                    <img  id="vt5" src="./image/d1.jpg" >
+                    <div class="div2">
+                    <a href="page5.html"><img id="vt6" src="./image/d2.jpg"></a>
+              
+                    
+          </section>
+
+                <section id="outils" class="category4">
+                    <br>
+                    <div  >
+                        <h2>Outils</h2> <br><br>
+                          <p>
+                            En plus de nos jolies créations,<br><br>
+                               nous proposons aussi tous les outils essentiels pour vous lancer dans l’art du crochet.
+                          </p>
+                      </div>
+                      <img id="vt7" src="./image/o3.jpg" alt="">
+                      <a href="page4.html"><img id="vt8" src="./image/o1.jpg" alt=""></a>
+               
+                   
+
+                </section>
+      
+
+
+
+                <section id="pricing">
+                    <h2>Nos Tarifs Crochet 🧶</h2>
+                    <div class="pricing-container">
+                      <div class="pricing-card">
+                        <h3>Petit modèle</h3>
+                        <p class="price">15€</p>
+                        <ul>
+                          <li>Coussins</li>
+                          <li>Petits porte-clés</li>
+                          <li>Couleurs au choix</li>
+                        </ul>
+                       
+                      </div>
+                  
+                      <div class="pricing-card popular">
+                        <h3>Modèle moyen</h3>
+                        <p class="price">30€</p>
+                        <ul>
+                          <li>Amigurumi personnalisé</li>
+                          <li>Haut</li>
+                          <li>Choix de motifs</li>
+                        </ul>
+                        
+                      </div>
+                  
+                      <div class="pricing-card">
+                        <h3>Modèle grand</h3>
+                        <p class="price">50€</p>
+                        <ul>
+                          <li>décoration</li>
+                          <li>Sets de décoration</li>
+                          <li>Personnalisation complète</li>
+                        </ul>
+                       
+                      </div>
+                    </div>
+                  </section>
+                  
+
+
+
+
+<section id="reviews">
+    <h2>Avis sur nos créations en crochet 🧶</h2>
+    <div class="carousel">
+      <div class="review active">
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>"L'accessoires crocheté est magnifique, fait avec soin. Ma fille l’adore !"</p>
+        <p><strong>🧵— Claire B.</strong></p>
+      </div>
+      <div class="review">
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>"J’ai commandé un haut personnalisé, il est encore plus belle que sur les photos."</p>
+        <p><strong>🧵— Julie M.</strong></p>
+      </div>
+      <div class="review">
+        <p>⭐⭐⭐⭐</p>
+        <p>"Très jolis sets de table en crochet, un vrai charme rustique dans ma cuisine."</p>
+        <p><strong>🧵— Marion L.</strong></p>
+      </div>
+        <div class="review">
+        <p>⭐⭐⭐⭐</p>
+        <p>"que du bon travail"</p>
+        <p><strong>🧵— meli S.</strong></p>
+      </div>
+        <div class="review">
+        <p>⭐⭐⭐⭐</p>
+        <p>"Jadore!!!!"</p>
+        <p><strong>🧵— Anais K.</strong></p>
+      </div>
+        <div class="review">
+        <p>⭐⭐⭐⭐</p>
+        <p>""</p>
+        <p><strong>🧵— Marion L.</strong></p>
+      </div>
+      
+
+    </div>
+  </section>
+  <script>
+    const reviews = document.querySelectorAll('.review');
+    let current = 0;
+  
+    function showNextReview() {
+      reviews[current].classList.remove('active');
+      current = (current + 1) % reviews.length;
+      reviews[current].classList.add('active');
+    }
+  
+    setInterval(showNextReview, 4000); // Change toutes les 4 secondes
+  </script>
+  
+  
+                
+<footer class="footer-knot">
+    <div class="footer-content">
+        <div>
+        <h1 class="footer-logo">knot.co</h1>
+        <img style="width: 150px;" src="image/logo2.png" alt="">
+        </div>
+        <p>
+            The latest crochet trends, patterns, creative inspiration, and artistic projects.
+            Join the community at knot.co.
+        </p>
+        <div class="social-icons">
+            <p>Contact</p>
+            <a href="#"><img src="image/instagram.svg" alt=""></a>
+            <a href="#"><img src="image/wats.svg" alt=""></a>
+            <a id="gmail" href="#">knot.co@gmail.com</a>
+        </div>
+        <div>
+            <p id="payement">payement</p>
+            <p><img src="image/paypal.svg" alt=""></p>
+            <p><img src="image/visa.svg" alt=""></p>
+            <p><img src="image/appl.svg" alt=""></p>
+        </div>
+    </div>
+
+    <p class="footer-note">© 2025 Notre Boutique Crochet | Fait avec <img src="image/cr.svg" alt=""></p>
+ </footer>
+
+
+<div id="cart" class="cart-container">
+  <div class="cart-header">
+    <h3>Mon Panier</h3>
+    <button onclick="toggleCart()">Fermer</button>
+  </div>
+  <div id="cart-items" class="cart-items"></div>
+  <div class="cart-footer">
+    <p>Total : <span id="cart-total">0€</span></p>
+    <button><a href="authentification.html">Valider la commande</a></button>
+  </div>
+</div>
+
+<script src="panier.js"></script>
+
+</body>
+</html>
+

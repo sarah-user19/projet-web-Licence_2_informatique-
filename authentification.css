@@ -1,0 +1,84 @@
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f8e8e8, #fce8f8);
+      background-image: url('image/pic2.jpg');
+      background-size: initial;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.692);
+      padding: 2rem 2.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+      color: #aaa;
+    }
+
+    .form-group {
+      margin-bottom: 1.2rem;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: #5b5b5b;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 0.7rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 0.8rem;
+      background-color: #aaa;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #c3c3c3;
+    }
+
+    .toggle-link {
+      margin-top: 1rem;
+      display: block;
+      font-size: 0.95rem;
+      color: #555;
+      cursor: pointer;
+    }
+
+    .toggle-link span {
+      color: #b86b77;
+      text-decoration: underline;
+    }
+
+    .hidden {
+      display: none;
+    }
+  

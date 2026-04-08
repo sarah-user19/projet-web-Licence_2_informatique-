@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetement</title>
+    <script src="https://kit.fontawesome.com/8428a8ab72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+<header>
+    <img id="logo" src="./image/logo.png" alt="CROCHET ARTS">
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#preview">preview</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="index.html#reviews">Reviews</a></li>
+        <li class="dropdown" id="pt">
+                <a href="#">Categories  <img src="image/chevron.svg" id="flech1"></img></a>
+            <ul class="dropdown-content">
+                <li><a href="page3.html">accessoires</a></li>
+                <li><a href="page5.html">décoration</a></li>
+                <li><a href="page4.html">outils</a></li>
+                <li class="dropdown2"><a href="page2.html">vetements</a></li>
+            </ul>
+        </li>
+    </ul>
+
+ 
+     <div class="btn-header">
+        <button class="btn">
+            <a target="_blank" href="authentification.html"><img src="image/user.svg" alt=""><p><span> Connexion</span></p></a>
+        </button>
+     </div>
+
+
+
+<div class="cart-icon" onclick="toggleCart()">
+  <img id="panier" src="image/panier.svg" alt="">
+  <span id="cart-count">0</span>
+</div>
+
+
+</header>
+
+
+
+
+   <section class="hero">
+     <h2>Découvrez nos <br> <span>Vetement femme en crochet</span></h2>
+     <img id="img1" src="./image/vtm3.jpg" alt="">
+     <img id="img2" src="./image/vtm4.jpg" alt="">
+     <img id="img3" src="./image/vtm7.jpg" alt="">
+      <div class="category-links">
+        <a style="display: flex; flex-direction: row; margin-left: 4px;" href="#haut"><img style="width: 25px;" src="image/rigth.svg" alt="">Hauts</a>
+        <a style="display: flex; flex-direction: row; margin-left: 4px;" href="#gilet"><img style="width: 25px;" src="image/rigth.svg" alt="">Gilets</a>
+      </div>
+    </section>
+
+<!-- Section Produits -->
+
+<section id="haut" class="s1">
+
+
+<h2 >Hauts</h2>
+
+
+<div class="ss1">
+        <!-- Produit Haut -->
+  <div> <!--ligne1-->
+        <div class="product">
+            <img src="image/vtm18.png" >
+            <strong>Haut Nuage Lavande</strong>
+                <ul>
+            <li> violet clair douce et apaisante</li>
+            <li> Style bohème/chic,facile à assortir</li>
+            </ul>
+            <p class="price"><span >30€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+       
+      </div>
+
+
+    <div class="product">
+        <img src="image/vtm19.png" >
+         <strong>Haut Rainbow Soft</strong>
+        <ul>
+            <li><p>beige clair avec des tons naturels </p></li>
+            <li><p>Style bohème/chic,idéal pour la mi-saison</p></li>
+        </ul>
+    
+        <p class="price"><span>39€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+    </div>
+    
+
+
+
+    <div class="product">
+        <img src="image/vtm8.png">
+        <strong>Haut tissé à broderies florales</strong>
+        <ul>
+            <li><p> blanc cassé</p></li>
+            <li><p> Asymétrique à une épaule , fleurs brodées sur le côté droit</p></li>
+        </ul>
+    
+        <p class="price"><span>45€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+    </div>
+
+
+
+</div>
+
+
+<div> <!--ligne2-->
+    <!-- Article 1 -->
+    <div class="product">
+   
+   
+            <img src="image/vtm11.png" >
+            <strong>Haut côtelé élégant à col haut</strong>
+        <ul>
+            <li><p>Ivoire, une teinte neutre et élégante.</p></li>
+            <li><p> court côtelé à col roulé combine confort et modernité</p></li>
+        </ul>
+    
+        <p class="price"><span>33€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+        
+    </div>
+
+    <!-- Article 2-->
+    <div class="product">
+       
+            <img src="image/vtm10.png" >
+              <strong>Top côtelé avec manches puff</strong>
+        <ul>
+            <li><p>Beige clair </p></li>
+            <li><p>Ajustée avec manches bouffantes et maille côtelée</p></li>
+        </ul>
+    
+        <p class="price"><span>50€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+        
+    </div>
+
+    <!-- Article 3 -->
+    <div class="product">
+      
+            <img src="image/vtm9.png"  >
+             <strong>Pull court à manches flares</strong>
+        <ul>
+            <li><p>Crème</p></li>
+            <li><p> Crop top à manches longues évasées,style Inspiré du look Y2K,</p></li>
+        </ul>
+    
+        <p class="price"><span>50€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+
+    </div> 
+   
+</div>
+
+
+
+</div>
+
+</section>
+
+<section class="s1" id="gilet">
+    <h2>Gilets</h2>
+    <div class="ss1">
+        <!-- Produit Haut -->
+     <div> <!--ligne1-->
+        <div class="product">
+            <img src="image/vtm12.png" >
+           <strong>Gilet Nuage</strong>
+            <ul>
+                <li><p>ivoire clair</p></li>
+                <li><p>Classique intemporel système de boutons à l’épaule </p></li>
+            </ul>
+
+        <p class="price"><span>44€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+    </div>
+
+
+     <div class="product">
+        <img src="image/vtm13.png" >
+       <strong>Gilet Lagon</strong>
+        <ul>
+            <li><p>Bleu Sable</p></li>
+            <li><p>Manches longues avec une coupe fluide avec un Col rond </p></li>
+        </ul>
+    
+        <p class="price"><span>50€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+    </div>
+
+
+
+    <div class="product">
+        <img src="image/vtm14.png" >
+       <strong>Cardigan Court à Fermeture Croisée</strong>
+        <ul>
+            <li><p>Bleu Clair</p></li>
+            <li><p>Manches longues, coupe ample,encolure en V formée par la fermeture croisée</p></li>
+        </ul>
+    
+        <p class="price"><span>35€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+    </div>
+
+
+<div> <!--ligne2-->
+    <!-- Article 1 -->
+    <div class="product">
+   
+   
+            <img src="image/vtm15.png" >
+       <strong>Gilet Bohème Lumineux</strong>
+        <ul>
+            <li><p>Jaune éclatant</p></li>
+            <li><p>pull court en crochet combine un esprit décontracté et raffiné ,orné de nœuds en avant</p></li>
+        </ul>
+    
+        <p class="price"><span>39€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+        
+    </div>
+
+    <!-- Article 2-->
+    <div class="product">
+       
+            <img src="image/vtm16.png">
+            <strong>Gilet Brise Menthe</strong>
+        <ul>
+            <li><p>vert menthe</p></li>
+            <li><p>Un gilet en crochet à la coupe ample et ouverte, avec des manches bouffantes, parfait pour un look cosy et aéré.</p></li>
+        </ul>
+    
+        <p class="price"><span>55€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+        
+    </div>
+
+    <!-- Article 3 -->
+    <div class="product">
+      
+            <img src="image/vtm17.png">
+             <strong>Gilet bohème à manches longues</strong>
+        <ul>
+            <li><p>Créme</p></li>
+            <li><p>coupe ample et confortable, avec des manches longues légèrement bouffantes</p></li>
+        </ul>
+    
+        <p class="price"><span>45€</span></p>
+        <button class="buy-btn">Ajout au panier <img style="width:25px;" src="image/panier.svg" alt=""></button>
+
+    </div> 
+  
+</div>
+</div>
+</section>
+
+
+
+
+
+
+<div id="cart" class="cart-container">
+  <div class="cart-header">
+    <h3>Mon Panier</h3>
+    <button onclick="toggleCart()">Fermer</button>
+  </div>
+  <div id="cart-items" class="cart-items"></div>
+  <div class="cart-footer">
+    <p>Total : <span id="cart-total">0€</span></p>
+    <button><a href="authentification.html">Valider la commande</a></button>
+  </div>
+</div>
+
+
+
+
+
+
+<script src="panier.js"></script>
+<footer class="footer-knot">
+    <div class="footer-content">
+        <div>
+        <h1 class="footer-logo">knot.co</h1>
+        <img style="width: 150px;" src="image/logo2.png" alt="">
+        </div>
+        <p>
+            The latest crochet trends, patterns, creative inspiration, and artistic projects.
+            Join the community at knot.co.
+        </p>
+        <div class="social-icons">
+            <p>Contact</p>
+            <a href="#"><img src="image/instagram.svg" alt=""></a>
+            <a href="#"><img src="image/wats.svg" alt=""></a>
+            <a id="gmail" href="#">knot.co@gmail.com</a>
+        </div>
+        <div>
+            <p id="payement">payement</p>
+            <p><img src="image/paypal.svg" alt=""></p>
+            <p><img src="image/visa.svg" alt=""></p>
+            <p><img src="image/appl.svg" alt=""></p>
+        </div>
+    </div>
+    <p class="footer-note">© 2025 Notre Boutique Crochet | Fait avec <img src="image/cr.svg" alt=""></p>
+ </footer>
+
+
+</body>
+</html>
