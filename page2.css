@@ -11,8 +11,10 @@
  body {
      font-size: 16px;
      line-height: 1.6;
-     color: #333;
+  
      width: 100%;
+    background-color: #9e6e053d;
+  
 
    
  }
@@ -21,20 +23,21 @@
     width: 100%;
     height: 100%;
  }
+
+
+ a{
+    text-decoration: none;
+}
+
+
+
  /* Header */
- header {
-    position:relative;
-    z-index: 99;
-    background-color: white;
-    border-bottom: #000;
-   /* box-shadow: 0px 0px 10px 0px  #000;
-    border-radius: 0CM 0CM 1CM 1CM;*/
+header { 
     padding: 20px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 5%;
 }
 
 
@@ -63,21 +66,20 @@
 
 .menu li a {
     text-decoration: none;
-    color: #4e4a4a;
+    color: #3c3939;
     transition: 0.5s;
     font-size: 14px;
 }
-
 .menu li a:hover {
-    background-color: #cfc8cf;
-    padding: 13px;
+    background-color: #9e6e058f;
+    padding: 15px;
     color: #000;
     font-weight: bold;
     border-radius: 20px;
 }
 
 .dropdown-content {
-    background-color: whitesmoke;
+    background-color: #9e6e058f;
     position: absolute;
     top: 100%;
     left: 50%; /* positionne juste à droite du menu parent */
@@ -88,6 +90,7 @@
     border-radius: 0.5cm;
   
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -100,7 +103,7 @@
 
 .dropdown-content li a {
     display: block;
-    color: #4e4a4a;
+    color: #2a2727;
 }
 
 
@@ -112,7 +115,6 @@
 .dropdown:hover #flech1{
     transform: rotate(180deg);
 }
-
 
 .btn-header {
     display: flex;
@@ -139,6 +141,7 @@
     cursor: pointer;
     padding: 10px 20px;
     border: 2px solid #0c0b0c;
+    border-radius: 4px 4px 4px 4px;
   
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     animation: colorChange 3s ease-in-out infinite;
@@ -146,7 +149,7 @@
 @keyframes colorChange {
     
     5%{
-        background-color: #8C7D9C;
+        background-color: #6b1d1dd3;
     }
     10%{
 
@@ -162,18 +165,18 @@
         box-shadow:3.5PX 3.5PX 3.5PX rgba(0, 0, 0, 0.532);
     }
     50% {
-      background-color: #C8A2D8;
+      background-color: #9e6e055b;
       box-shadow:4PX 4PX 4PX rgba(0, 0, 0, 0.532);
     }
     70%{
         box-shadow:4.5PX 4.5PX 4.5PX rgba(0, 0, 0, 0.532);
     }
     100% {
-      background-color: #8C7D9C;
+      background-color: #996b077d;
       box-shadow:5PX 5PX 5PX rgba(0, 0, 0, 0.532);
     }
     0% {
-        background-color: #8C7D9C;
+        background-color: #9e6e058f;
         box-shadow:3PX 3PX 3PX rgba(0, 0, 0, 0.532);
   
       }
@@ -194,7 +197,7 @@
 
 .btn:hover {
     /*le bouncing du boutton acheter*/
-    background-color: #c5b7c1;
+    background-color: #6b1d1dd8;
     transform: scale(1.1);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -482,10 +485,11 @@ height: 100%;
  .product strong{ margin-top: 50PX;}
   
  
- .product .buy-btn {
+ .product .bbtn {
    
-     background-color: #A18FAF  ;
+     background-color: #6b1d1dd8  ;
      color: #fff;
+    
      padding: 10px 20px;
      font-weight: 600;
      border: none;
