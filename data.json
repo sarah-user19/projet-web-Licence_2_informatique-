@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "id": 1,
     "titre": "histoir",
     "img": "image/vtm18.png",
@@ -222,6 +223,13 @@
 
 
 
+=======
+    "id": 18,
+    "titre": "Haut Nuage Lavande",
+    "img": "image/vtm18.png",
+    "story": "Un vêtement ancien..."
+  }
+>>>>>>> f916fe35a210d7051030a2c784230e77322d7530
 ]
 
 

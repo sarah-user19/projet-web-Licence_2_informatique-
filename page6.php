@@ -11,10 +11,14 @@
 
 <?php
 
+<<<<<<< HEAD
 
 $data = json_decode(file_get_contents("data.json"), true);
 /*on decode l'objet JSON en un array dans PHP pour pouvoir le lire */
 
+=======
+$data = json_decode(file_get_contents("data.json"), true);
+>>>>>>> f916fe35a210d7051030a2c784230e77322d7530
 
 $id = $_GET['id'];
 
@@ -31,6 +35,7 @@ if (!$obj) {
 }
 ?>
 
+<<<<<<< HEAD
 <div class="story-container">
     <header>
         <h1><?php echo $obj["titre"]; ?></h1>
@@ -71,5 +76,34 @@ if (!$obj) {
     </section>
 </div>
 
+=======
+
+
+<title><?php echo $obj["titre"]; ?></title>
+
+<img src="<?php echo $obj["img"];?>" style="width:300px;">
+
+<p>Histoire de l’objet...</p>
+
+<ul>
+    <li>Couleur : violet</li>
+    <li>Style : bohème</li>
+</ul>
+
+<div>
+    <button>👍 J’aime</button>
+    <button>💬 Commenter</button>
+</div>
+
+<h3>Commentaires</h3>
+<textarea></textarea>
+<button>Envoyer</button>
+<div id="comments"></div>
+
+
+
+
+
+>>>>>>> f916fe35a210d7051030a2c784230e77322d7530
 </body>
 </html>
