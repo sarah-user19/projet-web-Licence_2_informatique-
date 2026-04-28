@@ -7,7 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
-
+body{
+background-color: #9e6e053d;
+  
+}
 header { 
     padding: 20px 8%;
     display: flex;
@@ -41,13 +44,13 @@ header {
 
 .menu li a {
     text-decoration: none;
-    color: #4e4a4a;
+    color: #3c3939;
     transition: 0.5s;
     font-size: 14px;
 }
 
 .menu li a:hover {
-    background-color: #cfc8cf;
+    background-color: #9e6e058f;
     padding: 15px;
     color: #000;
     font-weight: bold;
@@ -57,7 +60,7 @@ header {
 
 
 .dropdown-content {
-    background-color: whitesmoke;
+    background-color: #9e6e058f;
     position: absolute;
     top: 100%;
     left: 50%; /* positionne juste à droite du menu parent */
@@ -80,7 +83,7 @@ header {
 
 .dropdown-content li a {
     display: block;
-    color: #4e4a4a;
+    color: #2a2727;
 }
 
 
@@ -91,6 +94,7 @@ header {
 }
 .dropdown:hover #flech1{
     transform: rotate(180deg);
+    
 }
 
 .btn-header {
@@ -118,6 +122,7 @@ header {
     cursor: pointer;
     padding: 10px 20px;
     border: 2px solid #0c0b0c;
+    border-radius: 4px 4px 4px 4px;
   
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     animation: colorChange 3s ease-in-out infinite;
@@ -125,7 +130,7 @@ header {
 @keyframes colorChange {
     
     5%{
-        background-color: #8C7D9C;
+        background-color: #6b1d1dd3;
     }
     10%{
 
@@ -141,18 +146,18 @@ header {
         box-shadow:3.5PX 3.5PX 3.5PX rgba(0, 0, 0, 0.532);
     }
     50% {
-      background-color: #C8A2D8;
+      background-color: #9e6e055b;
       box-shadow:4PX 4PX 4PX rgba(0, 0, 0, 0.532);
     }
     70%{
         box-shadow:4.5PX 4.5PX 4.5PX rgba(0, 0, 0, 0.532);
     }
     100% {
-      background-color: #8C7D9C;
+      background-color: #996b077d;
       box-shadow:5PX 5PX 5PX rgba(0, 0, 0, 0.532);
     }
     0% {
-        background-color: #8C7D9C;
+        background-color: #9e6e058f;
         box-shadow:3PX 3PX 3PX rgba(0, 0, 0, 0.532);
   
       }
@@ -173,7 +178,7 @@ header {
 
 .btn:hover {
     /*le bouncing du boutton acheter*/
-    background-color: #c5b7c1;
+    background-color: #6b1d1dd8;
     transform: scale(1.1);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -316,7 +321,7 @@ header {
   width: 100%;     
   position: relative;
   display: flex;
-  bottom:200px;
+  bottom:30vh;
   flex-direction: column;
   align-items: center;
   animation-name: reveal3;
@@ -324,7 +329,6 @@ header {
     /* Scroll properties */
     animation-timeline: view();
     animation-range: cover 0% cover 35%; 
-   
 }
 
 @keyframes reveal4 { /*pour les animation du texte dans l'image*/
@@ -345,8 +349,8 @@ header {
 
 .category1 .div1{ /*que le paragraphe*/
     position: relative;
-    top: 400px;
-    right: 100px;
+    top: 60vh;
+    right: 8%;
     z-index: 991;
    
     animation-name: reveal4;
@@ -368,7 +372,7 @@ header {
     position: relative;
     font-weight: bold;
     font-style: italic;
-    left: 100px;
+    left: 10px;
     text-decoration-style: solid;
    
 }
@@ -443,7 +447,7 @@ header {
 .category2{
     position: relative;
     width: 100%;  
-    margin-top: -595px; 
+    margin-top: -585px; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -458,8 +462,8 @@ header {
 
  .category2 .d3{
     position: relative;
-    top: 400px;
-    right: 50px;
+    top: 60vh;
+    right: 8%;
     font-size: 1.1em;
     z-index: 99999;
     animation: reveal4 1s linear;
@@ -474,10 +478,7 @@ header {
     margin: 5px;
    
  }
- .category2 .d3 p span{
-         position: relative;
-         left: 200px;
- }
+ 
 
  .category2 .d3 h2{
     position: relative; 
@@ -512,7 +513,7 @@ header {
     animation-timeline: view();
     animation-range: cover 0% cover 40%; 
   }
-
+ 
 
   #vt4:hover{
     border: #aaa;
@@ -534,7 +535,7 @@ header {
     bottom: 555PX;
   display: flex;
   width: 100%;
-
+margin: 0vh;
   flex-direction: column;
   align-items: center;
     animation-name: reveal3;
@@ -554,8 +555,8 @@ header {
 
 .category3 .div1{ 
     position: relative;
-    top: 400px;
-    right: 100px;
+      top: 60vh;
+    right: 8%;
     z-index: 991;
     animation-name: reveal4;
     animation-timing-function: linear;
@@ -638,8 +639,8 @@ header {
 
  .category4 div{
     position: relative;
-    top: 550px;
-    left: 100px;
+   top: 70vh;
+    left: 8%;
     font-size: 1.1em;
     z-index: 99999;
     
@@ -748,7 +749,7 @@ header {
   }
   
   .pricing-card {
-    background-color:whitesmoke;
+    background-color:#9e6e0584;
     border-radius: 15px;
     margin: 60px;
     padding: 25px;
@@ -795,7 +796,7 @@ header {
 
 #reviews {
    
-    background-color: whitesmoke; /* rose pâle */
+    background-color: #f5f5f5; /* rose pâle */
     padding: 40px;
     text-align: center;
     font-family: 'Segoe UI', sans-serif;

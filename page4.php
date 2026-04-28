@@ -22,9 +22,9 @@
             <li class="dropdown" id="pt">
                 <a href="#">Categories  <img src="image/chevron.svg" id="flech1"></img></a>
                 <ul class="dropdown-content">
-                    <li><a href="page3.html">accessoires</a></li>
-                    <li><a href="page5.html">décoration</a></li>
-                    <li><a href="page4.html">outils</a></li>
+                    <li><a href="page3.html">Souvenirs élégants</a></li>
+                    <li><a href="page5.html">Souvenirs visuels</a></li>
+                    <li><a href="page4.html">Vos trésors</a></li>
                     <li><a href="page2.html">vetements</a></li>
                 </ul>
             </li>
@@ -50,6 +50,68 @@
 
     
 </header>
+
+
+
+
+
+
+
+
+
+<?php
+$data = json_decode(file_get_contents("data.json"), true);
+?>
+
+<section id="pelote" class="s1">
+
+<h2>Pelotes</h2>
+
+<div class="ss1">
+
+<?php foreach ($data as $obj): ?>
+
+    <div class="product">
+
+        <img src="<?php echo $obj['img']; ?>">
+
+        <strong><?php echo $obj['titre']; ?></strong>
+
+        <p><?php echo substr($obj['story'], 0, 120); ?>...</p>
+
+        <a href="page6.php?id=<?php echo $obj['id']; ?>" class="bbtn">
+            Voir l’histoire
+        </a>
+
+    </div>
+
+<?php endforeach; ?>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -86,7 +148,7 @@
                         Lot de 4 pelotes de laine pour réaliser des bonnets, plaid ou doudous. chaque pelote a 50g de laine.</li>
                    </ul>
                    <p class="price"><span >10€</span></p>
-        <a href="page6.html" class="bbtn">  Voir l’histoire <img style="width:25px;" src="image/panier.svg" alt=""> </a>
+        <a href="page6.php?id=13" class="bbtn">  Voir l’histoire <img style="width:25px;" src="image/panier.svg" alt=""> </a>
            </div>
 
 
@@ -98,7 +160,7 @@
                     Parfait pour créer des vêtements, accessoires ou décoration intérieure.</li>
                 </ul>
                 <p class="price"><span >12€</span></p>
-        <a href="page6.html" class="bbtn">  Voir l’histoire <img style="width:25px;" src="image/panier.svg" alt=""> </a>
+        <a href="page6.php?id=14" class="bbtn">  Voir l’histoire <img style="width:25px;" src="image/panier.svg" alt=""> </a>
             </div>
 
 
@@ -110,7 +172,7 @@
                 <li> Set de cinq pelotes de laine assorties en différentes couleurs pastel. Ces pelotes douces sont parfaites pour confectionner des vêtements.</li>
                 </ul>
                 <p class="price"><span >30€</span></p>
-        <a href="page6.html" class="bbtn">  Voir l’histoire <img style="width:25px;" src="image/panier.svg" alt=""> </a>
+        <a href="page6.php?id=15" class="bbtn">  Voir l’histoire <img style="width:25px;" src="image/panier.svg" alt=""> </a>
        </div>
  
      </div>
@@ -123,7 +185,7 @@
                     Pelotes de laine de couleur gris clair, parfait pour les travaux de crochet. Chaque pelote fait 50g.</li>
                 </ul>
                 <p class="price"><span >17€</span></p>
-        <a href="page6.html" class="bbtn">  Voir l’histoire <img style="width:25px;" src="image/panier.svg" alt=""> </a>
+        <a href="page6.php?id=16" class="bbtn">  Voir l’histoire <img style="width:25px;" src="image/panier.svg" alt=""> </a>
        </div>
 
         
@@ -134,7 +196,7 @@
                 <li> Lot de plusieurs pelotes de laine aux couleurs variées (violet, vert, blanc, orange, etc.), idéales pour vos projets de tricot ou crochet.</li>
                 </ul>
                 <p class="price"><span >22€</span></p>
-        <a href="page6.html" class="bbtn">  Voir l’histoire <img style="width:25px;" src="image/panier.svg" alt=""> </a>
+        <a href="page6.php?id=17" class="bbtn">  Voir l’histoire <img style="width:25px;" src="image/panier.svg" alt=""> </a>
        </div>
        
    
