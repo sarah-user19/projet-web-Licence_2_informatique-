@@ -4,45 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Knot.co</title>
+    <title>Archive Of Truth</title>
     <script src="https://kit.fontawesome.com/8428a8ab72.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="page1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
+<style>
+    .dropdown-content {
+    background-color: #9e6e058f;
+    position: absolute;
+    top: 100%;
+    left: 50%; /* positionne juste à droite du menu parent */
+    margin-left: 20px; /* un petit décalage supplémentaire */
+    width: 190px;
+    list-style: none;
+    display: none;
+    border-radius: 0.5cm;
+  
+</style>
 <body>
      
     <header id="Home">
-        <img id="logo" src="./image/logo.png" alt="logo knot.co">
+        <img id="logo" src="./image/logo1.svg" alt="logo knot.co">
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="#preview">preview</a></li>
-            <li><a href="#pricing">Pricing</a></li>
             <li><a href="#reviews">Reviews</a></li>
             <li class="dropdown" id="pt">
                 <a href="#">Categories  <img src="image/chevron.svg" id="flech1"></img></a>
                 <ul class="dropdown-content">
-                    <li><a href="page3.html">Souvenirs élégants</a></li>
-                    <li><a href="page5.html">Souvenirs visuels</a></li>
+                    <li><a href="page2.php">Souvenirs élégants</a></li>
+                    <li><a href="page3.php">Souvenirs visuels</a></li>
                     <li><a href="page4.php">Vos trésors</a></li>
-                    <li><a href="page2.html">vetements</a></li>
+                    
                 </ul>
             </li>
         </ul>
 
      <div class="btn-header">
         <button class="btn">
-            <a target="_blank" href="authentification.html"><img src="image/user.svg" alt=""><p><span> Connexion</span></p></a>
+            <a target="_blank" href="authentification.php"><img src="image/user.svg" alt=""><p><span> Connexion</span></p></a>
         </button>
      </div>
 
 
-
-<div class="cart-icon" onclick="toggleCart()">
-  <img src="image/panier.svg" alt="">
-  <span id="cart-count">0</span>
-</div>
-
+ 
 
 
 
@@ -56,15 +62,15 @@
         <div class="left">
             
            
-            <img class="left-image-1" src="./image/pic1.png" alt="">
-            <img class="left-image-2" src="./image/pic3.png" alt="">
+            <img class="left-image-1" src="./image/pic1.jpg" alt="">
+            <img class="left-image-2" src="./image/pic3.jpg" alt="">
         </div>
         <div   class="right">
             <div> 
                 
                 <b><span class="test-right"></span></b>
-                <h1>Partagez vos trésors anciens</h1>  
-                <p>Donne vie à ton quotidien en racontant l’histoire derrière chacune de vos fragments du passé!</p>
+                <h1>Explorez des trésors, partagez les vôtres</h1> 
+                <p>Découvrez des objets anciens sélectionnés par notre équipe, chacun avec une histoire authentique à révéler.</p>
                 <p>Chaque trésors a une histoire unique <br>et chaque souvenir mérite d’être partagé 🕰️</p>
                 <br>
                 <button class="btn-sparkle">Ici la magie opere!✨</button>
@@ -112,44 +118,43 @@
 
 
     </section>
+    
 
     <section id="vetements" class="category1">
         <br >
         <div class="div1">
-        <h1 id="preview" >Vetements</h1>
+        <h1 id="preview" >Souvenirs élégants</h1>
           <p>
-            Chaque vêtement ancien partagé raconte une histoire unique, soigneusement préservée par ses propriétaires.<br><br>
-            Chaque pièce est originale, pleine de caractère et de style.<br><br>
-            Ces vêtements permettent de découvrir l’élégance et les souvenirs d’autrefois, tout en transmettant leur histoire à d’autres<br><br>
-             en faisant vivre leur histoire. <br><br><br>
+       Chaque objet ancien porte en lui une âme, un souvenir, une époque oubliée.<br><br>
+    Ces trésors du passé ont traversé le temps pour arriver jusqu'à vous.<br><br>
+    Derrière chaque pièce se cache une histoire vraie, attendant d'être découverte. <br><br><br>
             <span>Parce que chaque vêtement a une histoire à partager, vous pouvez découvrir et transmettre ces fragments du passé.</span> <br><br>
         </p>
-        </div  >
-        <img  id="vt" src="./image/vtm1.jpg" >
+        </div >
+        <img  id="vt" src="./image/3.jpg" >
         <div  class="div2">
-        <a href="page2.html"><img id="vt2" src="./image/vtm5.jpg"></a>
+        <a href="page2.php"><img id="vt2" src="./image/1.jpg"></a>
 
         </div>
    
-       
-
        
     </section>
     
 
 
-        <section id="accessoires" class="category2">
+         <section id="accessoires" class="category2">
             <br>
             <div class="d3">
-              <h2>Accessoires</h2> <br><br>
+              <h2>Souvenirs visuels</h2> <br><br>
               <p>
-                Chaque accessoire ancien partagé raconte une histoire unique, reflet du temps et des souvenirs qu’il porte.<br><br>
-                Explorer ces pièces pleines de caractère et d’authenticité <br><br>
-                c’est découvrir un style unique qui allie élégance, charme et mémoire du passé. <br><br>
-              </p>
+                Une photo jaunie, un dessin d'enfant, une carte postale oubliée...<br><br>
+                 Ces images ont capturé un instant unique, un moment qui ne reviendra jamais. <br><br>
+                Chaque souvenir visuel ici est une fenêtre ouverte sur le passé. <br><br>
+              
+            </p>
             </div>
-            <img id="vt3" src="./image/a1.jpg" alt="">
-            <a href="page3.html"><img id="vt4" src="./image/a2.jpg" alt=""></a>
+            <img id="vt3" src="./image/4.jpg" alt="">
+            <a href="page3.php"><img id="vt4" src="./image/6.jpg" alt=""></a>
      
         </section>
           
@@ -158,173 +163,79 @@
             <section id="décoration" class="category3">
                 <br>
                 <div class="div1">
-                    <h1>Décoration</h1>
-                     <p> Témoins du passé, ces pièces donnent une âme unique à chaque espace. <br><br>
-
-            Découvrez leur histoire et contribuez à la faire vivre à travers vos partages.
+                    <h1>Vos trésors</h1>
+                     <p> Ce sont vos histoires, vos souvenirs, vos objets précieux. <br>
+                        Notre communauté les accueille, les découvre et les vote. 
+                        Rejoignez-nous et donnez vie à vos souvenirs. 
                   </p>
                           </div>
-                    <img  id="vt5" src="./image/d1.jpg" >
+                    <img  id="vt5" src="./image/8.jpg" >
                     <div class="div2">
-                    <a href="page5.html"><img id="vt6" src="./image/d2.jpg"></a>
+                    <a href="page4.php"><img id="vt6" src="./image/7.jpg"></a>
               
                     
           </section>
 
-                <section id="outils" class="category4">
-                    <br>
-                    <div  >
-                        <h2>Outils</h2> <br><br>
-                          <p>
-                            En plus de nos jolies créations,<br><br>
-                               nous proposons aussi tous les outils essentiels pour vous lancer dans l’art du crochet.
-                          </p>
-                      </div>
-                      <img id="vt7" src="./image/o3.jpg" alt="">
-                      <a href="page4.html"><img id="vt8" src="./image/o1.jpg" alt=""></a>
-               
-                   
-
-                </section>
-      
-
-
-
-                <section id="pricing">
-                    <h2>Nos Tarifs Crochet 🧶</h2>
-                    <div class="pricing-container">
-                      <div class="pricing-card">
-                        <h3>Petit modèle</h3>
-                        <p class="price">15€</p>
-                        <ul>
-                          <li>Coussins</li>
-                          <li>Petits porte-clés</li>
-                          <li>Couleurs au choix</li>
-                        </ul>
-                       
-                      </div>
-                  
-                      <div class="pricing-card popular">
-                        <h3>Modèle moyen</h3>
-                        <p class="price">30€</p>
-                        <ul>
-                          <li>Amigurumi personnalisé</li>
-                          <li>Haut</li>
-                          <li>Choix de motifs</li>
-                        </ul>
-                        
-                      </div>
-                  
-                      <div class="pricing-card">
-                        <h3>Modèle grand</h3>
-                        <p class="price">50€</p>
-                        <ul>
-                          <li>décoration</li>
-                          <li>Sets de décoration</li>
-                          <li>Personnalisation complète</li>
-                        </ul>
-                       
-                      </div>
-                    </div>
-                  </section>
-                  
-
+            
+    
 
 
 
 <section id="reviews">
-    <h2>Avis sur nos créations en crochet 🧶</h2>
-    <div class="carousel">
-      <div class="review active">
-        <p>⭐⭐⭐⭐⭐</p>
-        <p>"L'accessoires crocheté est magnifique, fait avec soin. Ma fille l’adore !"</p>
-        <p><strong>🧵— Claire B.</strong></p>
-      </div>
-      <div class="review">
-        <p>⭐⭐⭐⭐⭐</p>
-        <p>"J’ai commandé un haut personnalisé, il est encore plus belle que sur les photos."</p>
-        <p><strong>🧵— Julie M.</strong></p>
-      </div>
-      <div class="review">
-        <p>⭐⭐⭐⭐</p>
-        <p>"Très jolis sets de table en crochet, un vrai charme rustique dans ma cuisine."</p>
-        <p><strong>🧵— Marion L.</strong></p>
-      </div>
-        <div class="review">
-        <p>⭐⭐⭐⭐</p>
-        <p>"que du bon travail"</p>
-        <p><strong>🧵— meli S.</strong></p>
-      </div>
-        <div class="review">
-        <p>⭐⭐⭐⭐</p>
-        <p>"Jadore!!!!"</p>
-        <p><strong>🧵— Anais K.</strong></p>
-      </div>
-        <div class="review">
-        <p>⭐⭐⭐⭐</p>
-        <p>""</p>
-        <p><strong>🧵— Marion L.</strong></p>
-      </div>
-      
+    <div class="carousel-wrapper">
+
+        <div class="carousel-text">
+            <h2>Des trésors vous attendent</h2>
+            <p>Connectez-vous pour découvrir les histoires cachées derrière chaque objet ancien, voter pour les plus authentiques et partager les vôtres.</p>
+            <a href="authentification.php" class="carousel-btn">Rejoindre la communauté →</a>
+        </div>
+
+        <div class="carousel-images">
+          
+        <div class="carousel-images">
+            <div class="carousel-track" id="carousel-track">
+                <img src="image/11.jpg" alt="objet ancien">
+                <img src="image/12.jpg" alt="objet ancien">
+                <img src="image/13.jpg"  alt="objet ancien">
+                <img src="image/1.jpg" alt="objet ancien">
+                <img src="image/20.jpg" alt="objet ancien">
+                <img src="image/30.jpg"  alt="objet ancien">
+                <img src="image/31.jpg"    alt="objet ancien">
+                <img src="image/32.jpg"    alt="objet ancien">
+                <!-- duplique pour boucle infinie -->
+                <img src="image/11.jpg" alt="">
+                <img src="image/12.jpg" alt="">
+                <img src="image/13.jpg"  alt="">
+                <img src="image/1.jpg" alt="">
+            </div>
+
+        </div>
 
     </div>
-  </section>
-  <script>
-    const reviews = document.querySelectorAll('.review');
-    let current = 0;
-  
-    function showNextReview() {
-      reviews[current].classList.remove('active');
-      current = (current + 1) % reviews.length;
-      reviews[current].classList.add('active');
-    }
-  
-    setInterval(showNextReview, 4000); // Change toutes les 4 secondes
-  </script>
-  
-  
+</section>
                 
 <footer class="footer-knot">
     <div class="footer-content">
         <div>
-        <h1 class="footer-logo">knot.co</h1>
-        <img style="width: 150px;" src="image/logo2.png" alt="">
+        <h1 class="footer-logo">Archive Of Truth</h1>
+        <img style="width: 150px;" src="image/logo2.svg" alt="">
         </div>
         <p>
-            The latest crochet trends, patterns, creative inspiration, and artistic projects.
-            Join the community at knot.co.
+           Découvrez et partagez les histoires cachées derrière chaque objet ancien.
+Une communauté passionnée qui donne vie aux souvenirs du passé.
         </p>
         <div class="social-icons">
             <p>Contact</p>
             <a href="#"><img src="image/instagram.svg" alt=""></a>
             <a href="#"><img src="image/wats.svg" alt=""></a>
-            <a id="gmail" href="#">knot.co@gmail.com</a>
+            <a id="gmail" href="#">Archive.of.truth@gmail.com</a>
         </div>
-        <div>
-            <p id="payement">payement</p>
-            <p><img src="image/paypal.svg" alt=""></p>
-            <p><img src="image/visa.svg" alt=""></p>
-            <p><img src="image/appl.svg" alt=""></p>
-        </div>
+        
     </div>
 
-    <p class="footer-note">© 2025 Notre Boutique Crochet | Fait avec <img src="image/cr.svg" alt=""></p>
+    <p class="footer-note">© 2026 Chaque objet a une histoire, partagez la vôtre. <img src="image/cr.svg" alt=""></p>
  </footer>
 
-
-<div id="cart" class="cart-container">
-  <div class="cart-header">
-    <h3>Mon Panier</h3>
-    <button onclick="toggleCart()">Fermer</button>
-  </div>
-  <div id="cart-items" class="cart-items"></div>
-  <div class="cart-footer">
-    <p>Total : <span id="cart-total">0€</span></p>
-    <button><a href="authentification.html">Valider la commande</a></button>
-  </div>
-</div>
-
-<script src="panier.js"></script>
 
 </body>
 </html>

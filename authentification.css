@@ -1,8 +1,8 @@
     body {
       font-family: 'Segoe UI', sans-serif;
       background: linear-gradient(to right, #f8e8e8, #fce8f8);
-      background-image: url('image/pic2.jpg');
-      background-size: initial;
+      background-image: url('./image/2.png');
+      background-size:initial;
       background-position: center;
       display: flex;
       justify-content: center;

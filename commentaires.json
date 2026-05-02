@@ -1,0 +1,98 @@
+[
+    {
+        "id": "69f20eda78db0",
+        "histoire_id": 1,
+        "auteur": "admin",
+        "texte": "oi",
+        "vrai": 6,
+        "faux": 1
+    },
+    {
+        "id": "69f20ee00fd09",
+        "histoire_id": 1,
+        "auteur": "admin",
+        "texte": "oi",
+        "vrai": 4,
+        "faux": 2
+    },
+    {
+        "id": "69f214cf3cbc2",
+        "histoire_id": 24,
+        "auteur": "admin",
+        "texte": "oi",
+        "vrai": 5,
+        "faux": 2
+    },
+    {
+        "id": "69f2271b23438",
+        "histoire_id": 1,
+        "auteur": "admin",
+        "texte": "salut\n",
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": "69f22c3d789ba",
+        "histoire_id": 1,
+        "auteur": "sarah",
+        "texte": "salut\n",
+        "vrai": 0,
+        "faux": 1
+    },
+    {
+        "id": "69f22c4a23db4",
+        "histoire_id": 1,
+        "auteur": "sarah",
+        "texte": "saluuttttttttttttttt",
+        "vrai": 0,
+        "faux": 1
+    },
+    {
+        "id": "69f22d6b94488",
+        "histoire_id": 1,
+        "auteur": "sarah",
+        "texte": "salut \n",
+        "vrai": 7,
+        "faux": 6
+    },
+    {
+        "id": "69f2312494739",
+        "histoire_id": 1,
+        "auteur": "sarah",
+        "texte": "oiiiiii",
+        "vrai": 0,
+        "faux": 1
+    },
+    {
+        "id": "69f2681348e55",
+        "histoire_id": 4,
+        "auteur": "sarah",
+        "texte": "oiiiiii",
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": "69f30c78f2614",
+        "histoire_id": 1,
+        "auteur": "sarah",
+        "texte": "salut\nsalut",
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": "69f30dce2c13a",
+        "histoire_id": 1,
+        "auteur": "sarah",
+        "texte": "salut \nsalut",
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": "69f5e144228e0",
+        "histoire_id": 21,
+        "auteur": "sarah",
+        "texte": "c'est tr\u00e9s int\u00e9r\u00e9ssant comme histoire\n",
+        "vrai": 1,
+        "faux": 0
+    }
+]

@@ -1,238 +1,489 @@
 [
-  {
-<<<<<<< HEAD
-    "id": 1,
-    "titre": "histoir",
-    "img": "image/vtm18.png",
-    "story": "tresor ancien"
-  },
-  
-
-  {
-    "id": 2,
-    "titre": "histoir",
-    "img": "image/vtm19.png",
-    "story": "tresor ancien"
-  },
-
-  {
- 
-    "id": 3,
-    "titre": "histoir",
-    "img": "image/vtm8.png",
-    "story": "tresor ancien"
-  
-  },
-
-
-   {
-    "id": 4,
-    "titre": "histoir",
-    "img": "image/vtm11.png",
-    "story": "tresor ancien"
-  },
-
-   {
-    "id": 5,
-    "titre": "histoir",
-    "img": "image/vtm10.png",
-    "story": "tresor ancien"
-  },
-
-
-
-
-
-  {
-    "id": 6,
-    "titre": "histoir",
-    "img": "image/vtm9.png",
-    "story": "tresor ancien"
-  },
-
-
-
-   {
-    "id": 7,
-    "titre": "histoir",
-    "img": "image/a5.png",
-    "story": "tresor ancien"
-  },
-
-
-   {
-    "id": 8,
-    "titre": "histoir",
-    "img": "image/a6.png",
-    "story": "tresor ancien"
-  },
-
-
-
-
-
-   {
-    "id": 9,
-    "titre": "histoir",
-    "img": "image/a7.png",
-    "story": "tresor ancien"
-  },
-
-
-
-
-   {
-    "id": 10,
-    "titre": "histoir",
-    "img": "image/a8.png",
-    "story": "tresor ancien"
-  },
-
-
-
-   {
-    "id": 11,
-    "titre": "histoir",
-    "img": "image/a9.png",
-    "story": "tresor ancien"
-  },
-
-
-
- {
-    "id": 12,
-    "titre": "histoir",
-    "img": "image/a10.png",
-    "story": "tresor ancien"
-  },
-
-
-
-
-   {
-    "id": 13,
-    "titre": "histoir",
-    "img": "image/util4.jpg",
-    "story": "tresor ancien"
-  },
-
-
-
-
-   {
-    "id": 14,
-    "titre": "histoir",
-    "img": "image/util11.jpg",
-    "story": "tresor ancien"
-  },
-
-
-
-
-   {
-    "id": 15,
-    "titre": "histoir",
-    "img": "image/util18.jpg",
-    "story": "tresor ancien"
-  },
-
-
-
-   {
-    "id": 16,
-    "titre": "histoir",
-    "img": "image/util6.jpg",
-    "story": "tresor ancien"
-  },
-
-
-   {
-    "id": 17,
-    "titre": "histoir",
-    "img": "image/util7.jpg",
-    "story": "tresor ancien"
-  },
-
-
-
-   {
-    "id": 18,
-    "titre": "histoir",
-    "img": "image/coussin1.jpg",
-    "story": "tresor ancien"
-  },
-
-
-  {
-    "id": 18,
-    "titre": "histoir",
-    "img": "image/coussin1.jpg",
-    "story": "tresor ancien"
-  },
-
-
-
-  {
-    "id": 19,
-    "titre": "histoir",
-    "img": "image/coussin2.jpg",
-    "story": "tresor ancien"
-  },
-
-
-
-
-  {
-    "id": 20,
-    "titre": "histoir",
-    "img": "image/coussin3.jpg",
-    "story": "tresor ancien"
-  },
-
-
-
-  {
-    "id":21,
-    "titre": "histoir",
-    "img": "image/coussin4.jpg",
-    "story": "tresor ancien"
-  },
-
-
-
-  {
-    "id": 22,
-    "titre": "histoir",
-    "img": "image/bettyboop.jpg",
-    "story": "tresor ancien"
-  },
-
-
-
-
-
-  {
-    "id": 23,
-    "titre": "histoir",
-    "img": "image/heart-pillow.jpg",
-    "story": "tresor ancien"
-  }
-
-
-
-
-
-
-=======
-    "id": 18,
-    "titre": "Haut Nuage Lavande",
-    "img": "image/vtm18.png",
-    "story": "Un vêtement ancien..."
-  }
->>>>>>> f916fe35a210d7051030a2c784230e77322d7530
+    {
+        "id": 1,
+        "nom": "admin",
+        "titre": "Le Pistolet du Dernier Duel",
+        "img": "image\/vtm18.jpg",
+        "story": "Le Comte Armand de Velli\u00e8res \u00e9tait le meilleur duelliste de Paris.\nEn vingt ans, il avait affront\u00e9 quarante-trois hommes.\nQuarante-trois fois, il avait tir\u00e9 en premier.\nQuarante-trois fois, il n'avait pas manqu\u00e9.\nOn disait de lui qu'il ne transpirait jamais avant un duel \u2014 pas par courage, mais parce qu'il savait d\u00e9j\u00e0 comment cela finirait.\n\nCe pistolet, forg\u00e9 par le ma\u00eetre armurier Boutet sur commande personnelle, \u00e9tait sa signature.\nLes arabesques dor\u00e9es sur l'acier, la crosse sculpt\u00e9e comme une \u0153uvre d'art \u2014 on le reconnaissait de loin.\nQuand il apparaissait sous une cape, les t\u00e9moins reculaient d'un pas.\nQuand il brillait dans la lumi\u00e8re du petit matin, les adversaires bl\u00eamissaient.\n\nLe quarante-quatri\u00e8me duel eut lieu un matin de novembre, dans le bois de Boulogne sous une brume \u00e9paisse.\nSon adversaire \u00e9tait un jeune homme de vingt ans \u00e0 peine, les mains tremblantes, le regard fixe.\nArmand le reconnut imm\u00e9diatement \u2014 c'\u00e9tait le fils du seul homme qu'il avait regrett\u00e9 d'avoir tu\u00e9, dix ans plus t\u00f4t.\n\nIls se plac\u00e8rent. On compta les pas.\nArmand leva le pistolet, ferma un \u0153il, visa comme il l'avait fait quarante-trois fois.\nPuis il h\u00e9sita. Pour la premi\u00e8re fois en vingt ans, sa main trembla l\u00e9g\u00e8rement.\nIl baissa son arme.\n\nLe jeune homme ne tira pas non plus.\nIl resta immobile un long moment, comme s'il ne comprenait pas ce qui venait de se passer.\nPuis il ramassa son chapeau tomb\u00e9 dans l'herbe mouill\u00e9e, salua en silence, et disparut dans la brume.\n\nArmand rentra chez lui sans dire un mot \u00e0 ses t\u00e9moins.\nIl posa le pistolet sur le manteau de la chemin\u00e9e, dans le salon, l\u00e0 o\u00f9 tout le monde pouvait le voir.\nEt il ne s'en servit plus jamais.\nIl v\u00e9cut encore trente ans, paisiblement, sans duel, sans ennemi, sans violence.\n\nSes domestiques racontaient qu'il restait parfois de longues minutes seul dans le salon,\ndebout devant la chemin\u00e9e, \u00e0 regarder l'arme en silence.\n\nPersonne ne sut jamais ce qu'il pensait.",
+        "epoque": "1748",
+        "lieu": "Paris",
+        "categorie": "arme",
+        "prix_reel": 3800,
+        "vrai": 11,
+        "faux": 0
+    },
+    {
+        "id": 2,
+        "nom": "admin",
+        "titre": "Les Neuf Anneaux de Th\u00e8bes",
+        "img": "image\/vtm19.jpg",
+        "story": "Dans la ville de Th\u00e8bes, sous le r\u00e8gne du pharaon Amenhotep IV, vivait une femme nomm\u00e9e Nefret \u2014 gardienne du temple d'Amon.\nSon r\u00f4le n'\u00e9tait pas de prier. Son r\u00f4le \u00e9tait de se souvenir.\n\nChaque fois qu'un grand secret lui \u00e9tait confi\u00e9 \u2014 un complot, une trahison, une histoire d'amour interdite \u2014\nelle faisait fondre un peu de fa\u00efence bleue et fa\u00e7onnait un anneau.\nElle y gravait un signe, connu d'elle seule.\nNeuf secrets. Neuf anneaux.\n\nLe bleu n'\u00e9tait pas un choix anodin.\nEn \u00c9gypte ancienne, cette couleur appartenait aux dieux et au Nil \u2014 elle signifiait la vie, la protection, l'\u00e9ternit\u00e9.\nChaque anneau \u00e9tait donc une promesse : ce secret vivra aussi longtemps que la pierre.\n\nQuand Amenhotep interdit le culte d'Amon et d\u00e9truisit ses temples, des soldats vinrent chercher Nefret.\nElle n'\u00e9tait plus l\u00e0.\nSur la table de sa chambre, ils trouv\u00e8rent les neuf anneaux dispos\u00e9s en cercle, sans aucun mot.\n\nLes soldats les emport\u00e8rent. Chacun en prit un, comme troph\u00e9e.\n\nDans l'ann\u00e9e qui suivit, les neuf soldats moururent \u2014\nde maladies diff\u00e9rentes, dans des villes diff\u00e9rentes, sans lien apparent entre eux.\n\nLes habitants de Th\u00e8bes disaient que Nefret avait grav\u00e9 dans chaque anneau non pas un secret,\nmais une mal\u00e9diction dormante \u2014 r\u00e9serv\u00e9e \u00e0 ceux qui prendraient ce qui ne leur appartenait pas.\n\nOn retrouva les neuf anneaux des si\u00e8cles plus tard, ensemble, dans le sable,\ncomme si quelqu'un les avait r\u00e9unis.\n\nPersonne ne sut jamais qui.",
+        "epoque": "1350 av. J.-C.",
+        "lieu": "\u00c9gypte Ancienne",
+        "categorie": "bijoux",
+        "prix_reel": 2200,
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": 3,
+        "nom": "admin",
+        "titre": "L'\u0152il du Moine Aveugle",
+        "img": "image\/vtm8.jpg",
+        "story": "On l'appelait le Nocturlabe du Moine Aveugle.\nPersonne ne savait comment fra Benedetto da Siena l'avait obtenu.\nCe qui \u00e9tait certain, c'est qu'il ne s'en s\u00e9parait jamais \u2014 m\u00eame apr\u00e8s avoir perdu la vue \u00e0 cinquante ans.\n\nL'instrument \u00e9tait grav\u00e9 dans le laiton dor\u00e9 avec une pr\u00e9cision troublante.\nLes douze mois en latin sur le bord ext\u00e9rieur.\nLes phases de la lune au centre, guid\u00e9es par une aiguille en forme d'\u00e9toile filante.\nEt au milieu, un visage \u2014 mi-soleil, mi-ombre \u2014 qui semblait regarder celui qui tenait l'objet.\n\nFra Benedetto disait qu'il pouvait encore lire l'heure sans le voir.\nIl posait ses doigts sur le m\u00e9tal, sentait la position de l'aiguille, fermait ses yeux inutiles.\nEt il annon\u00e7ait l'heure exacte. Toujours juste. \u00c0 la minute pr\u00e8s.\n\nSes fr\u00e8res du monast\u00e8re pensaient \u00e0 un miracle.\nLes savants qui venaient de Florence pensaient \u00e0 une m\u00e9moire extraordinaire.\nNi les uns ni les autres n'avaient raison.\n\nFra Benedetto leur expliqua une seule fois, la nuit avant sa mort :\nce n'\u00e9tait pas lui qui lisait le temps.\nC'\u00e9tait le nocturlabe qui le lui murmurait.\n\nIl mourut en tenant l'instrument contre sa poitrine.\nQuand on voulut le retirer de ses mains, l'aiguille en forme d'\u00e9toile\npointait vers une heure impossible \u2014 la treizi\u00e8me heure.\nUne heure qui n'existe pas.\n\nOn ne trouva jamais d'explication.\nOn ne chercha plus vraiment.",
+        "epoque": "1487",
+        "lieu": "Sienne, Italie",
+        "categorie": "horloge",
+        "prix_reel": 4000,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 4,
+        "nom": "admin",
+        "titre": "Le Livre qui ne Devait Pas \u00catre Lu",
+        "img": "image\/vtm11.jpg",
+        "story": "On ne conna\u00eet pas le nom de celui qui l'\u00e9crivit.\nOn sait seulement qu'il fut br\u00fbl\u00e9 trois jours apr\u00e8s avoir ferm\u00e9 la derni\u00e8re page.\n\nLe livre \u00e9tait reli\u00e9 dans du fer \u2014 non par souci de solidit\u00e9,\nmais pour que personne ne puisse l'ouvrir sans effort.\nLes agrafes m\u00e9talliques sur les c\u00f4t\u00e9s n'\u00e9taient pas des d\u00e9corations.\nC'\u00e9taient des verrous. Et les verrous n'avaient pas de cl\u00e9.\n\nLes symboles grav\u00e9s sur la couverture n'appartenaient \u00e0 aucun alphabet connu.\nNi latin, ni arabe, ni h\u00e9breu.\nLes \u00e9rudits de Tol\u00e8de \u2014 ville o\u00f9 les trois cultures vivaient encore c\u00f4te \u00e0 c\u00f4te \u2014\nse r\u00e9unirent pendant trois jours pour les d\u00e9chiffrer.\nIls se s\u00e9par\u00e8rent sans conclusion, et sans se reparler jamais.\n\nL'Inquisition s'empara du livre en 1231.\nLe Grand Inquisiteur l'examina seul, une nuit enti\u00e8re, \u00e0 la bougie.\nAu matin, il ordonna qu'on l'enterre \u2014 pas qu'on le br\u00fble.\nQuand ses assistants lui demand\u00e8rent pourquoi, il r\u00e9pondit :\nle feu ne d\u00e9truit pas ce qui est \u00e9crit dedans.\n\nOn l'enterra sous la cath\u00e9drale.\nDeux si\u00e8cles plus tard, des ouvriers le retrouv\u00e8rent lors de travaux.\nIls ne surent pas ce que c'\u00e9tait.\nIls le pos\u00e8rent dans une caisse avec d'autres objets sans importance.\n\nIl voyagea ainsi pendant des si\u00e8cles, de cave en cave, de main en main,\nsans que personne ne parvienne jamais \u00e0 l'ouvrir.\n\nAujourd'hui il est l\u00e0.\nToujours ferm\u00e9.\nToujours lourd.\nComme s'il attendait la bonne personne.",
+        "epoque": "1231",
+        "lieu": "Tol\u00e8de, Espagne",
+        "categorie": "livre",
+        "prix_reel": 1600,
+        "vrai": 3,
+        "faux": 0
+    },
+    {
+        "id": 5,
+        "nom": "admin",
+        "titre": "Le Tricycle de la Petite Louise",
+        "img": "image\/vtm10.jpg",
+        "story": "On l'avait fabriqu\u00e9 \u00e0 la main, dans l'atelier d'un serrurier du quartier de la Croix-Rousse.\nLe fer forg\u00e9, la selle en bois peinte en rouge \u2014 tout avait \u00e9t\u00e9 fait avec soin,\ncomme on fait les choses quand on aime vraiment quelqu'un.\n\nIl \u00e9tait destin\u00e9 \u00e0 Louise, cinq ans, la fille unique d'un ouvrier tisserand nomm\u00e9 Henri Marchand.\nLouise le re\u00e7ut un matin de No\u00ebl et ne le quitta plus de tout l'hiver.\nSes voisins l'entendaient depuis la rue \u2014 le bruit m\u00e9tallique des roues sur les pav\u00e9s,\net ses rires qui rebondissaient entre les fa\u00e7ades.\n\nEn mars 1923, Henri Marchand perdit son travail.\nLa famille quitta Lyon pour Paris, en train, avec deux valises.\nLe tricycle \u00e9tait trop lourd, trop encombrant.\nOn le laissa dans la cour de l'immeuble, appuy\u00e9 contre le mur.\n\nLouise ne pleura pas devant son p\u00e8re.\nElle pleura dans le train, en silence, le front contre la vitre froide.\n\nLe tricycle resta dans cette cour pendant quarante ans.\nLes enfants du quartier l'utilis\u00e8rent tour \u00e0 tour, sans savoir \u00e0 qui il appartenait.\nIl rouilla lentement, sa peinture rouge s'\u00e9cailla hiver apr\u00e8s hiver.\nMais ses roues tourn\u00e8rent encore longtemps.\n\nEn 1965, une vieille femme revint seule dans le quartier de la Croix-Rousse.\nElle s'arr\u00eata devant l'immeuble. La cour \u00e9tait vide.\nLe tricycle avait disparu.\n\nElle resta l\u00e0 un long moment, les mains dans les poches.\nPuis elle repartit sans se retourner.\n\nPersonne dans la rue ne sut que cette femme s'appelait Louise.",
+        "epoque": "1922",
+        "lieu": "Lyon, France",
+        "categorie": "velo",
+        "prix_reel": 5300,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 6,
+        "nom": "admin",
+        "titre": "La Bible de Poche du Soldat Thomas",
+        "img": "image\/vtm9.jpg",
+        "story": "Thomas Elliot avait dix-neuf ans quand il s'engagea dans l'arm\u00e9e britannique.\nSa m\u00e8re lui glissa ce rouleau dans la poche de sa veste le matin du d\u00e9part,\nsans un mot, sans le regarder dans les yeux.\n\nC'\u00e9tait une Pocket Bible \u2014 une bible miniature imprim\u00e9e sur un long ruban de papier fin,\nenroul\u00e9e sur un support en bois tourn\u00e9 qu'un \u00e9b\u00e9niste du quartier avait fabriqu\u00e9 pour quelques shillings.\nOn pouvait la faire d\u00e9filer lentement, lire un passage, s'arr\u00eater, r\u00e9fl\u00e9chir.\n\nThomas l'emporta en Crim\u00e9e.\nPendant le si\u00e8ge de S\u00e9bastopol, dans le froid et la boue des tranch\u00e9es,\nil la sortait chaque soir et faisait tourner le rouleau lentement.\nPas toujours pour lire.\nParfois juste pour sentir le bois poli entre ses doigts,\net se souvenir que quelqu'un avait pens\u00e9 \u00e0 lui avant qu'il parte.\n\nIl rentra \u00e0 Londres en 1856, amaigri, silencieux.\nIl ne parla jamais de la guerre \u00e0 sa famille.\nMais chaque dimanche matin, on le voyait assis dans le salon,\nle rouleau entre les mains, le faisant tourner doucement.\n\nQuand il mourut, \u00e0 soixante-douze ans,\nses enfants trouv\u00e8rent la bible sur sa table de nuit.\nLe papier \u00e9tait us\u00e9 aux bords, jauni, fragile.\nMais chaque mot \u00e9tait encore lisible.\n\nIls la gard\u00e8rent. Puis leurs enfants la gard\u00e8rent.\nPuis elle finit dans une brocante, un mardi matin de novembre,\nentre une th\u00e9i\u00e8re \u00e9br\u00e9ch\u00e9e et une pile de vieilles cartes postales.\n\nQuelqu'un l'acheta pour presque rien.\nSans savoir qu'elle avait travers\u00e9 une guerre.",
+        "epoque": "1854",
+        "lieu": "Londres, Angleterre",
+        "categorie": "Objet religieux",
+        "prix_reel": 4600,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 7,
+        "nom": "admin",
+        "titre": "Les Masques de l'H\u00f4pital Saint-Thomas",
+        "img": "image\/a5.jpg",
+        "story": "C'\u00e9tait un mardi matin de septembre 1940, trois jours apr\u00e8s le d\u00e9but du Blitz.\nLes sir\u00e8nes avaient hurl\u00e9 \u00e0 l'aube et personne \u00e0 l'h\u00f4pital Saint-Thomas n'avait dormi.\n\nL'infirmi\u00e8re Margaret Powell avait vingt-six ans.\nElle avait pass\u00e9 la nuit \u00e0 d\u00e9placer les patients du troisi\u00e8me \u00e9tage vers les sous-sols,\nun par un, dans le noir, pendant que les bombes tombaient sur les docks.\n\nAu matin, l'ordre arriva : exercice de protection au gaz.\nTout le monde devait enfiler les masques \u2014 y compris les nourrissons.\nLes masques pour b\u00e9b\u00e9s n'\u00e9taient pas vraiment des masques.\nC'\u00e9taient des combinaisons enti\u00e8res, des sortes de capsules de caoutchouc\ndans lesquelles on glissait l'enfant comme dans une enveloppe herm\u00e9tique.\n\nMargaret en tenait deux dans ses bras.\nElle ne savait pas si les b\u00e9b\u00e9s \u00e0 l'int\u00e9rieur pleuraient.\nElle ne pouvait pas les entendre \u00e0 travers le caoutchouc.\nElle regardait juste les petites fen\u00eatres en verre pour voir si quelque chose bougeait.\n\nLa photo fut prise par un photographe du gouvernement, ce matin-l\u00e0.\nElle devait montrer que Londres \u00e9tait pr\u00eate, organis\u00e9e, courageuse.\nElle fut publi\u00e9e dans plusieurs journaux.\n\nMargaret ne la vit jamais.\nElle \u00e9tait d\u00e9j\u00e0 retourn\u00e9e dans les couloirs,\nun masque sous chaque bras,\nvers le prochain enfant qui attendait.",
+        "epoque": "1940",
+        "lieu": "Londres, Angleterre",
+        "categorie": "photo",
+        "vrai": 0,
+        "faux": 1
+    },
+    {
+        "id": 8,
+        "nom": "admin",
+        "titre": "La Photo de Madame Arnoux",
+        "img": "image\/a6.jpg",
+        "story": "Le photographe \u00e9tait arriv\u00e9 un vendredi matin, avec son tr\u00e9pied et sa grande bo\u00eete noire.\nLes enfants n'avaient pas compris ce que c'\u00e9tait.\nCertains avaient recul\u00e9. D'autres s'\u00e9taient approch\u00e9s trop pr\u00e8s.\nMadame Arnoux avait d\u00fb les regrouper trois fois avant qu'ils tiennent en place.\n\nElle enseignait depuis vingt-deux ans dans cette \u00e9cole de briques rouges.\nElle connaissait le pr\u00e9nom de chaque enfant, le nom de chaque p\u00e8re,\nla rue o\u00f9 vivait chaque famille.\nDans ce quartier ouvrier de Li\u00e8ge, tout le monde se connaissait.\nTout le monde avait du mal \u00e0 joindre les deux bouts.\n\nCe matin-l\u00e0, elle avait apport\u00e9 des pommes pour tout le monde.\nVingt-trois pommes dans un panier en osier, une pour chaque \u00e9l\u00e8ve.\nC'est pour \u00e7a que les enfants mangent sur la photo.\nIls n'avaient pas attendu.\n\nLe photographe avait r\u00e2l\u00e9. Madame Arnoux avait souri.\n\nLa photo fut d\u00e9velopp\u00e9e une semaine plus tard.\nMadame Arnoux en garda un exemplaire dans le tiroir de son bureau,\nentre un cahier de notes et une lettre de sa s\u0153ur.\n\nQuinze ans plus tard, en 1938, elle prit sa retraite.\nElle emporta la photo chez elle, dans son appartement de la rue F\u00e9ronstr\u00e9e.\nLe soir, parfois, elle la posait sur la table sous la lampe\net essayait de se souvenir du pr\u00e9nom de chacun.\n\nElle y arrivait toujours.\nJusqu'au dernier.",
+        "epoque": "1923",
+        "lieu": "Li\u00e8ge, Belgique",
+        "categorie": "photo",
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 9,
+        "nom": "admin",
+        "titre": "La Ruelle de Mary",
+        "img": "image\/a7.jpg",
+        "story": "Le photographe Thomas Annan fut mandat\u00e9 par la ville de Glasgow\npour photographier les vieux quartiers avant leur d\u00e9molition.\nOn allait raser tout \u00e7a. Construire du neuf. Faire mieux.\nIl avait pour mission de documenter les ruelles, les fa\u00e7ades, les pav\u00e9s mouill\u00e9s.\nPas les gens.\n\nMais les gens \u00e9taient l\u00e0.\n\nCe jour-l\u00e0, dans cette ruelle qui s'appelait la Close Number 11,\nune femme s'appelait Mary.\nPersonne ne conna\u00eet son nom de famille.\nElle tenait une \u00e9picerie au rez-de-chauss\u00e9e depuis douze ans,\ndans une pi\u00e8ce si petite qu'on ne pouvait pas y entrer \u00e0 trois.\n\nQuand Annan installa son tr\u00e9pied au bout de la ruelle,\nMary sortit avec ses deux enfants.\nElle ne posa pas.\nElle s'appuya simplement contre le mur, comme elle le faisait tous les matins,\n\u00e0 regarder la ruelle se r\u00e9veiller.\n\nAnnan d\u00e9clencha.\n\nSix mois plus tard, les bulldozers arriv\u00e8rent.\nLa ruelle fut ras\u00e9e en une semaine.\nMary et ses enfants furent relog\u00e9s dans un immeuble neuf \u00e0 l'autre bout de la ville.\nElle n'aimait pas le nouveau quartier.\nTrop large, trop silencieux, trop propre.\n\nElle retourna une fois voir l'emplacement de son ancienne \u00e9picerie.\nIl n'y avait plus rien. Juste de la terre retourn\u00e9e.\n\nLa photo d'Annan, elle, existe encore.\nMary y est toujours debout contre son mur,\ndans une ruelle qui n'existe plus,\ndans une ville qui a oubli\u00e9 son nom.",
+        "epoque": "1868",
+        "lieu": "Glasgow, \u00c9cosse",
+        "categorie": "photo",
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 10,
+        "nom": "admin",
+        "titre": "Les Souliers de Monsieur Webb",
+        "img": "image\/a10.jpg",
+        "story": "Il s'appelait Arthur Webb et il connaissait les pieds de tout le quartier.\nPas les visages \u2014 les pieds.\nIl pouvait reconna\u00eetre ses clients \u00e0 leur d\u00e9marche depuis le bout de la rue.\nCelui qui boitait l\u00e9g\u00e8rement de la jambe droite depuis l'hiver 1879.\nCelle qui usait toujours le talon gauche en premier.\nLe vieil homme qui revenait chaque automne avec les m\u00eames chaussures trou\u00e9es\nen esp\u00e9rant qu'Arthur ferait un miracle pour trois pence.\n\nArthur faisait toujours le miracle.\n\nSon \u00e9choppe au num\u00e9ro 30 n'\u00e9tait pas vraiment une boutique.\nC'\u00e9tait un empilement savant de cuir, de clous et de ficelle.\nLes chaussures pendaient au plafond, s'alignaient sur le sol,\nd\u00e9bordaient sur le trottoir dans toutes les directions.\nLes passants devaient slalomer pour avancer.\nPersonne ne s'en plaignait.\n\nIl vendait du neuf aux rares qui pouvaient se le permettre.\nIl vendait de l'occasion \u00e0 tous les autres.\nEt pour ceux qui n'avaient vraiment rien,\nil r\u00e9parait sans toujours demander \u00e0 \u00eatre pay\u00e9.\nIl notait dans un carnet les dettes qu'on lui devait.\nOn retrouva le carnet apr\u00e8s sa mort.\nAucune dette n'avait jamais \u00e9t\u00e9 r\u00e9clam\u00e9e.\n\nLe photographe passa un matin de novembre.\nArthur sortit de son \u00e9choppe, prit la pose entre ses chaussures,\nla moustache bien taill\u00e9e, le tablier propre pour l'occasion.\nIl avait l'air s\u00e9rieux sur la photo.\nSes voisins disaient qu'il riait tout le temps.\n\nIl mourut en 1902, sans femme, sans enfants, sans fortune.\nSon \u00e9choppe fut reprise par un jeune cordonnier polonais\nqui ne changea rien \u00e0 la disposition des chaussures.\nComme si l'ordre dans ce chaos avait un sens\nque lui seul ne comprenait pas encore.",
+        "epoque": "1884",
+        "lieu": "Londres, Angleterre",
+        "categorie": "photo",
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 11,
+        "nom": "admin",
+        "titre": "Le Sourire de Tafat",
+        "img": "image\/a9.jpg",
+        "story": "Elle s'appelait Tafat.\nEn tamazight, ce mot signifie la lumi\u00e8re.\nSes parents l'avaient bien nomm\u00e9e.\n\nChaque matin avant l'aube, elle s'asseyait devant la meule de pierre\nh\u00e9rit\u00e9e de sa grand-m\u00e8re, qui elle-m\u00eame la tenait de la sienne.\nElle broyait le grain lentement, r\u00e9guli\u00e8rement,\nau rythme d'une chanson que les femmes du village se transmettaient\ndepuis si longtemps que personne n'en connaissait les origines.\n\nLa meule \u00e9tait lourde, rugueuse, us\u00e9e au centre par des g\u00e9n\u00e9rations de mains.\nMais Tafat la maniait sans effort apparent.\nSes bras savaient exactement quoi faire.\nSon corps avait appris avant que sa m\u00e9moire s'en souvienne.\n\nLe photographe fran\u00e7ais arriva un matin d'octobre.\nIl traversait les villages de Kabylie pour un reportage sur les traditions berb\u00e8res.\nIl vit Tafat, installa son appareil, lui demanda de continuer son travail.\n\nElle continua. Et elle sourit.\nPas pour la photo.\nElle souriait simplement parce que c'\u00e9tait son habitude le matin,\nquand la lumi\u00e8re commen\u00e7ait \u00e0 passer entre les pierres du mur\net que l'odeur du grain broy\u00e9 montait dans l'air frais.\n\nLe photographe repartit avec sa photo.\nTafat continua \u00e0 moudre son grain.\n\nLa photo fut publi\u00e9e dans un magazine parisien.\nLes lecteurs virent une femme berb\u00e8re en costume traditionnel.\nIls ne virent pas ce que la photo montrait vraiment \u2014\nune femme heureuse, un matin ordinaire,\ndans la lumi\u00e8re exacte qui portait son pr\u00e9nom.",
+        "epoque": "1935",
+        "lieu": "Kabylie",
+        "categorie": "photo",
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 12,
+        "nom": "admin",
+        "titre": "Le Dernier Jour des \u00c9chafaudages",
+        "img": "image\/a12.jpg",
+        "story": "La construction avait dur\u00e9 neuf ans.\nNeuf ans de b\u00e9ton, de pierre de st\u00e9atite, de calculs et de sueur.\nLe sculpteur fran\u00e7ais Paul Landowski avait model\u00e9 le visage \u00e0 Paris.\nLes ing\u00e9nieurs br\u00e9siliens Heitor da Silva Costa et Pedro Viana avaient tout construit sur place,\nau sommet du Corcovado, \u00e0 710 m\u00e8tres au-dessus de Rio.\n\nLes ouvriers \u00e9taient pour la plupart des Br\u00e9siliens du peuple \u2014\nhommes de Rio, de Bahia, du Nordeste.\nPersonne n'a retenu leurs noms.\nIls montaient chaque matin par le petit train du Corcovado,\ntravaillaient dans le vent et le brouillard,\nparfois dans les nuages eux-m\u00eames.\n\nLe 12 octobre 1931, les \u00e9chafaudages furent retir\u00e9s pour la derni\u00e8re fois.\nLe pr\u00e9sident Get\u00falio Vargas inaugura le monument ce jour-l\u00e0.\nDes milliers de personnes regardaient depuis la ville en bas.\n\nMais sur cette photo, prise quelques jours avant l'inauguration,\nle Christ est encore entour\u00e9 de fer et de bois.\nSon visage est d\u00e9j\u00e0 l\u00e0, calme, les bras d\u00e9j\u00e0 ouverts,\nmais les hommes sont encore l\u00e0 aussi \u2014 petits, debout sur les marches,\nen costume ou en tenue de travail.\n\nOn ne sait pas exactement qui ils sont.\nPeut-\u00eatre des ing\u00e9nieurs. Peut-\u00eatre des ouvriers.\nPeut-\u00eatre les deux.\n\nIls regardent l'objectif sans sourire.\nComme des hommes qui savent qu'ils viennent de finir quelque chose\nqui leur survivra de tr\u00e8s, tr\u00e8s loin.",
+        "epoque": "1931",
+        "lieu": "Rio de Janeiro, Br\u00e9sil",
+        "categorie": "photo",
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 13,
+        "nom": "sarah",
+        "titre": "Le Premier Cahier de Dihia ",
+        "epoque": "1955",
+        "lieu": "Kabylie",
+        "categorie": "photo",
+        "img": "image\/img_69f4ca4170c6f3.12148055.jpg",
+        "story": "Sa m\u00e8re ne savait pas lire. Ni sa grand-m\u00e8re avant elle. Ni aucune femme de la famille, aussi loin que la m\u00e9moire remontait.\r\nDihia avait sept ans quand elle entra pour la premi\u00e8re fois dans cette salle de classe. Elle portait sa robe brod\u00e9e du dimanche \u2014 la plus belle qu'elle avait \u2014 comme si c'\u00e9tait une f\u00eate. Pour elle, c'en \u00e9tait une.\r\nLe cahier \u00e9tait neuf, les pages blanches et lisses. Elle passa sa main dessus plusieurs fois avant d'oser \u00e9crire. Sa voisine de table, une fille du m\u00eame quartier qui s'appelait Nadia, faisait la m\u00eame chose sans le dire.\r\nL'institutrice s'appelait Mademoiselle Ferrandi. Elle \u00e9tait petite, stricte, et connaissait le pr\u00e9nom de chaque enfant avant m\u00eame le premier jour de classe. Elle avait appris par c\u0153ur la liste la veille au soir.\r\nCe matin-l\u00e0, un photographe de presse entra dans la classe. Dihia ne leva pas les yeux de son cahier. Nadia, elle, regarda l'objectif en souriant. Elle souriait toujours, Nadia. M\u00eame quand il n'y avait pas grand chose pour sourire.\r\nLa photo parut dans un journal fran\u00e7ais. Personne dans la famille de Dihia ne la vit. Ils ne lisaient pas les journaux fran\u00e7ais.\r\nDihia, elle, apprit \u00e0 lire cette ann\u00e9e-l\u00e0. Et l'ann\u00e9e suivante, elle lut tout ce qu'elle trouvait \u2014 les journaux, les affiches dans la rue, les \u00e9tiquettes des bo\u00eetes de conserve. Sa m\u00e8re la regardait faire sans comprendre les mots. Mais elle comprenait autre chose. Et elle \u00e9tait fi\u00e8re sans savoir comment le dire.",
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": 14,
+        "nom": "admin",
+        "titre": "La Lettre de l'Enqu\u00eateur Winge",
+        "epoque": "1793",
+        "lieu": "Stockholm, Su\u00e8de",
+        "categorie": "lettre",
+        "img": "image\/15.jpg",
+        "story": "On ne sait pas qui re\u00e7ut cette lettre.\nElle fut retrouv\u00e9e deux si\u00e8cles plus tard dans les archives de la police de Stockholm,\ngliss\u00e9e entre deux dossiers sans rapport, comme oubli\u00e9e par accident.\n\nCecil Winge \u00e9tait enqu\u00eateur pour la chambre de police de Stockholm,\nsp\u00e9cialis\u00e9 dans ce qu'on appelait pudiquement les (crimes particuliers) \u2014\nceux dont on ne parlait pas en public,\nceux qui impliquaient des noms qu'il valait mieux ne pas prononcer.\n\nEn 1793, Stockholm \u00e9tait une ville de secrets.\nLa r\u00e9volution fran\u00e7aise avait sem\u00e9 la peur dans toutes les cours d'Europe.\nLe roi Gustave III venait d'\u00eatre assassin\u00e9 l'ann\u00e9e pr\u00e9c\u00e9dente lors d'un bal masqu\u00e9.\nLa m\u00e9fiance r\u00e9gnait partout \u2014 dans les palais, dans les tavernes, dans les lettres.\n\nCette lettre, scell\u00e9e de cire rouge, demandait de l'aide pour une affaire d\u00e9licate.\nWinge y \u00e9crivait avec une politesse excessive,\ncelle des hommes qui savent que leurs mots peuvent \u00eatre retourn\u00e9s contre eux.\nChaque phrase pes\u00e9e. Chaque mot choisi.\n\nLe destinataire ne r\u00e9pondit jamais \u2014 du moins aucune r\u00e9ponse ne fut conserv\u00e9e.\nL'affaire dont parle la lettre reste inconnue.\nLe dossier d'enqu\u00eate mentionn\u00e9 n'a jamais \u00e9t\u00e9 retrouv\u00e9.\n\nIl ne reste que cette page jaunie, ces taches d'encre,\nce sceau de cire rouge encore intact apr\u00e8s deux cent trente ans.\nEt cette derni\u00e8re phrase, soulign\u00e9e deux fois :\nL'affaire exige la plus grande discr\u00e9tion.\n\nQuelqu'un, manifestement, avait pris cela au s\u00e9rieux.",
+        "prix_reel": 1,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 15,
+        "nom": "admin",
+        "titre": "La Robe de la Derni\u00e8re Nuit",
+        "epoque": "300 apr. J.-C.",
+        "lieu": "Norv\u00e8ge",
+        "categorie": "vetement",
+        "img": "image\/16.jpg",
+        "story": "On la trouva dans une tourbi\u00e8re du nord de la Norv\u00e8ge, en 1936.\nElle \u00e9tait pli\u00e9e soigneusement, comme rang\u00e9e pour un voyage.\nPas jet\u00e9e. Pas abandonn\u00e9e. Pos\u00e9e.\n\nLa robe \u00e9tait faite de peaux de petits animaux \u2014 belettes, \u00e9cureuils, lapins \u2014\ncousues ensemble avec une pr\u00e9cision remarquable.\nChaque peau orient\u00e9e dans le m\u00eame sens, le poil vers l'ext\u00e9rieur,\ncomme si la personne qui la fabriquait avait tout le temps du monde\net voulait que ce soit parfait.\n\nLes arch\u00e9ologues estim\u00e8rent qu'elle avait appartenu \u00e0 une femme.\nPetite, selon les mesures. Jeune, probablement.\nOn ne trouva aucun os \u00e0 proximit\u00e9. Aucune tombe. Aucun nom.\nJuste la robe, seule dans la tourbe noire et froide.\n\nDans les communaut\u00e9s germaniques du IIIe si\u00e8cle,\ncertaines robes de fourrure n'\u00e9taient port\u00e9es qu'une seule fois \u2014\nle soir des grandes c\u00e9r\u00e9monies, des passages importants.\nLe mariage. Le deuil. Le d\u00e9part.\n\nCelle-ci n'avait pas \u00e9t\u00e9 us\u00e9e.\nLes coutures \u00e9taient encore solides. Le poil encore doux par endroits.\nElle avait \u00e9t\u00e9 port\u00e9e peu de temps. Peut-\u00eatre une seule nuit.\n\nPuis quelqu'un l'avait pli\u00e9e avec soin,\navait march\u00e9 jusqu'\u00e0 la tourbi\u00e8re dans le noir,\net l'avait pos\u00e9e l\u00e0, sur l'eau sombre et immobile.\n\nComme une offrande.\nOu comme un adieu.",
+        "prix_reel": 1,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 16,
+        "nom": "sarah",
+        "titre": "La Meilleure Viseuse du Comt\u00e9 Tennessee",
+        "epoque": 948,
+        "lieu": "\u00c9tats-Unis",
+        "categorie": "photo",
+        "img": "image\/img_69f533c98bb0c9.77907815.jpg",
+        "story": "Son p\u00e8re lui avait appris \u00e0 tirer avant de lui apprendre \u00e0 conduire. Il disait que c'\u00e9tait plus utile. Sa m\u00e8re n'\u00e9tait pas d'accord, mais elle n'avait jamais vraiment su comment contredire son mari.\r\nEllen avait dix-neuf ans sur cette photo. Elle portait sa robe \u00e0 fleurs du dimanche parce que c'\u00e9tait un dimanche, et que personne chez les Calloway ne changeait de tenue pour aller tirer dans le jardin. On faisait les deux. La messe et les cibles. Dans le m\u00eame ordre chaque semaine.\r\nElle ne ratait jamais. Pas par chance. Par m\u00e9thode. Elle fermait les yeux une seconde avant de viser, respirait lentement, puis ouvrait un \u0153il. Son p\u00e8re disait qu'elle visait avec quelque chose que lui n'avait jamais eu. Il ne savait pas comment appeler \u00e7a. Du calme, peut-\u00eatre. Ou de la certitude.\r\nEn 1950, Ellen quitta le Tennessee pour Nashville. Elle voulait travailler dans la radio. Tout le monde lui dit que c'\u00e9tait un m\u00e9tier d'hommes. Elle sourit, comme elle souriait toujours quand on lui disait qu'elle ne pouvait pas faire quelque chose.\r\nElle passa trente ans \u00e0 la radio de Nashville. Des milliers d'\u00e9missions. Une voix que tout le comt\u00e9 reconnaissait sans m\u00eame avoir besoin d'entendre son nom.\r\nElle ne retourna jamais tirer dans le jardin de son enfance. La maison fut vendue en 1962, apr\u00e8s la mort de son p\u00e8re. Mais ses coll\u00e8gues \u00e0 la radio racontaient qu'elle avait toujours ce regard \u2014 calme, concentr\u00e9 \u2014 quand elle s'installait devant le micro. Comme si elle visait quelque chose que les autres ne voyaient pas encore.",
+        "prix_reel": 0,
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": 17,
+        "nom": "sarah",
+        "titre": "L'Orchestre d'un Seul Homme Marseille",
+        "epoque": 1889,
+        "lieu": "France",
+        "categorie": "photo",
+        "img": "image\/img_69f5345df06ae2.18011680.jpg",
+        "story": "Il s'appelait Gustave. Personne ne connaissait son nom de famille. Sur les quais de Marseille, tout le monde l'appelait simplement l'Orchestre.\r\nIl avait construit son \u00e9quipement lui-m\u00eame, pi\u00e8ce par pi\u00e8ce, sur vingt ans. La grosse caisse dans le dos, actionn\u00e9e par une ficelle attach\u00e9e au pied droit. L'accord\u00e9on entre les mains. Les cymbales sur les \u00e9paules, les clochettes sur le chapeau, une sorte de sifflet coinc\u00e9 au coin de la bouche pour les moments importants. Quand il jouait \u00e0 pleine puissance, on l'entendait depuis le Vieux-Port.\r\nLes enfants le suivaient dans les rues. Les marins s'arr\u00eataient. Les marchandes de poisson posaient leurs paniers. Pendant trois minutes, tout le monde oubliait ce qu'il avait \u00e0 faire.\r\nGustave ne jouait jamais deux fois le m\u00eame morceau de la m\u00eame fa\u00e7on. Il disait que la musique devait ressembler \u00e0 la journ\u00e9e \u2014 jamais tout \u00e0 fait pareille, jamais tout \u00e0 fait pr\u00e9visible.\r\nIl mourut un matin de novembre 1903, assis contre un mur du quartier du Panier, tous ses instruments encore sur lui. Les voisins qui le trouv\u00e8rent dirent qu'il avait l'air paisible. Comme endormi.\r\nOn ne sut jamais o\u00f9 l'enterrer. Personne ne connaissait sa famille, sa ville d'origine, son histoire avant Marseille. Le cur\u00e9 du quartier fit une messe courte, devant six personnes.\r\nSes instruments furent gard\u00e9s par un gamin de douze ans qui tra\u00eenait souvent pr\u00e8s de lui. Le gamin devint musicien. Il ne parla jamais vraiment de Gustave. Mais il jouait toujours debout, jamais assis. Comme lui.",
+        "prix_reel": 0,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 18,
+        "nom": "sarah",
+        "titre": "Les Hommes dans les Tonneaux Londres",
+        "epoque": 1943,
+        "lieu": "Angleterre",
+        "categorie": "photo",
+        "img": "image\/img_69f5353c04c4a7.32990306.jpg",
+        "story": "C'est une photo d'entra\u00eenement militaire, prise dans une brasserie r\u00e9quisitionn\u00e9e par l'arm\u00e9e britannique pendant la Seconde Guerre mondiale.\r\nCes soldats testaient une technique simple : se glisser dans un tonneau vide pour se cacher rapidement en cas d'alerte. Dans les entrep\u00f4ts, les docks et les usines des villes occup\u00e9es, les tonneaux \u00e9taient partout. Un homme qui savait y entrer vite et y rester immobile pouvait passer inaper\u00e7u lors d'une fouille rapide.\r\nL'exercice \u00e9tait aussi physique que psychologique. Rester accroupi dans un espace \u00e9troit, sans voir ce qui se passe autour, sans bouger, sans bruit \u2014 pendant plusieurs minutes, parfois plus d'une heure. Certains soldats supportaient mal la claustrophobie. C'\u00e9tait justement le but de l'exercice : le d\u00e9couvrir avant d'\u00eatre sur le terrain.\r\nLe sergent qui supervisait la s\u00e9ance notait dans son registre les noms de ceux qui tenaient et ceux qui abandonnaient. Pas pour les p\u00e9naliser. Pour les orienter vers d'autres missions.\r\nLa brasserie fut rendue \u00e0 ses propri\u00e9taires en 1945. Les tonneaux furent remis en service. Le brasseur qui reprit son activit\u00e9 dit qu'il avait trouv\u00e9 des marques de clous et d'ongles \u00e0 l'int\u00e9rieur de plusieurs d'entre eux. Il ne comprit pas tout de suite d'o\u00f9 elles venaient. Puis il se souvint \u00e0 qui il avait lou\u00e9 ses locaux pendant la guerre. Et il n'en parla plus.",
+        "prix_reel": 0,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 19,
+        "nom": "sara",
+        "titre": "A Medalha de Dar\u00e9 Rio de Janeiro,",
+        "epoque": 1898,
+        "lieu": "Br\u00e9sil",
+        "categorie": "pi\u00e9ce",
+        "img": "image\/img_69f536c2e3d755.38547803.webp",
+        "story": "Henri Dar\u00e9 avait pass\u00e9 quarante ans \u00e0 enseigner le dessin dans un lyc\u00e9e du cinqui\u00e8me arrondissement de Paris. Pas de gloire, pas de fortune. Juste des centaines d'\u00e9l\u00e8ves \u00e0 qui il avait appris \u00e0 regarder le monde avant de le reproduire.\r\nIl r\u00e9p\u00e9tait toujours la m\u00eame chose le premier jour de classe : un crayon ne ment pas. C'est la main qui ment. Apprenez \u00e0 tenir le crayon, et votre main suivra.\r\nCertains de ses \u00e9l\u00e8ves devinrent peintres. D'autres architectes. Un devint sculpteur \u2014 un certain Joseph Taman, qui avait \u00e9t\u00e9 assis au premier rang en 1871, \u00e0 douze ans, les oreilles d\u00e9coll\u00e9es et les doigts toujours tach\u00e9s d'encre.\r\nTaman n'oublia jamais son professeur. Quand Dar\u00e9 prit sa retraite en 1895, apr\u00e8s quarante ans de service, ses anciens \u00e9l\u00e8ves organis\u00e8rent une collecte discr\u00e8te. Taman fondit lui-m\u00eame la m\u00e9daille dans son atelier de Montparnasse. Il travailla le portrait de m\u00e9moire, sans mod\u00e8le, sans photo. Juste ce visage qu'il avait regard\u00e9 pendant trois ans depuis son premier rang.\r\nLa c\u00e9r\u00e9monie eut lieu un jeudi soir, dans la salle des professeurs du lyc\u00e9e. Une vingtaine d'anciens \u00e9l\u00e8ves, quelques coll\u00e8gues. Dar\u00e9 re\u00e7ut la m\u00e9daille sans rien dire pendant un long moment. Puis il la retourna dans ses mains, regarda le portrait, et dit simplement : vous m'avez fait plus de cheveux que je n'en ai.\r\nTout le monde rit. Taman aussi.",
+        "prix_reel": 300,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 20,
+        "nom": "sara",
+        "titre": "Le Gardien qui Chante Amazonie",
+        "epoque": 800,
+        "lieu": "Br\u00e9sil",
+        "categorie": "culture",
+        "img": "image\/img_69f53780a75234.33028031.webp",
+        "story": "On ne sait pas comment il s'appelait. On ne sait pas quel peuple l'a fabriqu\u00e9. On sait seulement qu'il a \u00e9t\u00e9 trouv\u00e9 dans la terre rouge d'Amazonie, intact apr\u00e8s douze si\u00e8cles, les mains crois\u00e9es devant la bouche comme s'il chantait encore.\r\nDans les cultures amazoniennes de cette \u00e9poque, les vases fun\u00e9raires n'\u00e9taient pas de simples contenants. Ils \u00e9taient des gardiens. On y pla\u00e7ait les cendres ou les os des anc\u00eatres importants \u2014 chamans, chefs, m\u00e9moires vivantes du groupe. La forme humaine n'\u00e9tait pas d\u00e9corative. Elle signifiait que quelqu'un veillait de l'int\u00e9rieur.\r\nLes spirales et les entrelacs grav\u00e9s sur tout le corps ne sont pas des ornements. Chaque motif avait un sens pr\u00e9cis dans la cosmologie amazonienne \u2014 des chemins entre le monde des vivants et celui des esprits, des fronti\u00e8res que seul le chaman pouvait traverser.\r\nLa posture des mains devant la bouche est particuli\u00e8rement rare. Les arch\u00e9ologues pensent qu'elle repr\u00e9sente le chant sacr\u00e9 \u2014 cette voix qui, selon les croyances de la r\u00e9gion, \u00e9tait le seul pont fiable entre les deux mondes. Tant que quelqu'un chantait, les anc\u00eatres pouvaient entendre.\r\nLe vase fut d\u00e9pos\u00e9 dans une tombe collective avec six autres personnes. Il \u00e9tait plac\u00e9 au centre, face \u00e0 l'entr\u00e9e. Comme si on lui avait confi\u00e9 la garde du seuil.\r\nIl est aujourd'hui dans un mus\u00e9e. Derri\u00e8re une vitre. Les mains toujours devant la bouche. Chantant pour personne. Ou peut-\u00eatre pour tout le monde.",
+        "prix_reel": 1170,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 21,
+        "nom": "sara",
+        "titre": "Le Guerrier aux \u00c9toiles",
+        "epoque": 1900,
+        "lieu": "Philippines",
+        "categorie": "photo",
+        "img": "image\/img_69f537fd2b3219.23256959.webp",
+        "story": "Il ne nous a pas laiss\u00e9 son nom. Juste cette image.\r\nC'\u00e9tait un chef de guerre Moro de l'\u00eele de Mindanao, photographi\u00e9 par un soldat am\u00e9ricain peu apr\u00e8s le d\u00e9but de l'occupation des Philippines. Des milliers de photos comme celle-ci furent prises entre 1899 et 1910 \u2014 des hommes, des femmes, des chefs, des guerriers, immortalis\u00e9s par des objectifs \u00e9trangers qui ne demandaient pas la permission. On les d\u00e9veloppait, on les envoyait aux \u00c9tats-Unis comme des cartes postales exotiques. Preuve que l'empire avan\u00e7ait. Que les peuples \u00e9taient document\u00e9s, classifi\u00e9s, ma\u00eetris\u00e9s.\r\nCelui-ci r\u00e9sistait \u00e0 cette logique, m\u00eame sur papier.\r\nLe chapeau aux \u00e9toiles \u00e0 huit branches n'est pas d\u00e9coratif. Dans la tradition Moro, chaque ornement port\u00e9 en public \u2014 et surtout au combat \u2014 a une signification pr\u00e9cise. Le rang. Les victoires. Les alliances. Les protections spirituelles invoqu\u00e9es avant la bataille. Les \u00e9toiles \u00e0 huit branches \u00e9taient associ\u00e9es aux navigateurs et aux guerriers d'\u00e9lite, ceux qui connaissaient les chemins de la mer et du ciel, ceux \u00e0 qui on confiait les d\u00e9cisions importantes quand les autres h\u00e9sitaient.\r\nLe fusil dans sa main droite est un fusil espagnol r\u00e9cup\u00e9r\u00e9 \u2014 les Moros avaient combattu les Espagnols pendant trois si\u00e8cles avant l'arriv\u00e9e des Am\u00e9ricains. Trois si\u00e8cles de r\u00e9sistance. Ils n'avaient pas \u00e9t\u00e9 conquis. Pas vraiment. Les Espagnols contr\u00f4laient les c\u00f4tes, les villes, les registres. Mais dans les terres de Mindanao, dans les montagnes et les for\u00eats, les sultans Moros gouvernaient encore. Le fusil qu'il tient est le symbole de cette continuit\u00e9 \u2014 une arme prise \u00e0 l'ennemi, retourn\u00e9e, gard\u00e9e.\r\nLe kriss gliss\u00e9 dans sa ceinture est plus ancien encore. Le kriss est une lame \u00e0 double tranchant, ondul\u00e9e, forg\u00e9e selon des techniques transmises de p\u00e8re en fils depuis des si\u00e8cles. On disait qu'un bon kriss avait une \u00e2me \u2014 pas m\u00e9taphoriquement. Litt\u00e9ralement. Qu'il choisissait son propri\u00e9taire autant que son propri\u00e9taire le choisissait. Certains kriss \u00e9taient h\u00e9rit\u00e9s, jamais achet\u00e9s. Jamais vendus. Passer un kriss \u00e0 quelqu'un, c'\u00e9tait passer une responsabilit\u00e9.\r\nLes broderies sur sa veste, les colliers crois\u00e9s sur sa poitrine, l'\u00e9charpe nou\u00e9e \u00e0 la taille \u2014 tout cela constitue un langage. Un langage que le soldat am\u00e9ricain qui tenait l'appareil photo ne lisait pas. Il voyait un indig\u00e8ne en costume. Il ne voyait pas un homme qui portait sur lui l'histoire de son peuple, cousue, grav\u00e9e, nou\u00e9e fil par fil.\r\nIl regarde l'objectif sans sourire, sans peur, sans curiosit\u00e9. Le regard droit, les \u00e9paules carr\u00e9es, le menton l\u00e9g\u00e8rement relev\u00e9. Pas d'hostilit\u00e9 visible. Quelque chose de plus difficile \u00e0 nommer \u2014 une pr\u00e9sence totale. Comme quelqu'un qui sait exactement qui il est, ce qu'il repr\u00e9sente, et ce que la sc\u00e8ne qui se joue signifie vraiment. Un homme de l'autre c\u00f4t\u00e9 de l'objectif, conscient d'\u00eatre regard\u00e9, choisissant comment il veut \u00eatre vu.\r\nLes Moros de Mindanao r\u00e9sist\u00e8rent \u00e0 l'occupation am\u00e9ricaine pendant des ann\u00e9es. La guerre qui suivit fut brutale \u2014 des villages br\u00fbl\u00e9s, des massacres document\u00e9s dans les rapports militaires am\u00e9ricains eux-m\u00eames. Le plus c\u00e9l\u00e8bre fut le massacre de Bud Dajo en 1906, o\u00f9 plus de neuf cents hommes, femmes et enfants Moros p\u00e9rirent dans une forteresse sur les flancs d'un volcan. Les journaux am\u00e9ricains le pr\u00e9sent\u00e8rent comme une victoire. Mark Twain, lui, \u00e9crivit que c'\u00e9tait un massacre et qu'il fallait appeler les choses par leur nom.\r\nOn ne sait pas ce que devint l'homme sur cette photo. Les archives am\u00e9ricaines de cette p\u00e9riode ne retiennent que les noms des officiers. Pas ceux des hommes qu'ils photographiaient. Pas ceux des peuples qu'ils traversaient.\r\nIl est l\u00e0 pourtant. Debout. Immobile dans le temps. Les \u00e9toiles sur son chapeau brillent encore, m\u00eame sur ce papier jauni, m\u00eame \u00e0 cent vingt ans de distance. Il regarde. Il attend, peut-\u00eatre, que quelqu'un prenne enfin le temps de lire ce qu'il a \u00e9crit sur lui, avec ses ornements, ses armes, sa posture.\r\nNous lisons. Trop tard, peut-\u00eatre. Mais nous lisons.",
+        "prix_reel": 0,
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": 22,
+        "nom": "admin",
+        "titre": "La Bo\u00eete de Lavande de Yardley",
+        "epoque": 1920,
+        "lieu": "Londres, Angleterre",
+        "categorie": "objet du quotidien",
+        "img": "image\/17.jpg",
+        "story": "Elle \u00e9tait pos\u00e9e sur la coiffeuse de sa grand-m\u00e8re depuis aussi longtemps qu'Eleanor pouvait se souvenir.\nLa bo\u00eete de talc Yardley, Old English Lavender, achet\u00e9e au 33 Old Bond Street, Londres.\nElle n'avait jamais \u00e9t\u00e9 jet\u00e9e.\nPas parce qu'elle contenait encore quelque chose \u2014 elle \u00e9tait vide depuis des ann\u00e9es \u2014 mais parce que personne n'avait os\u00e9.\n\nLa lavande avait une odeur particuli\u00e8re chez les femmes de cette famille.\nPas celle du jardin, pas celle des sachets bon march\u00e9.\nCelle-l\u00e0, pr\u00e9cis\u00e9ment. Douce, poudr\u00e9e, l\u00e9g\u00e8rement sucr\u00e9e.\nEleanor l'associait aux dimanches matin, aux joues fra\u00eeches de sa grand-m\u00e8re Agnes quand elle l'embrassait,\naux robes du dimanche sorties de l'armoire.\n\nAgnes avait achet\u00e9 cette bo\u00eete en 1920, le jour de son mariage.\nElle s'\u00e9tait lev\u00e9e tr\u00e8s t\u00f4t ce matin-l\u00e0, avant tout le monde,\net avait march\u00e9 seule jusqu'\u00e0 Bond Street.\nPas pour acheter quoi que ce soit d'important.\nJuste pour avoir un moment \u00e0 elle, avant que la journ\u00e9e lui appartienne \u00e0 d'autres.\n\nElle avait choisi la bo\u00eete Yardley parce que l'image sur le c\u00f4t\u00e9 lui plaisait \u2014\ncette femme au panier de lavande, les enfants autour d'elle, le chien roux \u00e0 ses pieds.\nUne sc\u00e8ne ordinaire. Paisible. Rien d'extraordinaire.\nExactement ce qu'Agnes esp\u00e9rait pour sa vie.\n\nElle l'avait gard\u00e9e cinquante-trois ans.\nRecharg\u00e9e des dizaines de fois, dans la m\u00eame bo\u00eete, toujours la m\u00eame lavande.\nQuand Yardley changea son emballage dans les ann\u00e9es cinquante,\nAgnes continua \u00e0 faire remplir l'ancienne bo\u00eete par la vendeuse qui la connaissait depuis vingt ans\net comprenait sans qu'on lui explique.\n\nQuand Agnes mourut en 1973, Eleanor prit la bo\u00eete.\nElle ne mit jamais de talc dedans.\nElle la posait simplement sur sa propre coiffeuse, le matin,\net parfois elle soulevait le couvercle.\nIl ne restait presque plus d'odeur. Presque.\n\nCela suffisait.",
+        "prix_reel": 1,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 23,
+        "nom": "admin",
+        "titre": "La Fiole de Belladonna",
+        "epoque": "1887",
+        "lieu": "Norwich, Massachusetts, \u00c9tats-Unis",
+        "categorie": "m\u00e9decine",
+        "img": "image\/18.webp",
+        "story": "On ne sait pas combien de personnes Hester A. Prim avait soign\u00e9es avant que les autorit\u00e9s s'int\u00e9ressent \u00e0 elle.\nElle tenait la Full Moon Herbal Enterprises depuis 1879, au 333 Woolwich Way, Norwich.\nUne herboriste, disaient ses clients.\nUne sorci\u00e8re, disaient ses voisins.\nElle ne corrigeait ni les uns ni les autres.\n\nLa belladonna \u00e9tait sa sp\u00e9cialit\u00e9.\nPlante dangereuse, \u00e0 la fronti\u00e8re exacte entre le rem\u00e8de et le poison.\nTrop peu \u2014 aucun effet.\nTrop \u2014 la mort.\nJuste assez \u2014 une douleur dispara\u00eet, un muscle se rel\u00e2che, une fi\u00e8vre tombe.\n\nHester pr\u00e9parait chaque fiole elle-m\u00eame, la nuit, \u00e0 la lumi\u00e8re d'une seule bougie.\nElle mesurait avec des balances minuscules, des gestes pr\u00e9cis, sans jamais noter ses dosages.\nElle disait que les formules \u00e9crites pouvaient \u00eatre vol\u00e9es.\nLes formules m\u00e9moris\u00e9es mouraient avec elle.\n\nEn 1887, un m\u00e9decin de Boston porta plainte.\nIl pr\u00e9tendait qu'Hester pratiquait la m\u00e9decine sans licence.\nElle r\u00e9pondit qu'elle ne pratiquait pas la m\u00e9decine.\nElle pr\u00e9parait des potions. Ce n'\u00e9tait pas pareil.\n\nLe tribunal ne fut pas convaincu.\nSes stocks furent saisis. Ses fioles align\u00e9es comme preuves.\nElle fut condamn\u00e9e \u00e0 une amende et \u00e0 fermer boutique.\n\nElle paya l'amende. Elle ferma la boutique.\nElle continua \u00e0 pr\u00e9parer ses potions chez elle, pour ses voisins, gratuitement.\nPersonne ne porta plainte une deuxi\u00e8me fois.\n\nCette fiole est la seule qui reste.\nL'\u00e9tiquette dit : Not for internal use. Please be careful.\nEn dessous, en tout petit, \u00e0 la main :\nMais si vous le faites quand m\u00eame, buvez lentement.",
+        "prix_reel": 1,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 24,
+        "nom": "admin",
+        "titre": "La Montre du Titanic",
+        "epoque": "1912",
+        "lieu": "Southampton, Angleterre",
+        "categorie": "montre",
+        "img": "image\/19.webp",
+        "story": "Elle indiquait deux heures diff\u00e9rentes.\nNew York sur le cadran ext\u00e9rieur.\nSouthampton sur le cadran int\u00e9rieur.\nComme si son propri\u00e9taire n'avait pas encore d\u00e9cid\u00e9 \u00e0 quelle ville il appartenait.\n\nEdward Marsh \u00e9tait steward de premi\u00e8re classe \u00e0 bord du RMS Titanic.\nIl avait embarqu\u00e9 \u00e0 Southampton le 10 avril 1912, avec cette montre dans la poche de son gilet.\nSon p\u00e8re la lui avait offerte le jour de son premier embarquement, dix ans plus t\u00f4t.\nElle portait le logo de la White Star Line \u2014 la compagnie pour laquelle il travaillait depuis l'\u00e2ge de dix-sept ans.\n\nEdward connaissait les paquebots mieux que sa propre maison.\nIl savait o\u00f9 chaque couloir menait, chaque escalier d\u00e9bouchait.\nIl connaissait les habitudes des passagers de premi\u00e8re classe avant m\u00eame qu'ils les expriment.\nUn verre de cognac avant le d\u00eener. Les journaux le matin avant huit heures. Les couvertures suppl\u00e9mentaires pour les dames qui se plaignaient du froid.\n\nLa nuit du 14 avril, quand le Titanic heurta l'iceberg, Edward \u00e9tait encore de service.\nIl guida des passagers vers les canots de sauvetage pendant deux heures.\nIl connaissait le chemin. Il savait exactement o\u00f9 aller.\nIl fit plusieurs allers-retours entre les ponts.\n\nOn ne sait pas \u00e0 quel moment il s'arr\u00eata.\n\nLa montre fut retrouv\u00e9e dans une valise r\u00e9cup\u00e9r\u00e9e en mer par le Mackay-Bennett,\nle navire charg\u00e9 de recueillir les corps et les affaires des victimes.\nElle \u00e9tait encore en marche.\nLes deux aiguilles indiquaient des heures diff\u00e9rentes \u2014\nNew York et Southampton, deux villes qui ne sauraient jamais exactement ce qui s'\u00e9tait pass\u00e9 cette nuit-l\u00e0.\n\nElle s'arr\u00eata le 19 avril 1912 \u00e0 14h32.\nPersonne ne la remonta plus.",
+        "prix_reel": 500,
+        "vrai": 0,
+        "faux": 1
+    },
+    {
+        "id": 25,
+        "nom": "admin",
+        "titre": "La Boussole Solaire de Dollond",
+        "epoque": "1885",
+        "lieu": "Londres, Angleterre",
+        "categorie": "instrument de navigation",
+        "img": "image\/20.jpg",
+        "story": "Elle tenait dans la paume d'une main.\nLaiton dor\u00e9, cadran solaire int\u00e9gr\u00e9, boussole magn\u00e9tique, \u00e9tui en cuir cousu main.\nFabriqu\u00e9e par Dollond & Aitchison, Londres, 1885.\nUn instrument con\u00e7u pour ne jamais se perdre.\n\nSon premier propri\u00e9taire s'appelait James Whitmore.\nCartographe pour le compte de la Couronne britannique,\nil avait pass\u00e9 vingt ans \u00e0 dresser des cartes de territoires que personne en Angleterre n'avait encore vus.\nL'Inde. La Birmanie. Les c\u00f4tes est-africaines.\nIl rentrait \u00e0 Londres tous les trois ans, restait six mois, repartait.\n\nSa femme Margaret disait qu'elle avait \u00e9pous\u00e9 un homme et re\u00e7u une lettre par mois \u00e0 la place.\nElle ne se plaignait pas. Pas vraiment.\nElle gardait les lettres dans une bo\u00eete en bois sous le lit.\nElles \u00e9taient pr\u00e9cises, d\u00e9taill\u00e9es, pleines de descriptions de paysages.\nPas une seule ne disait je t'aime.\nElles disaient autre chose \u2014 je pense \u00e0 toi quand le soleil se l\u00e8ve sur le fleuve.\nC'\u00e9tait suffisant, pensait-elle. La plupart du temps.\n\nEn 1897, James rentra d'une exp\u00e9dition au Kenya.\nIl posa la boussole sur la table de la cuisine sans un mot.\nMargaret la regarda. La prit dans ses mains.\nLe cuir de l'\u00e9tui \u00e9tait us\u00e9, tach\u00e9, r\u00e9par\u00e9 \u00e0 deux endroits avec du fil diff\u00e9rent.\nLe laiton portait des rayures qu'elle ne connaissait pas.\n\nElle ne demanda pas d'o\u00f9 elles venaient.\nIl ne le dit pas.\n\nJames mourut en 1903, dans son fauteuil, une carte sur les genoux.\nMargaret garda la boussole.\nElle ne voyagea jamais plus loin que Brighton.\nMais chaque matin, elle la posait sur le rebord de la fen\u00eatre,\nface au soleil, et regardait l'aiguille trouver le nord.\n\nCela lui semblait important.\nSavoir o\u00f9 est le nord, m\u00eame quand on ne bouge pas.",
+        "prix_reel": 2000,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 26,
+        "nom": "admin",
+        "titre": "La Carte du Monde de John Speed",
+        "epoque": "1651",
+        "lieu": "Londres, Angleterre",
+        "categorie": "carte",
+        "img": "image\/21.avif",
+        "story": "Elle s'appelait A New and Accurat Map of the World.\nJohn Speed l'avait dessin\u00e9e en 1651, \u00e0 une \u00e9poque o\u00f9 le monde n'\u00e9tait pas encore tout \u00e0 fait connu.\nLes bords de la carte portaient encore des zones blanches, des terres sans nom, des mers sans fond.\nEn bas \u00e0 droite, une inscription sobre : Unknowne Land.\nComme si le cartographe avait voulu \u00eatre honn\u00eate sur ce qu'il ignorait.\n\nC'\u00e9tait rare, l'honn\u00eatet\u00e9 sur une carte.\nLa plupart des cartographes de l'\u00e9poque inventaient.\nIls remplissaient les espaces vides avec des monstres marins, des \u00eeles imaginaires, des continents qui n'existaient pas.\nSpeed, lui, laissait le blanc.\nLe blanc disait : nous ne savons pas encore.\nC'\u00e9tait plus courageux que n'importe quel monstre.\n\nCette carte passa entre les mains d'un marchand hollandais d'abord,\npuis d'un amiral anglais qui la fit encadrer dans son bureau \u00e0 Portsmouth.\nPuis d'un libraire de Bath qui la vendit \u00e0 une jeune femme dont on ne conna\u00eet pas le nom.\nElle la garda quarante ans, pli\u00e9e dans un tiroir, sans jamais l'accrocher.\nPersonne ne sut pourquoi.\n\nCe qui est certain, c'est que chaque fois qu'on la d\u00e9plia,\nle monde \u00e9tait un peu diff\u00e9rent de ce qu'elle montrait.\nDes fronti\u00e8res avaient boug\u00e9. Des empires \u00e9taient tomb\u00e9s.\nDes terres inconnues avaient \u00e9t\u00e9 nomm\u00e9es, colonis\u00e9es, perdues, renomm\u00e9es.\n\nMais Unknowne Land \u00e9tait toujours l\u00e0, en bas \u00e0 droite.\nInchang\u00e9. Fid\u00e8le \u00e0 lui-m\u00eame.\nComme si Speed avait su que certaines choses resteraient toujours inconnues,\nquoi qu'on fasse pour les cartographier.",
+        "prix_reel": 1,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 27,
+        "nom": "admin",
+        "titre": "Les Trois M\u00e9daillons de la Sorci\u00e8re",
+        "epoque": "1780",
+        "lieu": "\u00c9dimbourg, \u00c9cosse",
+        "categorie": "d\u00e9coration",
+        "img": "image\/22.webp",
+        "story": "On les trouva accroch\u00e9s dans cet ordre pr\u00e9cis sur le mur d'une maison d'\u00c9dimbourg,\napr\u00e8s la mort de son occupante en 1780.\nLe serpent en haut \u00e0 gauche. L'abeille en haut \u00e0 droite. L'oiseau au centre, plus grand, plus sombre.\n\nLa femme qui vivait l\u00e0 s'appelait Agnes Drummond.\nSes voisins l'appelaient la Gu\u00e9risseuse.\nSes ennemis l'appelaient autre chose.\nElle ne r\u00e9pondait ni aux uns ni aux autres.\n\nElle avait fabriqu\u00e9 ces trois m\u00e9daillons elle-m\u00eame,\nen fondant des bijoux h\u00e9rit\u00e9s de sa m\u00e8re dans un petit creuset en argile.\nChacun repr\u00e9sentait quelque chose de pr\u00e9cis dans sa philosophie personnelle \u2014\nune philosophie qu'elle n'avait jamais \u00e9crite, jamais enseign\u00e9e,\nmais que ses clients comprenaient instinctivement en entrant dans sa maison.\n\nLe serpent signifiait la connaissance.\nPas la sagesse \u2014 la connaissance brute, celle qui fait mal quand elle arrive,\ncelle qu'on ne peut pas d\u00e9sapprendre une fois qu'on la poss\u00e8de.\n\nL'abeille signifiait le travail.\nPas l'effort \u2014 la construction patiente, collective, invisible.\nCe qu'on b\u00e2tit sans qu'on le remarque, jour apr\u00e8s jour, jusqu'\u00e0 ce que ce soit l\u00e0.\n\nL'oiseau signifiait la libert\u00e9.\nMais Agnes pr\u00e9cisait toujours \u2014 pas la libert\u00e9 d'aller o\u00f9 on veut.\nLa libert\u00e9 d'\u00eatre ce qu'on est, m\u00eame quand le monde pr\u00e9f\u00e9rerait qu'on soit autre chose.\n\nQuand elle mourut, ses affaires furent saisies par la paroisse.\nLes livres br\u00fbl\u00e9s. Les plantes dispers\u00e9es. Les fioles vid\u00e9es.\nMais les trois m\u00e9daillons, personne ne sut quoi en faire.\nIls rest\u00e8rent sur le mur pendant dix-sept ans,\ndans la maison vide, avec les bougies \u00e9teintes et les fleurs s\u00e9ch\u00e9es.\n\nUn antiquaire les acheta finalement pour presque rien.\nIl les revendit s\u00e9par\u00e9ment.\nIls se retrouv\u00e8rent ensemble deux si\u00e8cles plus tard,\ndans les mains d'une femme qui ne savait pas leur histoire\nmais qui les accrocha instinctivement dans le m\u00eame ordre.\n\nLe serpent \u00e0 gauche. L'abeille \u00e0 droite. L'oiseau au centre.",
+        "prix_reel": 1,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 28,
+        "nom": "admin",
+        "titre": "La Sph\u00e8re Armillaire de l'Astronome",
+        "epoque": "1720",
+        "lieu": "Florence, Italie",
+        "categorie": "instrument scientifique",
+        "img": "image\/23.webp",
+        "story": "Elle repr\u00e9sentait le ciel entier dans la paume d'une main.\nLes anneaux de laiton figuraient les grands cercles c\u00e9lestes \u2014\nl'\u00e9cliptique, l'\u00e9quateur, les tropiques, les colures.\nSur chaque anneau, grav\u00e9s \u00e0 la main, les douze signes du zodiaque.\nSagittaire. Capricorne. Aquarius. Pisces.\nLe ciel tel qu'on le comprenait en 1720.\n\nSon cr\u00e9ateur s'appelait Lorenzo Mancini.\nAstronome florentin, \u00e9l\u00e8ve indirect de Cassini,\nil avait pass\u00e9 quinze ans \u00e0 observer le ciel depuis le toit de sa maison\navec un t\u00e9lescope qu'il avait construit lui-m\u00eame, pi\u00e8ce par pi\u00e8ce.\nIl ne cherchait pas \u00e0 d\u00e9couvrir de nouvelles \u00e9toiles.\nIl voulait comprendre l'ordre de celles qui existaient d\u00e9j\u00e0.\n\nLa sph\u00e8re armillaire \u00e9tait son outil de travail et son \u0153uvre d'art \u00e0 la fois.\nIl la fabriqua en trois ans, travaillant uniquement la nuit,\nquand le ciel \u00e9tait d\u00e9gag\u00e9 et qu'il pouvait v\u00e9rifier chaque angle,\nchaque graduation, chaque position des anneaux contre les \u00e9toiles r\u00e9elles.\n\nQuand elle fut termin\u00e9e, il ne la montra \u00e0 personne pendant six mois.\nIl la gardait sur son bureau, la faisait tourner lentement le soir,\net regardait les ombres que les anneaux projetaient \u00e0 la bougie sur les murs.\nIl disait que ces ombres lui apprenaient plus sur le mouvement du ciel\nque n'importe quel calcul sur le papier.\n\nEn 1743, \u00e0 sa mort, la sph\u00e8re fut l\u00e9gu\u00e9e \u00e0 l'Acad\u00e9mie des sciences de Florence.\nElle y resta cent ans, dans une vitrine, entre un astrolabe persan et une lunette v\u00e9nitienne.\nPuis elle disparut lors d'une r\u00e9organisation des collections en 1848.\nPersonne ne sut o\u00f9 elle alla.\n\nElle r\u00e9apparut dans une vente \u00e0 Bologne en 1923,\ndans le lot d'un antiquaire qui ne savait pas ce qu'il vendait.\nElle fut achet\u00e9e pour le prix d'un d\u00e9jeuner.\n\nLorenzo Mancini avait mis trois ans \u00e0 la construire.\nElle avait travers\u00e9 deux si\u00e8cles sans une \u00e9gratignure.\nLes \u00e9toiles qu'elle repr\u00e9sente n'ont pas boug\u00e9.",
+        "prix_reel": 1500,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 29,
+        "nom": "admin",
+        "titre": "La Remise des Cl\u00e9s \u2014 Henri IV et Marie de M\u00e9dicis",
+        "epoque": "1610",
+        "lieu": "Paris, France",
+        "categorie": "peinture",
+        "img": "image\/24.webp",
+        "story": "Ce tableau fut command\u00e9 par Marie de M\u00e9dicis elle-m\u00eame,\nvingt ans apr\u00e8s les faits qu'il repr\u00e9sente.\nC'est important de le savoir.\nUne femme qui commande son propre portrait historique\nchoisit ce qu'elle veut qu'on retienne.\nEt ce qu'elle choisit ici, c'est ce moment pr\u00e9cis \u2014\nHenri IV lui remettant le gouvernement de la France,\ndevant leur fils, devant les soldats, devant le ciel ouvert.\n\nLe peintre \u00e9tait Rubens.\nPieter Paul Rubens, flamand, le meilleur de son \u00e9poque.\nMarie lui avait command\u00e9 vingt-quatre toiles pour d\u00e9corer la galerie du palais du Luxembourg.\nVingt-quatre tableaux pour raconter sa vie.\nPas celle d'Henri. La sienne.\n\nRubens travailla sept ans sur ce cycle.\nIl rencontra Marie plusieurs fois, \u00e9tudia les documents, les portraits, les r\u00e9cits.\nMais il peignit ce qu'elle voulait qu'on voie \u2014 pas forc\u00e9ment ce qui s'\u00e9tait pass\u00e9.\nHenri IV mourut assassin\u00e9 en 1610, quelques mois apr\u00e8s avoir confi\u00e9 la r\u00e9gence \u00e0 sa femme.\nIl ne lui remit pas les cl\u00e9s dans un grand geste architectural sous un ciel de gloire.\nIl mourut dans un carrosse, d'un coup de couteau, rue de la Ferronni\u00e8re.\n\nMais la peinture dit autre chose.\nElle dit : il lui faisait confiance. Il choisit. Il transmit.\nElle dit : elle \u00e9tait pr\u00eate.\n\nMarie de M\u00e9dicis gouverna la France pendant sept ans comme r\u00e9gente.\nSon fils Louis XIII la chassa du pouvoir en 1617.\nElle mourut en exil \u00e0 Cologne en 1642, seule, sans fortune.\n\nLes vingt-quatre tableaux de Rubens sont aujourd'hui au Louvre.\nMarie y r\u00e8gne encore, immortelle, dans la lumi\u00e8re exacte qu'elle avait command\u00e9e.\nPas celle de sa vie r\u00e9elle.\nCelle qu'elle avait voulue.",
+        "prix_reel": 1,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 30,
+        "nom": "admin",
+        "titre": "Les Seringues du Docteur Colby",
+        "epoque": "1847",
+        "lieu": "Boston, \u00c9tats-Unis",
+        "categorie": "instrument m\u00e9dical",
+        "img": "image\/25.jpg",
+        "story": "On peut lire son nom sur le document derri\u00e8re les seringues.\nDr. Jedediah Colby.\nM\u00e9decin de campagne dans le Massachusetts, de 1831 \u00e0 1869.\nTrente-huit ans de pratique. Des milliers de patients.\nTrois seringues en \u00e9tain qu'il portait partout dans une trousse en cuir.\n\nEn 1847, l'anesth\u00e9sie \u00e0 l'\u00e9ther venait d'\u00eatre d\u00e9couverte \u00e0 Boston.\nColby fut parmi les premiers m\u00e9decins de campagne \u00e0 l'adopter.\nIl fit le voyage depuis sa ville jusqu'\u00e0 Boston pour assister \u00e0 une d\u00e9monstration.\nIl rentra chez lui avec des notes, des sch\u00e9mas, et une conviction.\nOn pouvait op\u00e9rer sans douleur. Il fallait le faire.\n\nSes trois seringues avaient des tailles diff\u00e9rentes \u2014 petite, moyenne, grande.\nChacune pour un usage pr\u00e9cis.\nLa petite pour les enfants et les injections locales.\nLa moyenne pour les adultes, les drainages, les anesth\u00e9sies l\u00e9g\u00e8res.\nLa grande pour les cas graves, les amputations de guerre, les infections profondes.\n\nPendant la guerre civile am\u00e9ricaine, Colby avait soixante ans.\nTrop vieux pour \u00eatre enr\u00f4l\u00e9. Pas trop vieux pour soigner.\nIl installa un poste m\u00e9dical \u00e0 la lisi\u00e8re de sa ville\net re\u00e7ut des bless\u00e9s pendant quatre ans.\nSes seringues ne s'arr\u00eat\u00e8rent presque jamais.\n\nIl nota tout dans ses registres \u2014\nchaque patient, chaque traitement, chaque dose, chaque r\u00e9sultat.\nLes chiffres qu'on aper\u00e7oit sur le document derri\u00e8re les seringues\nsont ses calculs de dosage. Pr\u00e9cis, m\u00e9ticuleux, recommenc\u00e9s chaque fois.\n\nIl mourut en 1869, \u00e0 soixante-dix-huit ans, d'une pneumonie.\nSes instruments furent l\u00e9gu\u00e9s \u00e0 son assistant,\nqui les transmit au suivant,\nqui les transmit encore.\n\nIls portent encore les traces de ce travail \u2014\ndes rayures fines sur l'\u00e9tain, des anneaux l\u00e9g\u00e8rement d\u00e9form\u00e9s par des milliers de prises en main.\nDes seringues qui ont connu plus de souffrance et de soulagement\nque n'importe quel mus\u00e9e ne pourra jamais raconter.",
+        "prix_reel": 1,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 31,
+        "nom": "admin",
+        "titre": "Le Portrait de l'Infirmi\u00e8re",
+        "epoque": "1895",
+        "lieu": "Londres, Angleterre",
+        "categorie": "photo",
+        "img": "image\/26.jpg",
+        "story": "On ne conna\u00eet pas son nom.\nSur le dos de la photo, quelqu'un a \u00e9crit au crayon : St. Thomas, 1895.\nC'est tout.\n\nElle avait peut-\u00eatre vingt-deux ans. Peut-\u00eatre vingt-cinq.\nSon regard est direct, calme, sans sourire.\nPas d'hostilit\u00e9. Pas de timidit\u00e9 non plus.\nJuste quelqu'un qui regarde l'objectif comme elle regardait probablement tout \u2014\navec attention, sans d\u00e9tour.\n\nLa ceinture de chatelaine \u00e0 sa taille n'est pas d\u00e9corative.\nC'\u00e9tait l'outil de travail des infirmi\u00e8res victoriennes \u2014\nune cha\u00eene m\u00e9tallique \u00e0 laquelle pendaient les instruments du quotidien.\nUn ciseau. Une pince. Un \u00e9tui \u00e0 aiguilles. Une petite fiole.\nParfois une montre, pour mesurer le pouls.\nChaque objet avait sa place. Chaque place avait sa raison.\n\nL'h\u00f4pital Saint-Thomas de Londres \u00e9tait en 1895 l'un des premiers\n\u00e0 avoir adopt\u00e9 les r\u00e9formes de Florence Nightingale \u2014\nhygi\u00e8ne stricte, formation des infirmi\u00e8res, protocoles \u00e9crits.\nAvant Nightingale, les infirmi\u00e8res n'\u00e9taient pas form\u00e9es.\nApr\u00e8s elle, elles portaient un uniforme, suivaient des cours, passaient des examens.\n\nCette femme avait donc \u00e9tudi\u00e9.\nElle savait ce qu'elle faisait et pourquoi elle le faisait.\nElle n'\u00e9tait pas l\u00e0 par charit\u00e9 ou par vocation mystique.\nElle \u00e9tait l\u00e0 parce qu'elle avait choisi ce m\u00e9tier, appris ses gestes, ma\u00eetris\u00e9 ses outils.\n\nLe photographe qui prit ce portrait travaillait probablement pour l'h\u00f4pital.\nOn photographiait les infirmi\u00e8res dipl\u00f4m\u00e9es comme on photographiait les officiers \u2014\npour l'archive, pour le dossier, pour la m\u00e9moire institutionnelle.\n\nElle ne sourit pas parce que ce n'\u00e9tait pas une photo de famille.\nC'\u00e9tait une photo professionnelle.\nElle se tenait comme quelqu'un qui sait que cette image dira quelque chose sur elle\nlong apr\u00e8s qu'elle sera partie.\n\nElle avait raison.",
+        "prix_reel": 0,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 32,
+        "nom": "admin",
+        "titre": "La Violoniste sans Nom",
+        "epoque": "1898",
+        "lieu": "Vienne, Autriche",
+        "categorie": "photo",
+        "img": "image\/27.jpg",
+        "story": "Elle tient le violon contre son \u00e9paule mais ne joue pas.\nL'archet est dans sa main droite, pendant le long de sa jupe.\nElle regarde l'objectif avec une expression qu'on ne sait pas tout \u00e0 fait comment nommer.\nPas de la fiert\u00e9. Pas de la timidit\u00e9. Quelque chose entre les deux.\nQuelqu'un qui sait ce qu'elle vaut et attend qu'on le reconnaisse aussi.\n\nEn 1898, une femme qui jouait du violon professionnellement \u00e0 Vienne\nnaviguait dans un monde qui ne savait pas quoi faire d'elle.\nLes conservatoires acceptaient les femmes depuis peu.\nLes orchestres, eux, n'en voulaient pas encore.\nOn leur apprenait \u00e0 jouer parfaitement.\nOn leur interdisait ensuite de jouer en public sur les m\u00eames sc\u00e8nes que les hommes.\n\nElle avait donc probablement deux vies.\nLes r\u00e9citals priv\u00e9s dans les salons bourgeois de Vienne \u2014\ndes soir\u00e9es o\u00f9 les femmes jouaient pour des invit\u00e9s qui applaudissaient poliment\nentre deux verres de vin et trois conversations sur la politique.\nEt les heures seules chez elle, le soir, o\u00f9 elle jouait vraiment.\nSans public. Sans contrainte. Pour personne d'autre qu'elle-m\u00eame.\n\nLe violon qu'elle tient est un instrument de qualit\u00e9.\nLa fa\u00e7on dont elle le tient \u2014 naturelle, assur\u00e9e, sans pose \u2014\ndit qu'elle a commenc\u00e9 enfant.\nDix ans de pratique au minimum pour tenir un archet avec cette d\u00e9contraction.\n\nQuelqu'un a pay\u00e9 ce photographe. Elle, peut-\u00eatre. Ou ses parents.\nC'\u00e9tait un investissement \u2014 une photo professionnelle co\u00fbtait cher en 1898.\nOn la faisait pour une raison. Un concours. Une candidature. Un souvenir de dipl\u00f4me.\nOu simplement pour dire : je suis l\u00e0. Je joue. Je compte.\n\nSon nom n'est pas sur la photo.\nMais le violon est l\u00e0, et la fa\u00e7on dont elle le tient dit tout\nce que son nom aurait pu dire.",
+        "prix_reel": 0,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 33,
+        "nom": "admin",
+        "titre": "La Femme \u00e0 la Barri\u00e8re",
+        "epoque": "1886",
+        "lieu": "Bretagne, France",
+        "categorie": "photo",
+        "img": "image\/28.jpg",
+        "story": "Elle s'est arr\u00eat\u00e9e.\nPas pour la photo \u2014 elle ne savait probablement pas qu'on la photographiait.\nElle s'est arr\u00eat\u00e9e parce qu'elle avait une seconde entre deux t\u00e2ches\net qu'elle a pos\u00e9 sa main sur la barri\u00e8re et regard\u00e9 devant elle.\n\nDerri\u00e8re elle, deux hommes travaillent dans le jardin.\nIls ne l\u00e8vent pas les yeux.\nIls n'ont pas remarqu\u00e9 le photographe non plus, ou ils s'en moquent.\nElle, si. Elle regarde l'objectif avec une expression difficile \u00e0 lire.\nPas de la m\u00e9fiance. Pas de la curiosit\u00e9.\nQuelque chose de plus fatigu\u00e9 que \u00e7a.\n\nEn Bretagne en 1886, une femme de ferme se levait avant l'aube.\nElle nourrissait les animaux, allumait le feu, pr\u00e9parait le repas du matin\navant que les hommes se r\u00e9veillent.\nElle travaillait jusqu'au soir sans que personne compte ses heures\nparce que ce n'\u00e9tait pas consid\u00e9r\u00e9 comme du travail.\nC'\u00e9tait la vie domestique. Invisible. Sans salaire. Sans fin.\n\nSa robe est propre malgr\u00e9 tout.\nL'tablier aussi, \u00e0 peine tach\u00e9.\nElle a pris soin de sa tenue dans une journ\u00e9e qui ne lui laissait probablement pas le temps de le faire.\nCe d\u00e9tail dit quelque chose sur elle \u2014 une forme de dignit\u00e9 maintenue\nquand rien autour ne l'exigeait.\n\nLe photographe \u00e9tait probablement un Parisien de passage.\nUn de ces artistes ou journalistes qui traversaient la Bretagne rurale\npour documenter une France qui disparaissait \u2014\nles vieilles fermes, les costumes traditionnels, les visages creus\u00e9s par le travail.\n\nIl voulait capturer une \u00e9poque.\nIl a captur\u00e9 une femme.\nElle s'appelait peut-\u00eatre Marie. Ou Jeanne. Ou Marguerite.\nElle avait peut-\u00eatre trente ans. Peut-\u00eatre quarante-cinq.\nLe travail vieillit vite.\n\nElle a l\u00e2ch\u00e9 la barri\u00e8re quelques secondes apr\u00e8s.\nElle est retourn\u00e9e \u00e0 ce qu'elle faisait.\nLe photographe est reparti vers Paris avec sa plaque de verre.\nElle n'a jamais vu la photo.",
+        "prix_reel": 0,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 34,
+        "nom": "admin",
+        "titre": "Le Lieutenant avant le D\u00e9part",
+        "epoque": "1915",
+        "lieu": "Le Caire, \u00c9gypte",
+        "categorie": "photo",
+        "img": "image\/29.jpg",
+        "story": "Il a sign\u00e9 la photo.\nOn ne peut pas lire le nom enti\u00e8rement \u2014 l'encre a bav\u00e9, le temps a fait son travail.\nMais il a sign\u00e9. Ce d\u00e9tail compte.\nOn signe une photo quand on veut qu'on se souvienne de soi.\nQuand on n'est pas certain de revenir.\n\nL'uniforme est celui de l'arm\u00e9e britannique en campagne tropicale \u2014 1915.\nLe casque colonial, la veste kaki, les gu\u00eatres enroul\u00e9es jusqu'aux genoux,\nla canne blanche sous le bras droit.\nIl est jeune. Vingt-trois ans, peut-\u00eatre vingt-cinq.\nLa moustache est r\u00e9cente \u2014 on voit qu'il y tient, qu'il l'a soign\u00e9e pour la photo.\n\nLe d\u00e9cor du studio est incongruement fleuri.\nDes palmiers peints, une urne de fleurs en arri\u00e8re-plan.\nLe photographe du Caire proposait ce fond \u00e0 tous ses clients militaires.\nIls venaient par dizaines, ces jeunes officiers britanniques,\navant de partir vers la M\u00e9sopotamie, la Palestine, le Soudan.\nIls voulaient une photo. Quelque chose \u00e0 envoyer chez eux.\nQuelque chose qui dirait : j'\u00e9tais l\u00e0. J'avais l'air bien. Ne vous inqui\u00e9tez pas.\n\nSa m\u00e8re a probablement re\u00e7u cette photo dans une enveloppe brune,\navec une lettre courte qui disait que tout allait bien\net qu'il pensait \u00e0 elle.\n\nOn ne sait pas ce qui lui est arriv\u00e9 ensuite.\nLes archives militaires britanniques de cette p\u00e9riode contiennent\ndes centaines de milliers de noms.\nCertains sont rentr\u00e9s. Beaucoup ne sont pas rentr\u00e9s.\n\nIl sourit l\u00e9g\u00e8rement sur la photo.\nPas un grand sourire \u2014 juste le coin des l\u00e8vres relev\u00e9,\ncomme quelqu'un qui fait bonne figure\nparce que c'est ce qu'on attend de lui ce matin-l\u00e0.",
+        "prix_reel": null,
+        "vrai": 0,
+        "faux": 1
+    },
+    {
+        "id": 35,
+        "nom": "admin",
+        "titre": "Le Gamin de Manchester",
+        "epoque": "1908",
+        "lieu": "Manchester, Angleterre",
+        "categorie": "photo",
+        "img": "image\/30.jpg",
+        "story": "Il a peut-\u00eatre dix ans. Peut-\u00eatre douze.\nLa veste est trop grande \u2014 elle appartenait probablement \u00e0 son p\u00e8re ou \u00e0 un fr\u00e8re a\u00een\u00e9.\nLes bottes sont us\u00e9es mais lac\u00e9es proprement.\nQuelqu'un a pris soin de les lacer avant la photo.\nLa casquette est inclin\u00e9e d'un c\u00f4t\u00e9, comme par habitude,\ncomme quelqu'un qui la met chaque matin sans y penser.\n\nIl sourit presque.\nPas tout \u00e0 fait \u2014 juste le coin droit de la bouche, l\u00e9g\u00e8rement relev\u00e9.\nComme un enfant qui essaie d'avoir l'air s\u00e9rieux\nmais qui n'y arrive pas compl\u00e8tement.\n\nEn 1908 \u00e0 Manchester, un gar\u00e7on de cet \u00e2ge travaillait d\u00e9j\u00e0.\nLes lois sur le travail des enfants existaient depuis 1833,\nmais elles \u00e9taient mal appliqu\u00e9es dans les quartiers ouvriers.\nOn le trouvait dans les usines, les mines, les march\u00e9s,\n\u00e0 livrer des journaux avant l'aube ou \u00e0 porter des caisses sur les docks.\n\nSes mains sont grandes pour son \u00e2ge.\nSes yeux regardent l'objectif sans peur et sans enthousiasme particulier.\nComme quelqu'un qui a vu des choses, pas toutes belles,\net qui a appris \u00e0 ne pas trop montrer ce qu'il ressent.\n\nQuelqu'un a pay\u00e9 le photographe ce jour-l\u00e0.\nPeut-\u00eatre sa m\u00e8re, avec des \u00e9conomies mises de c\u00f4t\u00e9 pendant des semaines.\nUne photo co\u00fbtait cher pour une famille ouvri\u00e8re de Manchester en 1908.\nOn ne la faisait pas sans raison.\n\nPeut-\u00eatre \u00e9tait-ce son anniversaire.\nPeut-\u00eatre partait-il travailler ailleurs, loin, et c'\u00e9tait un souvenir.\nPeut-\u00eatre sa m\u00e8re voulait simplement quelque chose \u00e0 garder de lui,\nalors qu'il \u00e9tait encore l\u00e0, encore petit, encore \u00e0 elle.\n\nIl est debout, les bras le long du corps, les pieds l\u00e9g\u00e8rement \u00e9cart\u00e9s.\nComme quelqu'un qui a appris \u00e0 tenir sa place dans le monde\nsans prendre trop d'espace.\n\nOn ne sait pas ce qu'il est devenu.\nMais ce matin-l\u00e0, il souriait presque.",
+        "prix_reel": null,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 36,
+        "nom": "admin",
+        "titre": "Who Said There's No Boys in Chicago",
+        "epoque": "1920",
+        "lieu": "Chicago, \u00c9tats-Unis",
+        "categorie": "photo",
+        "img": "image\/31.jpg",
+        "story": "La pancarte dit tout.\nWho said there's no boys in Chicago.\nEt elles sourient, cigarettes \u00e0 la main, chapeaux sur la t\u00eate, costumes d'hommes sur le dos.\nDouze femmes qui ont d\u00e9cid\u00e9 ce matin-l\u00e0 de trouver \u00e7a dr\u00f4le.\n\nOn est en 1920 \u00e0 Chicago.\nLe 19e amendement vient d'\u00eatre ratifi\u00e9 \u2014 les femmes am\u00e9ricaines ont le droit de vote depuis quelques mois.\nLa Prohibition vient de commencer \u2014 l'alcool est interdit depuis janvier.\nLa ville est en \u00e9bullition, les speakeasies ouvrent en secret,\nle jazz sort des clubs de jazz du South Side et envahit tout.\nQuelque chose change. Tout le monde le sent.\n\nCes femmes le sentent aussi.\nElles ont lou\u00e9 ou emprunt\u00e9 des costumes masculins \u2014 vestes, cravates, chapeaux f\u00e9dora.\nElles ont allum\u00e9 des cigarettes parce que fumer en public \u00e9tait encore scandaleux pour une femme,\net elles ont fait une photo pour dire exactement ce qu'elles pensaient du scandale.\n\nCertaines rient franchement. D'autres gardent une expression s\u00e9rieuse, presque provocatrice.\nCelle du milieu au premier rang tient la pancarte des deux mains,\nle regard droit vers l'objectif.\nElle ne plaisante qu'\u00e0 moiti\u00e9.\n\nOn ne sait pas qui elles sont.\nPeut-\u00eatre des \u00e9tudiantes. Peut-\u00eatre des ouvri\u00e8res.\nPeut-\u00eatre des amies d'un m\u00eame quartier qui se retrouvaient chaque semaine\net qui ce jour-l\u00e0 ont d\u00e9cid\u00e9 de faire quelque chose de diff\u00e9rent.\n\nLe photographe \u00e9tait probablement l'une d'entre elles \u2014\nune qui savait manier un appareil et qui n'\u00e9tait pas sur la photo.\nOu un ami complice qui comprenait la blague et voulait en faire partie.\n\nCette photo a circul\u00e9. Elle a \u00e9t\u00e9 montr\u00e9e, cach\u00e9e, retrouv\u00e9e.\nElle dit quelque chose sur une g\u00e9n\u00e9ration de femmes\nqui avaient attendu trop longtemps\net qui avaient d\u00e9cid\u00e9 de ne plus attendre.",
+        "prix_reel": null,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 37,
+        "nom": "sara",
+        "titre": "Le Sablier du M\u00e9decin de Peste",
+        "epoque": "1348",
+        "lieu": "Venise, Italie",
+        "categorie": "instrument de mesure",
+        "img": "image\/32.jpg",
+        "story": "Il mesurait exactement une heure.\nPas plus. Pas moins.\nUne heure \u2014 le temps qu'un m\u00e9decin passait au chevet d'un pestif\u00e9r\u00e9\navant de devoir quitter la chambre, se laver, changer de v\u00eatements\net passer au suivant.\n\nVenise, 1348.\nLa Peste Noire venait d'arriver par les bateaux en provenance de Crim\u00e9e.\nEn six mois, la ville perdit un tiers de sa population.\nLes m\u00e9decins travaillaient sans rel\u00e2che, sans comprendre ce qu'ils combattaient,\nsans savoir pourquoi certains mouraient et d'autres survivaient.\n\nCe sablier appartenait au docteur Marco Foscari.\nIl l'avait fait fabriquer par un orf\u00e8vre de Murano \u2014\nle verre souffl\u00e9 dans l'atelier, le cadre en argent command\u00e9 s\u00e9par\u00e9ment,\nles deux assembl\u00e9s avec une pr\u00e9cision inhabituelle pour l'\u00e9poque.\nIl voulait quelque chose de solide. Quelque chose qui tiendrait.\n\nChaque matin il le retournait en entrant chez son premier patient.\nChaque soir il le posait sur sa table, vide de sable,\net comptait combien de fois il l'avait retourn\u00e9 dans la journ\u00e9e.\nC'\u00e9tait sa fa\u00e7on de mesurer non pas le temps,\nmais ce qu'il avait pu faire avec.\n\nIl surv\u00e9cut \u00e0 la premi\u00e8re vague de peste.\nEt \u00e0 la deuxi\u00e8me.\nIl mourut en 1362, d'une fi\u00e8vre ordinaire, dans son lit,\nentour\u00e9 de ses livres et de ses instruments.\nLe sablier \u00e9tait sur la table de nuit.\n\nSes \u00e9l\u00e8ves le gard\u00e8rent comme une relique.\nPas parce qu'il \u00e9tait beau, bien qu'il le f\u00fbt.\nParce qu'il repr\u00e9sentait quelque chose qu'aucun livre de m\u00e9decine ne pouvait enseigner \u2014\nla discipline de continuer, heure apr\u00e8s heure,\nquand tout autour de soi s'effondre.",
+        "prix_reel": 2000,
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": 38,
+        "nom": "sara",
+        "titre": "L'Encrier du Po\u00e8te Exil\u00e9",
+        "epoque": "1820",
+        "lieu": "Istanbul, Turquie",
+        "categorie": "instrument d'\u00e9criture",
+        "img": "image\/33.jpg",
+        "story": "Il \u00e9crivait toujours \u00e0 l'encre verte.\nPas par fantaisie \u2014 par conviction.\nIl disait que l'encre noire \u00e9tait l'encre des actes officiels, des contrats, des condamnations.\nL'encre verte \u00e9tait celle de la po\u00e9sie. De ce qui dure autrement.\n\nSon nom \u00e9tait Kemal Bey.\nPo\u00e8te ottoman, n\u00e9 \u00e0 Istanbul en 1789,\nexil\u00e9 \u00e0 Rhodes en 1821 pour avoir \u00e9crit des vers jug\u00e9s s\u00e9ditieux par le Sultan.\nIl avait trente-deux ans.\nIl emporta trois choses dans son exil \u2014 ses livres, sa plume de bronze, son encrier.\n\nL'encrier \u00e9tait en verre sombre serti de m\u00e9tal grav\u00e9,\nfabriqu\u00e9 par un artisan du Grand Bazar qu'il connaissait depuis l'enfance.\nLa plume \u00e9tait en bronze \u00e9galement, avec une fleur de lys sculpt\u00e9e \u00e0 la jonction \u2014\nun ornement qu'on trouvait dans toute la M\u00e9diterran\u00e9e \u00e0 cette \u00e9poque,\nfronti\u00e8re floue entre les cultures qui se touchaient sans se dire qu'elles se touchaient.\n\n\u00c0 Rhodes, il continua \u00e0 \u00e9crire.\nPas des pamphlets. Pas des textes politiques.\nDes po\u00e8mes sur la mer, sur la lumi\u00e8re du soir sur les pierres blanches,\nsur les oiseaux qui passaient sans savoir qu'il y avait une fronti\u00e8re.\n\nIl envoyait ses po\u00e8mes \u00e0 Istanbul en secret,\ngliss\u00e9s dans des lettres commerciales, entre deux lignes de comptabilit\u00e9 invent\u00e9e.\nSes amis les copiaient \u00e0 la main et les faisaient circuler dans les caf\u00e9s.\nLe Sultan n'en sut rien. Ou fit semblant de ne rien savoir.\n\nKemal Bey rentra \u00e0 Istanbul en 1831, dix ans apr\u00e8s son exil.\nLa ville avait chang\u00e9. Lui aussi.\nIl posa son encrier sur son bureau, le m\u00eame bureau qu'avant,\net trempa sa plume dans l'encre verte.\n\nIl \u00e9crivit toute la nuit.\nComme si dix ans n'avaient pas pass\u00e9.\nComme si les mots l'avaient attendu.",
+        "prix_reel": 1000,
+        "vrai": 0,
+        "faux": 0
+    }
 ]
-
-
-
-
-

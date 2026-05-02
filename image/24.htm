@@ -1,0 +1,1161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	
+	<!-- importing favicon -->
+	<link rel="icon" href="/favicon.png" sizes="32x32">
+	<link rel="icon" href="/favicon.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="/favicon.png">
+
+	<!-- importing fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/lub0cxa.css">
+
+			<!-- Google Tag Manager -->
+		<script>
+			(function(w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({
+					'gtm.start': new Date().getTime(),
+					event: 'gtm.js'
+				});
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'cmc_gtm_dataLayer', 'GTM-KVXBQVL4');
+		</script>
+		<!-- End Google Tag Manager -->
+		<script>
+		window.gtag = window.gtag || function() {
+			window.cmc_gtm_dataLayer = window.cmc_gtm_dataLayer || [],
+			window.cmc_gtm_dataLayer.push(arguments)
+		}
+	</script>
+	<!-- Facebook Pixel -->
+	<script>
+		! function(f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function() {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '157638571845782');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=157638571845782&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel -->
+
+	<!-- Outbrain script -->
+	<script type="text/javascript" async="async" src="https://widgets.outbrain.com/outbrain.js"></script>
+
+	<!-- TMG ads code start -->
+	<!-- Load Pubsub Library -->
+	<script>(()=>{"use strict";var e,r={},t={};function o(e){var n=t[e];if(void 0!==n)return n.exports;var i=t[e]={exports:{}};return r[e].call(i.exports,i,i.exports,o),i.exports}o.m=r,e=[],o.O=(r,t,n,i)=>{if(!t){var l=1/0;for(s=0;s<e.length;s++){for(var[t,n,i]=e[s],a=!0,u=0;u<t.length;u++)(!1&i||l>=i)&&Object.keys(o.O).every((e=>o.O[e](t[u])))?t.splice(u--,1):(a=!1,i<l&&(l=i));if(a){e.splice(s--,1);var f=n();void 0!==f&&(r=f)}}return r}i=i||0;for(var s=e.length;s>0&&e[s-1][2]>i;s--)e[s]=e[s-1];e[s]=[t,n,i]},o.n=e=>{var r=e&&e.__esModule?()=>e.default:()=>e;return o.d(r,{a:r}),r},o.d=(e,r)=>{for(var t in r)o.o(r,t)&&!o.o(e,t)&&Object.defineProperty(e,t,{enumerable:!0,get:r[t]})},o.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),o.o=(e,r)=>Object.prototype.hasOwnProperty.call(e,r),o.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},(()=>{var e={8:0};o.O.j=r=>0===e[r];var r=(r,t)=>{var n,i,[l,a,u]=t,f=0;if(l.some((r=>0!==e[r]))){for(n in a)o.o(a,n)&&(o.m[n]=a[n]);if(u)var s=u(o)}for(r&&r(t);f<l.length;f++)i=l[f],o.o(e,i)&&e[i]&&e[i][0](),e[i]=0;return o.O(s)},t=self["tmg.build"]=self["tmg.build"]||[];t.forEach(r.bind(null,0)),t.push=r.bind(null,t.push.bind(t))})()})();"use strict";(self["tmg.build"]=self["tmg.build"]||[]).push([[886,2,209],{414:(t,e,i)=>{i.d(e,{Z:()=>a});var r=i(453);class s{constructor(t){this.params=Object.assign({accordionSelector:"[data-accordion]",triggerSelector:"[data-accordion-trigger]",contentSelector:"[data-accordion-content]",hideClasses:["accordion--is-collapsed"]},t)}init(){const t=document.querySelectorAll(this.params.accordionSelector);t.length>0&&t.forEach((t=>{this.setTriggerListeners(t)}))}setTriggerListeners(t){let e=t.querySelector(this.params.triggerSelector);e&&e.addEventListener("click",(e=>{const i=t.dataset.accordionAnimate,r=parseInt(t.dataset.accordionMaxScreenWidth);(0===r||window.innerWidth<r)&&(e.preventDefault(),i?this.animateAccordion(t):this.toggleClass(t),this.toggleState(t))}))}toggleClass(t){this.params.hideClasses.forEach((e=>{t.classList.toggle(e)}))}toggleState(t){const e=t.querySelector(this.params.contentSelector);null!==e.getAttribute("aria-hidden")&&e.setAttribute("aria-hidden","false"===e.getAttribute("aria-hidden")?"true":"false");const i=t.querySelector(this.params.triggerSelector);null!==i.getAttribute("aria-expanded")&&(i.setAttribute("aria-expanded","false"===i.getAttribute("aria-expanded")?"true":"false"),this.toggleAccordionFocus(e,i)),null!==i.getAttribute("aria-label")&&i.hasAttribute("toggle-aria-label")&&this.toggleAriaLabel(i)}animateAccordion(t){const e=document.getElementById(t.dataset.accordionAnimate),i=e.clientHeight,r=e.scrollHeight,s=!i,a=e.style.height;if(t.classList.toggle("accordion--animation-collapsed"),e.style.height=(s||!a?r:0)+"px",!a)return t.classList.toggle("accordion--animation-collapsed"),this.animateAccordion(t)}toggleAriaLabel(t){const e=t.getAttribute("aria-label"),i="Show",r="Hide";if(e.startsWith(i)||e.startsWith(r)){const s=e.startsWith(i)?e.replace(i,r):e.replace(r,i);t.setAttribute("aria-label",s)}}toggleAccordionFocus(t,e){"true"===e.getAttribute("aria-expanded")?t.focus():e.focus()}}r.Z.subscribe({topic:"tmg.page.ready",func:()=>{new s({hideClasses:["accordion--is-collapsed","accordion--is-expanded"]}).init()},runIfAlreadyPublished:!0});const a=s},453:(t,e,i)=>{i.d(e,{Z:()=>a});var r=i(384);const s=new class{constructor(){this.topics=[],this.publishedTopics=[],this.UID=-1}subscribe({topic:t,func:e,runIfAlreadyPublished:i}){if("function"!=typeof e)return!1;if(i)for(let i=0;i<this.publishedTopics.length;i++)this.publishedTopics[i]===t&&e.call();const r=(this.UID+=1).toString();return this.topics.push({token:r,topic:t,func:e}),r}unsubscribe({topic:t,token:e}){for(let i=0;i<this.topics.length;i++)this.topics[i].token===e&&this.topics[i].topic===t&&this.topics.splice(i,1)}publish({topic:t}){this.publishedTopics.push(t);for(let e=0;e<this.topics.length;e++)this.topics[e].topic===t&&this.topics[e].func.call()}};r.Z.create("tmg.pubsub"),window.tmg.pubsub=s;const a=s},964:(t,e,i)=>{i.r({});var r=i(414);const s=new class{constructor(t){this.queryParamArray=[t,"debug","martech_debug"]}init(){this.disableConsoleLogs()}disableConsoleLogs(){this.isDebugging()||(console.log=function(){})}isDebugging(){const t=new URLSearchParams(window.location.search);let e;return this.queryParamArray.forEach((i=>{t.get(i)&&(e=i)})),"true"===t.get(e)}};var a=i(453);a.Z.subscribe({topic:"tmg.polyfill.ready",func:()=>{a.Z.publish({topic:"tmg.page.ready"})},runIfAlreadyPublished:!0});var n=i(384);class o{constructor(){n.Z.create("tmg.polyfill"),this.race()}static complete(){window.tmg.polyfill.complete=()=>{},a.Z.publish({topic:"tmg.polyfill.ready"})}race(){return setTimeout((()=>{window.tmg.polyfill.complete()}),3e3)}}new o,window.tmg.polyfill={complete:o.complete};var c=[],l=[],u="RUM_start",g=window.performance||{},d=Date.now?Date.now():+new Date;const m=()=>{if(g){if(g.now)return g.now();if(g.webkitNow)return g.now();if(g.msNow)return g.now();if(g.mozNow)return g.now()}return(Date.now?Date.now():+new Date)-d};function p(t){return function(t,e){for(var i=e.length-1;i>=0;i--){var r=e[i];if(t===r.name)return r}}(t,h())}function h(){if(g){if(g.getEntriesByType)return g.getEntriesByType("mark");if(g.webkitGetEntriesByType)return g.webkitGetEntriesByType("mark")}return c}let f={now:m,mark:function(t){if(g){if(g.mark)return g.mark(t);if(g.webkitMark)return g.webkitMark(t)}c.push({name:t,entryType:"mark",startTime:m(),duration:0})},measure:function(t,e,i){var r=0,s=m();if(void 0===e&&p(u)&&(e=u),g){if(g.measure)return e?i?g.measure(t,e,i):g.measure(t,e):g.measure(t);if(g.webkitMeasure)return g.webkitMeasure(t,e,i)}if(e){var a=p(e);if(a)r=a.startTime;else{if(!(g&&g.timing&&g.timing[e]))return;r=g.timing[e]-g.timing.navigationStart}}if(i){var n=p(i);if(n)s=n.startTime;else{if(!(g&&g.timing&&g.timing[i]))return;s=g.timing[i]-g.timing.navigationStart}}l.push({name:t,entryType:"measure",startTime:r,duration:s-r})},marks:c,measures:l};window.RUM=f,g&&g.timing&&g.timing.navigationStart&&(d=g.timing.navigationStart),window.addEventListener("beforeunload",(function(){var t=function(){var t=document.cookie.match("(^|;)\\s*AMCV_2C7336C753C676BA0A490D4B%40AdobeOrg\\s*=\\s*([^;]+)");return t?decodeURIComponent(t.pop()).split("|")[4]:""}(),e=h();if(t&&"ga"in window)for(var i=e.length-1;i>=0;i--){var r=e[i],s=r.name.split("_"),a=s[0],n=s[1],o=s[2],c=Math.round(r.startTime);a&&n&&o&&c&&ga("send",{hitType:"timing",timingCategory:a,timingVar:n,timingValue:c,timingLabel:o})}}));a.Z.subscribe({topic:"tmg.page.ready",func:()=>{const t="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,(function(t){var e=16*Math.random()|0;return("x"===t?e:3&e|8).toString(16)}));return void 0!==n.Z&&n.Z.create&&(n.Z.create("tmg.instanceId"),window.tmg.instanceId=t),t},runIfAlreadyPublished:!0}),new class{constructor(t){this.selectorClass=t||"no-js",this.removeClass()}removeClass(){const t=document.querySelector(`.${this.selectorClass}`);t&&t.classList.remove(this.selectorClass)}},n.Z,a.Z,s.init(),r.Z},384:(t,e,i)=>{i.d(e,{Z:()=>s}),window.tmg=window.tmg||{};const r=function(t){try{let e=tmg,i=t.split(".");return"tmg"===i[0]&&(i=i.slice(1)),i.forEach((t=>{void 0===e[t]&&(e[t]={}),e=e[t]})),e}catch(e){console.warn("couldn't create namespace:",t)}};window.tmg.createNamespace=r;const s={create:r}}},t=>{t(t.s=964)}]);</script>
+	<!-- polyfill for TMG ads -->
+	<script src="https://polyfill-fastly.io/v3/polyfill.min.js?flags=gated&features=default,fetch,IntersectionObserver,NodeList.prototype.forEach,Array.prototype.@@iterator&Array.prototype.includes&Array.prototype.find&callback=tmg.polyfill.complete" defer></script>
+	
+	<!-- Load Sourcepoint payload -->
+		<meta name="tmgads.channel" content="artistsandillustrators" />
+	<meta name="tmgads.businessSegment" content="artistsandillustrators" />
+	<meta name="tmgads.section" />
+	<meta name="tmgads.zone" content="artistsandillustrators" />
+	<meta name="tmgads.articleid" content="24878" />
+	<meta name="tmgads.pagetype" content="story" />
+	<meta name="tmgads.level" content="0" />
+	<meta name="tmgads.otherdata" />
+	
+      
+        <meta name="tmgads.geo" content="FR"></meta>
+      
+    
+	<meta name="tmgads.keywords" />
+	<meta name="tmg.app" content="false" />
+	<script>
+		var dataLayer = {
+			pageName: '',
+			pageType: 'articleRenderer',
+			pageId: '',
+			conceptIds: '[]',
+			rollupContentPath: 'artistsandillustrators',
+			videoEmbedded: 'false',
+			videoEmbedCount: '0',
+			premiumContent: 'false',
+			premiumOverride: 'false'
+		};
+	</script>
+
+
+	<script>
+		var tmgAds = tmgAds || {};
+		tmgAds.sticky = false;
+	</script>
+
+	<script src="https://static.telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js" defer></script>
+
+	<script src="https://static.telegraph.co.uk/telegraph-advertising/tmg-gpt.min.js" defer></script>
+
+	<link rel="stylesheet" href="https://static.telegraph.co.uk/develop/telegraph-advertising/cmc/cmc-commercial.css">
+	<!-- TMG ads code end -->
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://www.artistsandillustrators.co.uk/wp-content/themes/artists/style.min.css?v=1" rel="stylesheet">
+	<!-- Bootstrap icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>How to copy the Old Masters - Artists &amp; Illustrators</title>
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO Premium plugin v20.11 (Yoast SEO v20.11) - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Making a quick oil sketch of an Old Master painting not only helps you understand techniques, but also teaches you a lot about yourself, says Sara Lee Roberts" />
+	<link rel="canonical" href="https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="How to copy the Old Masters" />
+	<meta property="og:description" content="Making a quick oil sketch of an Old Master painting not only helps you understand techniques, but also teaches you a lot about yourself, says Sara Lee Roberts" />
+	<meta property="og:url" content="https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/" />
+	<meta property="og:site_name" content="Artists &amp; Illustrators" />
+	<meta property="article:publisher" content="https://www.facebook.com/ArtistsAndIllustrators" />
+	<meta property="article:published_time" content="2023-07-17T09:00:00+00:00" />
+	<meta property="article:modified_time" content="2023-07-17T09:12:14+00:00" />
+	<meta property="og:image" content="https://www.artistsandillustrators.co.uk/wp-content/uploads/2021/11/copying-old-masters.jpg" />
+	<meta property="og:image:width" content="500" />
+	<meta property="og:image:height" content="300" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Artists &amp; Illustrators" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@test" />
+	<meta name="twitter:site" content="@AandImagazine" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Artists &amp; Illustrators" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="11 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/#article","isPartOf":{"@id":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/"},"author":{"name":"Artists &amp; Illustrators","@id":"https://www.artistsandillustrators.co.uk/#/schema/person/ee9243e22f71f04b89901f06c32dd37f"},"headline":"How to copy the Old Masters","datePublished":"2023-07-17T09:00:00+00:00","dateModified":"2023-07-17T09:12:14+00:00","mainEntityOfPage":{"@id":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/"},"wordCount":1991,"commentCount":0,"publisher":{"@id":"https://www.artistsandillustrators.co.uk/#organization"},"image":{"@id":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/#primaryimage"},"thumbnailUrl":"https://www.artistsandillustrators.co.uk/wp-content/uploads/2021/11/copying-old-masters.jpg","keywords":["Art","life drawing","oil painting","Painting","portraits"],"articleSection":["Oil Painting"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/#respond"]}]},{"@type":"WebPage","@id":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/","url":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/","name":"How to copy the Old Masters - Artists &amp; Illustrators","isPartOf":{"@id":"https://www.artistsandillustrators.co.uk/#website"},"primaryImageOfPage":{"@id":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/#primaryimage"},"image":{"@id":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/#primaryimage"},"thumbnailUrl":"https://www.artistsandillustrators.co.uk/wp-content/uploads/2021/11/copying-old-masters.jpg","datePublished":"2023-07-17T09:00:00+00:00","dateModified":"2023-07-17T09:12:14+00:00","description":"Making a quick oil sketch of an Old Master painting not only helps you understand techniques, but also teaches you a lot about yourself, says Sara Lee Roberts","breadcrumb":{"@id":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/#primaryimage","url":"https://www.artistsandillustrators.co.uk/wp-content/uploads/2021/11/copying-old-masters.jpg","contentUrl":"https://www.artistsandillustrators.co.uk/wp-content/uploads/2021/11/copying-old-masters.jpg","width":500,"height":300},{"@type":"BreadcrumbList","@id":"https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.artistsandillustrators.co.uk/"},{"@type":"ListItem","position":2,"name":"How To Guides","item":"https://www.artistsandillustrators.co.uk/category/how-to/"},{"@type":"ListItem","position":3,"name":"Oil Painting","item":"https://www.artistsandillustrators.co.uk/category/how-to/oil-painting/"},{"@type":"ListItem","position":4,"name":"How to copy the Old Masters"}]},{"@type":"WebSite","@id":"https://www.artistsandillustrators.co.uk/#website","url":"https://www.artistsandillustrators.co.uk/","name":"Artists &amp; Illustrators","description":"","publisher":{"@id":"https://www.artistsandillustrators.co.uk/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.artistsandillustrators.co.uk/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.artistsandillustrators.co.uk/#organization","name":"Artists & Illustrators","url":"https://www.artistsandillustrators.co.uk/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.artistsandillustrators.co.uk/#/schema/logo/image/","url":"https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/artists-and-Illustrators-logo.png","contentUrl":"https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/artists-and-Illustrators-logo.png","width":2544,"height":967,"caption":"Artists & Illustrators"},"image":{"@id":"https://www.artistsandillustrators.co.uk/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/ArtistsAndIllustrators","https://twitter.com/AandImagazine","https://www.instagram.com/aandimagazine","https://www.pinterest.com/aandimagazine"]},{"@type":"Person","@id":"https://www.artistsandillustrators.co.uk/#/schema/person/ee9243e22f71f04b89901f06c32dd37f","name":"Artists &amp; Illustrators","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.artistsandillustrators.co.uk/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/40c616ca5ba58f8a375c4e93d261e3abc8223bd5b6b885f32ae3405854090c67?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/40c616ca5ba58f8a375c4e93d261e3abc8223bd5b6b885f32ae3405854090c67?s=96&d=mm&r=g","caption":"Artists &amp; Illustrators"},"sameAs":["https://twitter.com/test"],"url":"https://www.artistsandillustrators.co.uk/author/artists-and-illustrators/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.artistsandillustrators.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.artistsandillustrators.co.uk/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="https://api.w.org/" href="https://www.artistsandillustrators.co.uk/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.artistsandillustrators.co.uk/wp-json/wp/v2/posts/24878" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.artistsandillustrators.co.uk/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<link rel='shortlink' href='https://www.artistsandillustrators.co.uk/?p=24878' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.artistsandillustrators.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.artistsandillustrators.co.uk%2Fhow-to%2Foil-painting%2Fhow-to-copy-the-old-masters%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.artistsandillustrators.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.artistsandillustrators.co.uk%2Fhow-to%2Foil-painting%2Fhow-to-copy-the-old-masters%2F&#038;format=xml" />
+<link rel="icon" href="https://www.artistsandillustrators.co.uk/wp-content/uploads/2022/09/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.artistsandillustrators.co.uk/wp-content/uploads/2022/09/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.artistsandillustrators.co.uk/wp-content/uploads/2022/09/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.artistsandillustrators.co.uk/wp-content/uploads/2022/09/cropped-favicon-270x270.png" />
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="SPF4D-VNJZY-MRZB3-GKFAB-U6X9Y",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"SPF4D-VNJZY-MRZB3-GKFAB-U6X9Y";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="qbh3pqyxzm6sc2pv2vqq-f-1ccb411a6-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1468321","ak.ai":parseInt("915994",10),"ak.ol":"0","ak.cr":16,"ak.ipv":4,"ak.proto":"h2","ak.rid":"1f58bbee","ak.r":53279,"ak.a2":n,"ak.m":"r","ak.n":"ff","ak.cport":65157,"ak.gh":"23.213.203.33","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1777718625","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==9LDIcFQ10Ed86Sm9XFAgQnhmWh6J1BN49uUaMZtJMgrLYOm7EWjO7Ibk85Wg4o71Isva/iT/IvWEoE8VTcT5o+05LoFMTaZHu+mTguor8wnUXxvDtyPKMEd51KTEujxGlf51lGq6dy8YCbmUiImdzFLvinARz31f7axYO5FmcFB7CSgqRQdiqEBwLJ64CKfLa4vQaLNf89Lq6k2C9TgS4taO4aL4i5GP4+f7c5OzUrClUA0Mh85XffdimnhlhprWZRdp4UYu+2NBzHXTNJPLFIvVbdAqY/mEG7Ue1TUrV/xjfOMpu1JKQuO+Dka3GAEOpocOzRpAEog6IcpV8PTKnoqby59T19Fh0ZIvvfQ1mPGSs+8biP7uaX4xFhcP5mCpG4DJp+PAfekNSrUsc1LucBd1EyQoclO0bWpWeo136CU=","ak.pv":"199","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVXBQVL4"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<nav id="navbar-top" class="navbar-expand-lg navbar-light bg-white shadow-sm" style="position:relative;z-index:1021">
+					<div id="advert_tmg_ban" class="advert js-advert js-advert-banner advert--banner advert--header" data-perf="advert-banner" data-test="advert-banner">
+			</div>
+				<div class="navbar px-lg-4 mx-auto" id="scrollcollapse" style="max-width:1400px;">
+			<a class="position-absolute d-lg-none ps-3" type="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" id="td-top-mobile-toggle">
+				<span class="navbar-toggler-icon"></span>
+			</a>
+			<div class="offcanvas offcanvas-start d-lg-none border-0" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="visibility: hidden;" aria-modal="true" role="dialog">
+				<div class="offcanvas-header border-bottom">
+					<div class="nav-social-outer mt-2">
+						<a target="_blank" class="btn fa fa-facebook opacity-100 p-0 me-2" href="https://www.facebook.com/ArtistsAndIllustrators"></a>
+						<a target="_blank" class="btn fa fa-twitter opacity-100 p-0 me-2" href="https://twitter.com/AandImagazine"></a>
+						<a target="_blank" class="btn fa fa-instagram opacity-100 p-0 me-2" href="https://www.instagram.com/aandimagazine"></a>
+						<a target="_blank" class="btn fa fa-pinterest opacity-100 p-0" href="https://www.pinterest.com/aandimagazine"></a>
+					</div>
+					<button style="background:none !important;" type="button" class="btn-close border-0 fs-1" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
+				</div>
+				<div class="offcanvas-body" style="padding-bottom:130px">
+					<div class="menu-main-container"><ul id="menu-main" class="navbar-nav mr-auto d-block" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li  id="menu-item-26216" class="d-lg-none menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-26216 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/" class="nav-link"><span itemprop="name">Home</span></a></li>
+<li  id="menu-item-18018" class="dropdown-columns menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children dropdown menu-item-18018 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a href="https://www.artistsandillustrators.co.uk/category/how-to/" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-18018"><span itemprop="name">How To Guides</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-18018">
+	<li  id="menu-item-18190" class="d-lg-none menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-18190 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/" class="dropdown-item"><span itemprop="name">All</span></a></li>
+	<li  id="menu-item-18048" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18048 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/abstract/" class="dropdown-item"><span itemprop="name">Abstract</span></a></li>
+	<li  id="menu-item-18049" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18049 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/acrylic/" class="dropdown-item"><span itemprop="name">Acrylic</span></a></li>
+	<li  id="menu-item-18050" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18050 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/animals-wildlife/" class="dropdown-item"><span itemprop="name">Animals &amp; Wildlife</span></a></li>
+	<li  id="menu-item-18051" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18051 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/art-theory/" class="dropdown-item"><span itemprop="name">Art Theory</span></a></li>
+	<li  id="menu-item-18052" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18052 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/buildings-architecture/" class="dropdown-item"><span itemprop="name">Buildings &amp; Architecture</span></a></li>
+	<li  id="menu-item-18053" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18053 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/contemporary/" class="dropdown-item"><span itemprop="name">Contemporary</span></a></li>
+	<li  id="menu-item-18054" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18054 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/drawing/" class="dropdown-item"><span itemprop="name">Drawing</span></a></li>
+	<li  id="menu-item-18055" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18055 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/family-art/" class="dropdown-item"><span itemprop="name">Family Art</span></a></li>
+	<li  id="menu-item-18056" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18056 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/floral-nature/" class="dropdown-item"><span itemprop="name">Floral &amp; Nature</span></a></li>
+	<li  id="menu-item-18057" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18057 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/framing-varnish/" class="dropdown-item"><span itemprop="name">Framing &amp; Varnish</span></a></li>
+	<li  id="menu-item-18058" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18058 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/illustration/" class="dropdown-item"><span itemprop="name">Illustration</span></a></li>
+	<li  id="menu-item-18059" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18059 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/ink/" class="dropdown-item"><span itemprop="name">Ink</span></a></li>
+	<li  id="menu-item-18060" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18060 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/landscapes/" class="dropdown-item"><span itemprop="name">Landscapes</span></a></li>
+	<li  id="menu-item-18061" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18061 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/marketing-your-art/" class="dropdown-item"><span itemprop="name">Marketing your art</span></a></li>
+	<li  id="menu-item-18062" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent active menu-item-18062 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/oil-painting/" class="dropdown-item"><span itemprop="name">Oil Painting</span></a></li>
+	<li  id="menu-item-18063" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18063 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/pastels/" class="dropdown-item"><span itemprop="name">Pastels</span></a></li>
+	<li  id="menu-item-18064" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18064 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/portraits-figurative/" class="dropdown-item"><span itemprop="name">Portraits &amp; Figurative</span></a></li>
+	<li  id="menu-item-18065" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18065 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/printmaking/" class="dropdown-item"><span itemprop="name">Printmaking</span></a></li>
+	<li  id="menu-item-18066" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18066 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/sculpture/" class="dropdown-item"><span itemprop="name">Sculpture</span></a></li>
+	<li  id="menu-item-18067" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18067 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/still-life/" class="dropdown-item"><span itemprop="name">Still Life</span></a></li>
+	<li  id="menu-item-18068" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18068 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/watercolour/" class="dropdown-item"><span itemprop="name">Watercolour</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-34901" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children dropdown menu-item-34901 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a href="https://www.artistsandillustrators.co.uk/category/competitions/" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-34901"><span itemprop="name">Competitions</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-34901">
+	<li  id="menu-item-35082" class="stack-bap-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-35082 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://artopps.co.uk/opportunities/britishartprize26" class="dropdown-item"><span itemprop="name">The British Art Prize</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-29534" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29534 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/featured-artist/" class="nav-link"><span itemprop="name">Featured Artists</span></a></li>
+<li  id="menu-item-18046" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18046 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/news/" class="nav-link"><span itemprop="name">News</span></a></li>
+<li  id="menu-item-18152" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-18152 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a href="/about-us" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-18152"><span itemprop="name">Magazine</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-18152">
+	<li  id="menu-item-18154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18154 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/about-us/" class="dropdown-item"><span itemprop="name">About Us</span></a></li>
+	<li  id="menu-item-18153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18153 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/contact-us/" class="dropdown-item"><span itemprop="name">Contact Us</span></a></li>
+	<li  id="menu-item-34186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34186 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://shop.chelseamagazines.com/collections/artists-illustrators" class="dropdown-item"><span itemprop="name">Shop</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-18161" class="Bap-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-18161 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a href="https://www.britishartclub.co.uk" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-18161"><span itemprop="name">British Art Club</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-18161">
+	<li  id="menu-item-24998" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24998 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://www.britishartclub.co.uk/art-for-sale" class="dropdown-item"><span itemprop="name">Browse Art</span></a></li>
+	<li  id="menu-item-24999" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24999 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://www.britishartclub.co.uk/artists" class="dropdown-item"><span itemprop="name">Artists A-Z</span></a></li>
+	<li  id="menu-item-18163" class="dropdown-separator menu-item menu-item-type-custom menu-item-object-custom menu-item-18163 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a itemprop="url" href="#" class="dropdown-item"><span itemprop="name">.</span></a></li>
+	<li  id="menu-item-18159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18159 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://www.britishartclub.co.uk/register" class="dropdown-item"><span itemprop="name">Register</span></a></li>
+	<li  id="menu-item-18160" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18160 nav-item text-black text-uppercase fw-bold font-third wrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://www.britishartclub.co.uk/login" class="dropdown-item"><span itemprop="name">Log In</span></a></li>
+</ul>
+</li>
+</ul></div>				</div>
+
+				<!-- mobile subs & newsletter -->
+				<div class="d-block d-lg-none d-grid gap-0 mt-3 fixed-bottom" style="max-width:400px">
+					<a href="https://subscribe.chelseamagazines.com/singleitem?item=AAI&prom=MAIHP23&utm_medium=display&utm_source=web" class="btn btn-primary subs-btn rounded-0 py-2 text-uppercase fw-bold" id="stack-mobile-nav" style="background-color:transparent;border-color:transparent;color:transparent" target="_blank">Subscribe</a>
+					<a href="/newsletter/" class="btn btn-primary newsletter-btn nl-btn rounded-0 py-2 text-dark border-light bg-white text-uppercase fw-bold" style="background-color:#FFF;border-color:transparent;color:transparent">Newsletter</a>
+				</div>
+			</div>
+
+
+
+
+			<div class="d-flex justify-content-start mx-auto mx-lg-4 my-lg-2">
+				<a class="d-flex justify-content-start" href="https://www.artistsandillustrators.co.uk/">
+					<img class="td-retina-data" data-retina="/img/logos/artists-logo-red.png" src="/img/logos/artists-logo-red.png" alt="Artists & Illustrators"  style="width:200px!important;height: 76px !important">
+				</a>
+			</div>
+			<!-- mobile search -->
+			<a class="position-absolute d-lg-none ps-3 text-decoration-none text-dark" style="right:20px;" type="" data-bs-toggle="offcanvas" aria-label="Search" data-bs-target="#offcanvasSearch" aria-controls="#offcanvasSearchr" id="mod-search-toggle">
+				<i class="bi bi-search fs-5"></i>
+			</a>
+			<div class="offcanvas offcanvas-end d-lg-none border-0 w-100" tabindex="-1" id="offcanvasSearch" aria-labelledby="offcanvasNavbarLabel" style="visibility: hidden;" aria-modal="true" role="dialog">
+				<div class="offcanvas-header">
+					<button style="background:none !important;" type="button" class="btn-close border-0 fs-2 ms-auto me-0" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
+				</div>
+				<div>
+					<form class="d-flex" style="padding-top:25%" action="/">
+						<input class="form-control border-0 text-center w-75 border-bottom mx-auto font-third fw-bold" style="letter-spacing:1px" type="search" placeholder="SEARCH" aria-label="Search" name="s">
+					</form>
+				</div>
+			</div>
+
+			<!-- desktop subs & newsletter -->
+			<div class="d-none d-lg-flex justify-content-end mx-lg-4">
+				<div class="d-none d-lg-flex justify-content-end gx-2 d-grid gap-2">
+					<a href="https://subscribe.chelseamagazines.com/singleitem?item=AAI&prom=MAIHP23&utm_medium=display&utm_source=web" class="btn btn-primary subs-btn fs-6 rounded-0 px-4 py-1 m-auto text-uppercase fw-bold" id="stack-nav" style="background-color:transparent;border-color:transparent;color:#FFF" target="_blank">Subscribe</a>
+					<a href="/newsletter/" class="btn btn-outline-primary newsletter-btn nl-btn fs-6 rounded-0 px-4 py-1 m-auto text-dark border-light bg-white text-uppercase fw-bold" style="background-color:transparent;border-color:transparent;color:transparent">Newsletter</a>
+				</div>
+
+				<!-- desktop search -->
+				<button id="search-toggle-desktop" class="btn btn-link text-decoration-none text-dark py-0" data-bs-toggle="collapse" data-bs-target="#nav-search" aria-label="Search" aria-expanded="false" aria-controls="collapseExample"><i class="bi bi-search fs-5"></i> <i class="bi bi-chevron-down fs-5"></i>
+				</button>
+				<div class="collapse position-absolute bg-third rounded-0 p-0" id="nav-search" style="top:90px;right:150px;z-index:100">
+					<div class="p-1 bg-third rounded-0">
+						<form class="d-flex bg-white rounded-0" action="/">
+							<input id="search-input-desktop" class="form-control py-0 font-third fw-bold border-0" style="letter-spacing:1px" type="search" placeholder="SEARCH" aria-label="Search" name="s">
+							<button class="btn btn-link text-black border-0" type="submit"><i class="bi bi-search fs-5"></i></button>
+						</form>
+					</div>
+				</div>
+				<a target="_blank" href="https://www.artistsandillustrators.co.uk/latest-issue/artists-illustrators-magazine-latest-issue/"><img src="https://www.chelseamagazines.com/subscriptions/covers/current/AAI.jpg" style="height:120px"></a>
+			</div>
+
+		</div>
+
+
+
+		<div id="scroll-shadow" class="border-top border-dark border-2 py-2 d-none d-lg-flex justify-content-center bg-secondary">
+			<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse d-flex justify-content-center py-1"><ul id="menu-main-1" class="navbar-nav mx-auto d-flex justify-content-between max-width-1400 px-lg-4" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li  class="d-lg-none menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-26216 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/" class="nav-link"><span itemprop="name">Home</span></a></li>
+<li  class="dropdown-columns menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children dropdown menu-item-18018 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a href="https://www.artistsandillustrators.co.uk/category/how-to/" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-18018"><span itemprop="name">How To Guides</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-18018">
+	<li  class="d-lg-none menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-18190 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/" class="dropdown-item"><span itemprop="name">All</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18048 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/abstract/" class="dropdown-item"><span itemprop="name">Abstract</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18049 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/acrylic/" class="dropdown-item"><span itemprop="name">Acrylic</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18050 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/animals-wildlife/" class="dropdown-item"><span itemprop="name">Animals &amp; Wildlife</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18051 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/art-theory/" class="dropdown-item"><span itemprop="name">Art Theory</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18052 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/buildings-architecture/" class="dropdown-item"><span itemprop="name">Buildings &amp; Architecture</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18053 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/contemporary/" class="dropdown-item"><span itemprop="name">Contemporary</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18054 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/drawing/" class="dropdown-item"><span itemprop="name">Drawing</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18055 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/family-art/" class="dropdown-item"><span itemprop="name">Family Art</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18056 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/floral-nature/" class="dropdown-item"><span itemprop="name">Floral &amp; Nature</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18057 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/framing-varnish/" class="dropdown-item"><span itemprop="name">Framing &amp; Varnish</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18058 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/illustration/" class="dropdown-item"><span itemprop="name">Illustration</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18059 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/ink/" class="dropdown-item"><span itemprop="name">Ink</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18060 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/landscapes/" class="dropdown-item"><span itemprop="name">Landscapes</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18061 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/marketing-your-art/" class="dropdown-item"><span itemprop="name">Marketing your art</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent active menu-item-18062 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/oil-painting/" class="dropdown-item"><span itemprop="name">Oil Painting</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18063 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/pastels/" class="dropdown-item"><span itemprop="name">Pastels</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18064 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/portraits-figurative/" class="dropdown-item"><span itemprop="name">Portraits &amp; Figurative</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18065 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/printmaking/" class="dropdown-item"><span itemprop="name">Printmaking</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18066 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/sculpture/" class="dropdown-item"><span itemprop="name">Sculpture</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18067 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/still-life/" class="dropdown-item"><span itemprop="name">Still Life</span></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18068 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/watercolour/" class="dropdown-item"><span itemprop="name">Watercolour</span></a></li>
+</ul>
+</li>
+<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children dropdown menu-item-34901 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a href="https://www.artistsandillustrators.co.uk/category/competitions/" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-34901"><span itemprop="name">Competitions</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-34901">
+	<li  class="stack-bap-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-35082 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://artopps.co.uk/opportunities/britishartprize26" class="dropdown-item"><span itemprop="name">The British Art Prize</span></a></li>
+</ul>
+</li>
+<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29534 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/featured-artist/" class="nav-link"><span itemprop="name">Featured Artists</span></a></li>
+<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18046 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/news/" class="nav-link"><span itemprop="name">News</span></a></li>
+<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-18152 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a href="/about-us" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-18152"><span itemprop="name">Magazine</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-18152">
+	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18154 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/about-us/" class="dropdown-item"><span itemprop="name">About Us</span></a></li>
+	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18153 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/contact-us/" class="dropdown-item"><span itemprop="name">Contact Us</span></a></li>
+	<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34186 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://shop.chelseamagazines.com/collections/artists-illustrators" class="dropdown-item"><span itemprop="name">Shop</span></a></li>
+</ul>
+</li>
+<li  class="Bap-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-18161 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a href="https://www.britishartclub.co.uk" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-18161"><span itemprop="name">British Art Club</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-18161">
+	<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24998 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://www.britishartclub.co.uk/art-for-sale" class="dropdown-item"><span itemprop="name">Browse Art</span></a></li>
+	<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24999 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://www.britishartclub.co.uk/artists" class="dropdown-item"><span itemprop="name">Artists A-Z</span></a></li>
+	<li  class="dropdown-separator menu-item menu-item-type-custom menu-item-object-custom menu-item-18163 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a itemprop="url" href="#" class="dropdown-item"><span itemprop="name">.</span></a></li>
+	<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18159 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://www.britishartclub.co.uk/register" class="dropdown-item"><span itemprop="name">Register</span></a></li>
+	<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18160 nav-item fs-6 px-1 px-xl-2 mx-xxl-1 fw-bold text-black text-uppercase font-third nowrap menu-bold"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://www.britishartclub.co.uk/login" class="dropdown-item"><span itemprop="name">Log In</span></a></li>
+</ul>
+</li>
+</ul></div>
+		</div>
+
+
+
+	</nav>
+			<div class="d-block w-100 container-fluid py-2 shadow sticky-top nav-sticky-new" id="nav-sticky" style="display:none !important">
+			<div class="container text-center py-1">
+				<a href="" target="_blank" id="stack-nav-sticky" class="text-light fw-normal d-flex justify-content-center gap-2 stack-nav-sticky-new text-decoration-none flex-column flex-md-row">
+					<div id="stack-nav-sticky-copy" class="text-uppercase d-flex align-items-center justify-content-center gap-2 g-2" style="margin-right:5px"></div>
+					<div class="text-uppercase mx-auto mx-md-0 rounded-0 d-flex align-items-center" id="stack-nav-sticky-cta" style="background:black;color:white;padding:5px 12px;">Subscribe</div>
+				</a>
+			</div>
+		</div>
+	
+			<!-- HTML for Marketing Bar -->
+		<div class="fixed-bottom text-light desktop" id="mktbar" style="background:#1e2668;z-index:12000;display:none;">
+			<div class="container w-100 mx-auto d-flex position-relative justify-content-sm-start justify-content-center align-items-center" id="subs-header" style="max-width:1164px;">
+				<p class="text-uppercase m-0 py-3 position-absolute start-0 ps-3"><i class="bi bi-chevron-down"></i></p>
+				<p id="header-copy" class="text-uppercase m-0 py-3 ps-sm-4 font-third"> Your special offer</p>
+				<p class="text-uppercase m-0 py-3 position-absolute end-0 pe-3" id="stack-hide">X</p>
+
+			</div>
+			<div class="container mx-auto" id="subs-body" style="max-width:1164px;">
+
+				<div class="row desktop">
+					<div class="col-sm-8 d-none d-sm-block">
+						<h2 class="text-white my-2" id="hero-copy"><!--{{GTM}}--></h2>
+						<p class="text-white lh-sm fs-5" id="body-copy"><!--{{GTM}}--></p>
+					</div>
+					<div class="col-sm-4 d-flex justify-content-center pt-3 d-none d-sm-block">
+						<div class="d-grid col-8">
+							<a href="" class="btn btn-primary subs-btn rounded-0" id="stack-footer" target="_blank">Subscribe now</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mobile d-block d-sm-none mb-2">
+					<div class="col-sm-12 text-center">
+						<h2 class="text-white my-2" id="hero-copy" style="font-family:Open Sans,sans-serif;font-size:20px; line-height:1.3;"><!--{{GTM}}--></h2>
+						<p class="text-white lh-sm mt-3" id="body-copy" style="font-size:15px;"><!--{{GTM}}--></p>
+					</div>
+					<div class="d-grid col-8 mx-auto d-md-block">
+						<a href="" class="btn btn-primary subs-btn rounded-0" id="stack-footer" target="_blank">Subscribe now</a>
+						<!--<a href="" style="font-size:0.8rem;" class="btn btn-primary subs-btn my-3 mb-3 text-uppercase fw-bold rounded-0" id="stack-footer" target="_blank">Subscribe now</a>-->
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- Ends Marketing Bar -->
+		<!-- modal -->
+
+	<div class="modal fade" tabindex="-1" id="myModal" style="display:none;">
+		<div class="modal-dialog">
+			<div class="modal-content text-light text-center rounded-0" style="background:#1e2668;" id="mkmodal">
+				<button type="button" class="fs-5 btn-close position-absolute end-0 pe-3 text-light mt-3 opacity-100" style="background:none;" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+				<div class="d-none d-sm-block p-2">
+					<div class="modal-header border-0 p-0 mt-0 justify-content-center">
+						<h2 id="hero-copy" class="modal-title text-white text-center"><!--{{GTM}}--></h2>
+					</div>
+					<div class="modal-body py-0">
+						<p id="body-copy" class="my-2 fs-5 lh-sm"><!--{{GTM}}--></p>
+						<img class="mt-3 mb-2" id="modal-img" alt="Artists &amp; Illustrators Latest Magazine Cover" src="https://www.chelseamagazines.com/subscriptions/covers/current/AAI.jpg" width="150" />
+					</div>
+					<div class="d-grid col-6 mx-auto mb-0">
+						<a href="" class="btn btn-primary subs-btn my-3 rounded-0 text-primary" id="stack-popup" style="margin-bottom:30px!important" target="_blank">Subscribe now</a>
+						<!--<a href="" style="font-size:0.9rem;" class="btn btn-primary subs-btn my-3 mb-3 text-uppercase fw-bold rounded-0" id="stack-popup" target="_blank">Subscribe now</a>-->
+					</div>
+				</div>
+
+				<div class="d-block d-sm-none p-2">
+					<div class="modal-header border-0 p-0 mt-0 justify-content-center">
+						<h3 id="hero-copy" class="modal-title text-white text-center fs-5" style="font-family:Open Sans,sans-serif;"><!--{{GTM}}--></h3>
+					</div>
+					<div class="modal-body py-0">
+						<p id="body-copy" class="my-2"><!--{{GTM}}--></p>
+						<img class="mt-3 mb-2" id="modal-img" alt="Artists &amp; Illustrators Latest Magazine Cover" src="https://www.chelseamagazines.com/subscriptions/covers/current/AAI.jpg" width="150" />
+					</div>
+					<div class="d-grid col-8 mx-auto d-md-block mb-0">
+						<a href="" class="btn btn-primary subs-btn my-3 rounded-0 text-primary" id="stack-popup" style="margin-bottom:30px!important" target="_blank">Subscribe now</a>
+						<!--<a href="" style="font-size:0.8rem;" class="btn btn-primary subs-btn my-3 mb-3 text-uppercase fw-bold rounded-0" id="stack-popup" target="_blank">Subscribe now</a>-->
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- Ends modal -->
+
+	<!-- Back to top of page button -->
+	<button onclick="backToTop()" id="top-btn" class="d-none position-fixed py-1 px-2 border-0 bg-secondary text-primary" style="filter: drop-shadow(0px 0px 1px black);right:5px;bottom:5px;z-index:1000"><i class="bi bi-chevron-down bi-chevron-up"></i></button>
+
+	<script>
+		//partially collapse sticky-top nav on scroll
+		//var navH = $("#navbar-top").height();
+		window.onscroll = function() {
+			scrollFunction()
+		};
+
+		function scrollFunction() {
+			if (window.matchMedia("(min-width: 992px)").matches) {
+				if (document.documentElement.scrollTop > 270) {
+					//$("#scrollcollapse").addClass("d-lg-none");
+					$("#top-btn").addClass("d-sm-block");
+					$("#scroll-shadow").addClass("shadow-sm");
+				} else if (document.documentElement.scrollTop < 120) {
+					//$("#scrollcollapse").removeClass("d-lg-none");
+					$("#top-btn").removeClass("d-sm-block");
+					$("#scroll-shadow").removeClass("shadow-sm");
+				}
+			}
+		}
+		/*var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
+			keyboard: false,
+			backdrop: true
+		})
+
+		var myModalEl = document.getElementById('myModal')
+		myModalEl.addEventListener('hide.bs.modal', function(event) {
+			sessionStorage.setItem('stack-modal', 'shown');
+		})*/
+		//uncomment this and remove above 2 funcitons to make modal only show every 2 hours instead of every new tab
+		//marketing stack
+		if (localStorage.getItem('reset-modal')) {
+			var now = new Date();
+			if (now > Date.parse(localStorage.getItem('reset-modal'))) {
+				localStorage.setItem('stack-modal', '');
+			}
+		}
+		var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
+			keyboard: false,
+			backdrop: true
+		})
+
+		var myModalEl = document.getElementById('myModal')
+		myModalEl.addEventListener('hide.bs.modal', function(event) {
+			localStorage.setItem('stack-modal', 'shown');
+			var expire = new Date();
+			expire.setHours(expire.getHours() + 1);
+			localStorage.setItem('reset-modal', expire);
+		})
+
+		$("#stack-hide").click(function() {
+			$("#mktbar").css({
+				"display": "none",
+			});
+			sessionStorage.setItem('stack-footer', 'hidden');
+
+		});
+
+
+		//enable hover menu for nav if not mobile device
+		if (window.matchMedia("(min-width: 992px)").matches) {
+			$(".dropdown-menu").css('margin-top', 0);
+			$(".dropdown")
+				.mouseover(function() {
+					$(this).addClass('show').attr('aria-expanded', "true");
+					$(this).find('.dropdown-menu').addClass('show');
+				})
+				.mouseout(function() {
+					$(this).removeClass('show').attr('aria-expanded', "false");
+					$(this).find('.dropdown-menu').removeClass('show');
+				});
+		} else {
+			$(".dropdown-toggle").attr("data-toggle", "dropdown");
+			$(".dropdown-toggle").attr("data-bs-toggle", "dropdown");
+			$(".dropdown-toggle").attr("href", "#");
+		}
+
+		//return to top of page
+		function backToTop() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+
+		//stop dropdowns going off screen
+		$("#menu-main-1 li").on('mouseenter mouseleave', function(e) {
+			if ($('ul', this).length) {
+				var elm = $('ul:first', this);
+				var off = elm.offset();
+				var l = off.left;
+				var w = elm.width();
+				var docH = $("#bs-example-navbar-collapse-1").height();
+				var docW = $("#bs-example-navbar-collapse-1").width();
+
+				var isEntirelyVisible = (l + w <= docW);
+
+				if (!isEntirelyVisible) {
+					$(this).addClass('edge');
+				} else {
+					$(this).removeClass('edge');
+				}
+			}
+		});
+
+		$('#search-toggle-desktop').click(function() {
+			if ($('#search-toggle-desktop').hasClass('collapsed')) {
+				$('#search-toggle-desktop .bi-chevron-down').removeClass('bi-chevron-up')
+			} else {
+				$('#search-toggle-desktop .bi-chevron-down').addClass('bi-chevron-up')
+				$('#search-input-desktop').focus();
+			}
+		});
+
+		function copyLink(url) {
+			navigator.clipboard.writeText(url);
+			$('#copy-link-success').removeClass('d-none');
+			setTimeout("$('#copy-link-success').addClass('d-none');", 3000);
+		}
+
+		function articleInsert(x) {
+			var new_insert_pos = '#article-content > :nth-child(15n+' + x + ')';
+			$(new_insert_pos).after(article_html);
+		}
+	</script>
+<script type="text/javascript"  src="/sGrc3H_UDlTD/RaO1nKuSl_/LL/JzuchV3G/M1gXdn5v/BS8iAF/ttKDQ?v=da0f72c1-2511-a36f-25e7-9108dd9817d5" defer></script></body>
+<div class="container pt-2 mb-5">
+
+		<p class="my-1" id="breadcrumbs"><span><span><a href="https://www.artistsandillustrators.co.uk/">Home</a></span> » <span><a href="https://www.artistsandillustrators.co.uk/category/how-to/">How To Guides</a></span> » <span><a href="https://www.artistsandillustrators.co.uk/category/how-to/oil-painting/">Oil Painting</a></span> » <span class="breadcrumb_last" aria-current="page">How to copy the Old Masters</span></span></p>    <div class="row">
+        <div class="col-sm-9"  id="article-content" data-content="cmc-article">
+                        <h1 class="py-2">How to copy the Old Masters</h1>
+            <p class="py-2 mb-0">By <strong>Artists &amp; Illustrators</strong> | Mon 17th Jul 2023</p>
+            <hr class="w-25 my-1 text-third">
+
+            
+<style>
+#social-media-share .fa-pinterest {
+    background: #cb2027;
+}
+#social-media-share .fa-facebook {
+  background: #3B5998;
+}
+#social-media-share .fa-twitter {
+  background: #55ACEE;
+}
+#social-media-share a, #social-media-share button{
+    color: #FFF !important;
+}
+#social-media-share a:hover, #social-media-share button:hover{
+    color: #FFF !important;
+    opacity:0.8;
+}
+</style>
+<div id="social-media-share" class="mt-3">
+    <a target="_blank" class="mb-3 me-1 p-2 btn share-button fa fa-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/" title="Share on Facebook"><span class="border-start border-light ms-2 ps-2">Share</span><span class="d-none d-md-inline"> on Facebook</span></a>
+    <a target="_blank" class="mb-3 me-1 p-2 btn share-button fa fa-twitter" href="https://twitter.com/intent/tweet?url=https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/&text=How to copy the Old Masters&via=" title="Tweet on twitter"><span class="border-start border-light ms-2 ps-2">Tweet</span><span class="d-none d-md-inline"> on Twitter</span></a>
+    <a target="_blank" class="mb-3 me-1 p-2 btn share-button fa fa-pinterest" href="https://pinterest.com/pin/create/button/?url=https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/&media=&description=How to copy the Old Masters" title="Share on Pinterest"><span class="border-start border-light ms-2 ps-2">Share</span><span class="d-none d-md-inline"> on Pinterest</span></a>
+	<p class="d-none article-link" id="article-link">https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters/</p>
+	</div>
+			<div class="d-none position-fixed alert alert-success text-center" role="alert" style="left:30%;top:250px;z-index:9999" id="copy-link-success">
+				<p class="text-center m-0 position-relative">Link copied to clipboard</p>	 
+			</div>
+
+            
+<h2 class="wp-block-heading">&nbsp;Making a quick oil sketch of an Old Master painting not only helps you understand techniques, but also teaches you a lot about yourself, as Sara Lee Roberts explains</h2>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/image.png" alt="" class="wp-image-28944" width="839" height="1101" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/image.png 451w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/image-229x300.png 229w" sizes="(max-width: 839px) 100vw, 839px" /><figcaption class="wp-element-caption">Eugène Delacroix, <em>Henri IV Conferring the Regency upon Marie de Medici (After Rubens),</em>
+oil on canvas, 1834, 89x116cm</figcaption></figure>
+
+
+
+<p> When making quick oil sketches “after” the Masters, it is important to understand that the purpose is not to make a perfect copy. This article will not show you how to make copies using the same techniques as the Masters. This is a deliberate decision – by using modern oil colours and not using the complex layering <a href="https://www.artistsandillustrators.co.uk/how-to/landscapes/plein-air-painting-techniques/" target="_blank" rel="noreferrer noopener">technique</a> used by many of the Masters, it is impossible to make a copy that would be indistinguishable from the original. </p>
+
+
+
+<p>I am not even going to give you a list of suggested colours or types of brushes. This is because I want you, at all times, to take the suggestions as an approach rather than as a manual. </p>
+
+
+
+<p> I assume that you have worked with oil paint and have your own preferred brushes. Obviously, it is sensible to have a range of colours to work with: some reds, blues, yellows, whites, browns and blacks. The approach to making quick oil sketches is similar to that of making thumbnail sketches. You start off looking first at the underlying form of the composition rather than at the details. </p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="932" height="1024" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Delacroix-detail-932x1024.jpg" alt="" class="wp-image-28951" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Delacroix-detail-932x1024.jpg 932w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Delacroix-detail-273x300.jpg 273w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Delacroix-detail-768x844.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Delacroix-detail.jpg 1200w" sizes="(max-width: 932px) 100vw, 932px" /></figure>
+
+
+<p>When looking through the images that are available to me, I have chosen paintings that suit my needs, looking for subjects and/or compositions that will be beneficial to me in my journey as an artist. Sometimes I have chosen to work from a portrait as I am interested in making contemporary portraits and learning from those made in the past seems to me to be a good idea.</p>
+<h2>&nbsp;</h2>
+
+
+<p>At other times I have chosen to work from subjects that I know will challenge me, as it is only through overcoming obstacles and challenges that we can develop as artists.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>It is for you to decide which paintings you would like to work from. I suggest that you settle down at your computer and spend time just looking at websites of museums and make a list of paintings that you like. If you choose to work from the same ones as I have, do not expect your results to look like mine. <a href="https://www.artistsandillustrators.co.uk/how-to/art-theory/how-to-be-inspired-by-other-artists-without-copying-them/" target="_blank" rel="noreferrer noopener">Copying</a> my style is not the point of this article. As you will see, copying actually forces you to see in what way you are different from the original artist.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="989" height="1024" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Thumbnails-989x1024.jpg" alt="" class="wp-image-28953" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Thumbnails-989x1024.jpg 989w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Thumbnails-290x300.jpg 290w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Thumbnails-768x795.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Thumbnails-1483x1536.jpg 1483w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Thumbnails-1978x2048.jpg 1978w" sizes="(max-width: 989px) 100vw, 989px" /></figure>
+
+
+
+<p>One of the benefits of spending time trawling through the thousands&nbsp;of images that are on museum websites is that it broadens your knowledge and understanding of the huge range of artistic styles and compositions that have been made and preserved from the past.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>You might even find yourself thinking that some of the work is less good than others. The tendency to put paintings and <a href="https://www.artistsandillustrators.co.uk/how-to/drawing/how-to-make-your-drawings-more-painterly/" target="_blank" rel="noreferrer noopener">drawings</a> from the past on a pedestal and to then feel that you can never be as good an artist as the Old Masters were, is dispiriting and unhelpful. Becoming aware of the great range of styles and success of execution among the work of the Old Masters should encourage your own unique practice.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="830" height="1024" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Sketch-830x1024.jpg" alt="" class="wp-image-28954" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Sketch-830x1024.jpg 830w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Sketch-243x300.jpg 243w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Sketch-768x948.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Sketch-1245x1536.jpg 1245w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Sketch-1659x2048.jpg 1659w" sizes="(max-width: 830px) 100vw, 830px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Masters copying Masters</h3>
+
+
+
+<p>Before I show you a step-by-step example of making a quick oil sketch after the Masters, I want to <a href="https://www.artistsandillustrators.co.uk/how-to/illustration/how-to-illustrate-in-layers/" target="_blank" rel="noreferrer noopener">illustrate</a> to you how copying shows the copier how he or she is different from the artist who made the original work. This is one of the most useful results of copying.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>On the previous page are two similar paintings by Peter Paul Rubens and Eugène Delacroix. The copy by Delacroix is much smaller than the original painting by Rubens, which was part of a series of twenty-four monumental paintings commissioned by Marie de Medici to celebrate the struggles and triumphs of her life.&nbsp;It is revealing to compare them. Rubens’s brushstrokes are finely blended, giving an impressive imitation of shiny smooth cloth. Delacroix’s brushstrokes are clearly left showing as simply brushstrokes on the other hand, while at the same time suggesting luscious cloth.&nbsp;Delacroix’s impetuous, passionate character shows clearly in his copy when you look at it next to the Rubens. If you saw Delacroix’s copy with nothing to compare it to, you would not have such a clear sense of Delacroix’s particular style.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>It is not surprising that his paintings inspired Cézanne. Delacroix’s lively and expressive brushstrokes shocked the public in his own time as they were used to the smooth look that you see in Rubens’s work, which was employed by the critically acclaimed artists of the time such as David and Ingres.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="938" class="wp-image-28952" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/The-Feast-of-the-Gods-1024x938.jpg" alt="" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/The-Feast-of-the-Gods-1024x938.jpg 1024w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/The-Feast-of-the-Gods-300x275.jpg 300w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/The-Feast-of-the-Gods-768x703.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/The-Feast-of-the-Gods-1536x1407.jpg 1536w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/The-Feast-of-the-Gods-2048x1876.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Giovanni Bellini and Titian (Venetian, c. 1430/1435 &#8211; 1516), The Feast of the Gods, 1514/1529, oil on canvas, Widener Collection 1942.9.1</figcaption></figure>
+<h2>&nbsp;</h2>
+
+
+<h3 class="wp-block-heading">Oil sketch of The Feast of the Gods</h3>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p><em>The Feast of the Gods </em>was painted by three different artists. Giovanni Bellini was commissioned by the Duke Alfonso d’Este to paint it, finishing it in 1514, two years before his death. Some years later, the Duke commissioned Dosso Dossi to repaint some of the landscape and then he asked Titian, who had been a pupil of Bellini, to put in the mountainous landscape behind the figures. I was attracted to this composition because of the rich colours and the complexity of the crowd of <a href="https://www.artistsandillustrators.co.uk/how-to/portraits-figurative/how-to-draw-figures-without-a-model/" target="_blank" rel="noreferrer noopener">figures</a>, who are all linked across the picture plane.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>It is always a good idea to make a thumbnail drawing first in order to understand the compositional structure of a painting, and then a small, more detailed drawing. In the photo opposite you can see a series of four thumbnail sketches that I made, with each successive thumbnail containing more information.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>Below it is a larger drawing in which I was able to place all the figures, still with a minimum of detail. This took me about an hour to make. I have not put in any facial features or details of clothing, but I did shade in the darker areas in the landscape and the shadow between the central seated figure’s legs. It was only after I had made this drawing that I realised that I had got the proportions of the width and height wrong. The painting is slightly wider than it is tall, whereas I had drawn it taller than it is wide. When a work is as close to square as this one is, it is easy to make this mistake. In spite of this, I had learnt how the figures all relate to one another through making this drawing.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="934" height="1024" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-3-934x1024.jpg" alt="" class="wp-image-28955" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-3-934x1024.jpg 934w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-3-274x300.jpg 274w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-3-768x842.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-3-1401x1536.jpg 1401w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-3.jpg 1637w" sizes="(max-width: 934px) 100vw, 934px" /></figure>
+
+
+
+<p>I made this oil sketch on a 29x30cm MDF board, which I had prepared with several coats of gesso. If you want to make your own version, you can use a gesso board or prepared paper or a small canvas. Use something that is not precious as these quick sketches are to be made with as little anxiety and pressure as possible.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>I first mixed up a variety of <a href="https://www.artistsandillustrators.co.uk/how-to/floral-nature/painting-roses-how-to-mix-the-perfect-colours/" target="_blank" rel="noreferrer noopener">colours</a> that I could see occurring in several places in the composition: a blue, a dark green, a red and a yellow ochre. The size of my board was much smaller than the original painting. Small is good here because it is important to work fast and remember that you are not making an exact imitation.&nbsp;You are, however, noticing and expressing real relationships that you see in the original. It is important not to trace when making these sketches.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>Tracing has its place, but it removes the necessity to try things out and make discoveries as you go along, and nearly always produces rather dull results. Put simply, if you trace you will learn less and make a less interesting painting.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="972" height="1024" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-1-972x1024.jpg" alt="" class="wp-image-28956" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-1-972x1024.jpg 972w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-1-285x300.jpg 285w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-1-768x809.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-1-1457x1536.jpg 1457w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-1.jpg 1703w" sizes="(max-width: 972px) 100vw, 972px" /></figure>
+
+
+
+<h3 class="wp-block-heading">1. Paint with neutral tint and embrace imperfection</h3>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>Here I used a thin neutral greyish paint. It was from a tube of Neutral Tint, which is a useful colour as it does not affect the colour of what goes on top too much. I made marks which I knew were provisional and that in all cases I would be prepared to change if it became necessary. Letting go of expecting marks to be correct straightaway matters, as how you feel will show itself in the <a href="https://www.artistsandillustrators.co.uk/how-to/watercolour/how-to-make-bolder-brushstrokes-in-a-floral-watercolour-part-1/" target="_blank" rel="noreferrer noopener">brushstrokes</a>.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<figure class="wp-block-image"><img decoding="async" width="934" height="1024" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-4-934x1024.jpg" alt="" class="wp-image-28963" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-4-934x1024.jpg 934w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-4-274x300.jpg 274w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-4-768x842.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-4-1401x1536.jpg 1401w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-1-4.jpg 1637w" sizes="(max-width: 934px) 100vw, 934px" /></figure>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<h3 class="wp-block-heading">2. Paint the sky</h3>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>I painted the blue <a href="https://www.artistsandillustrators.co.uk/featured-artist/artist-interview-how-to-paint-a-dramatic-sky/" target="_blank" rel="noreferrer noopener">sky</a> and used this same blue in other places where there is blue in the original, still making loose, rough marks and not worrying about detail. I put in the warm yellowish-brown foreground.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="972" height="1024" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-2-972x1024.jpg" alt="" class="wp-image-28962" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-2-972x1024.jpg 972w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-2-285x300.jpg 285w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-2-768x809.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-2-1457x1536.jpg 1457w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-2-2.jpg 1703w" sizes="(max-width: 972px) 100vw, 972px" /></figure>
+
+
+
+<h3 class="wp-block-heading">3. Paint clothing and figures</h3>
+
+
+
+<p>I painted areas where there is red clothing and made a curved <a href="https://www.artistsandillustrators.co.uk/how-to/watercolour/how-to-draw-a-building-by-using-shapes/" target="_blank" rel="noreferrer noopener">shape</a> for the naked man next to the two standing women. I made curved marks in the neutral grey for the sides of heads and bodies.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="966" height="1024" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-3-2-966x1024.jpg" alt="" class="wp-image-28961" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-3-2-966x1024.jpg 966w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-3-2-283x300.jpg 283w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-3-2-768x814.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-3-2-1449x1536.jpg 1449w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-3-2.jpg 1709w" sizes="(max-width: 966px) 100vw, 966px" /></figure>
+
+
+
+<h3 class="wp-block-heading">4. Landscape and clothing details</h3>
+
+
+
+<p>I painted the green areas of the mountainous landscape behind the figures and the foliage of the trees on the right. I also put in the green of the clothing of the seated man behind the bowl of <a href="https://www.artistsandillustrators.co.uk/how-to/watercolour/how-to-paint-fruit-and-vegetables/" target="_blank" rel="noreferrer noopener">fruit</a>.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="1009" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-4-3-1024x1009.jpg" alt="" class="wp-image-28960" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-4-3-1024x1009.jpg 1024w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-4-3-300x296.jpg 300w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-4-3-768x757.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-4-3-1536x1514.jpg 1536w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-4-3.jpg 1805w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">5. Capture the essence</h3>
+
+
+
+<p>I carried on painting the figures and the <a href="https://www.artistsandillustrators.co.uk/how-to/drawing/how-to-draw-a-landscape-in-charcoal/" target="_blank" rel="noreferrer noopener">landscape</a> but soon decided to stop. This was before the sketch looked finished.&nbsp;I could have carried on, refining the details and the colours, but I felt that something important to me had become clear, so I stopped. I did not want to forget or lose the evidence of what that was.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>I knew that if I carried on, I would change the sketch to the point that this lesson would be lost.&nbsp;The thing that this sketch had taught me was revealed to me in the standing women on the right-hand side. I had rendered the stance of the woman in a blue dress quite clearly in spite of putting in almost no detail.&nbsp;I felt that I had made it believable that she is looking in a particular direction, i.e. at the central seated man who has his legs parted. I had also made it believable that she is balancing a pot on her head with some difficulty and that her dress is therefore slipping off her shoulder.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="999" height="1024" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-5-2-999x1024.jpg" alt="" class="wp-image-28959" srcset="https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-5-2-999x1024.jpg 999w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-5-2-293x300.jpg 293w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-5-2-768x788.jpg 768w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-5-2-1498x1536.jpg 1498w, https://www.artistsandillustrators.co.uk/wp-content/uploads/2023/06/Step-5-2-1997x2048.jpg 1997w" sizes="(max-width: 999px) 100vw, 999px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Learning Lessons</h3>
+
+
+
+<p>These achievements may not be what you are looking for. Your sketch may show more of the jewel-like colouring, for example. When you feel that you have achieved something that interests you, whatever it is, stop and move on to making another sketch. By stopping work when the oil sketch contains proof of a lesson learnt, we can look back to it and be reminded of that lesson. It can be tempting to keep on going, trying to make the oil <a href="https://www.artistsandillustrators.co.uk/how-to/watercolour/how-to-turn-a-plein-air-sketch-into-a-studio-painting/" target="_blank" rel="noreferrer noopener">sketch</a> “better”, but this means that any evidence of significant progress gets buried and forgotten about. The making of quick oil sketches is best done in the atmosphere of genuine enquiry, rather than a desire to make saleable work.</p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<p>When you make a quick oil sketch, do not be disappointed if you see a difference between your sketch and the original painting. In fact, it is that very difference that will teach you what you need to do next. I could see that I needed to work on my use of colour after my first sketch from Titian and Bellini’s painting. I also saw that I wanted to get better at making my painted marks look confidently placed. However, I was pleased to have discovered that catching the likeness of a stance is something that interests me and that I can achieve it. <a href="http://www.saraleeroberts.co.uk" target="_blank" rel="noreferrer noopener"><em>saraleeroberts.co.uk</em></a></p>
+
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<h3 class="wp-block-heading">Read more:</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.artistsandillustrators.co.uk/how-to/how-to-paint-glasses-in-oil/" target="_blank" rel="noreferrer noopener">How to paint glasses in oil</a></li>
+</ul>
+
+
+
+<p><strong>For even more art advice, inspiration and demos delivered directly to you each month, discover how you can <a href="/about-us" target="_blank" rel="noopener">subscribe to Artists &amp; Illustrators magazine</a>.</strong></p>
+            <div class="pagination-ajax" id="load-more-outer">
+                <div class="py-4 d-flex justify-content-center" id="load-more-inner">
+                                    </div>
+                <div class="d-none" id="no-more-posts">
+                    <hr class="my-5 text-secondary" style="height:3px;">
+                    <h3 class="card-title fw-bold text-decoration-none fs-5 mt-0 text-center">No more posts left</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 text-center px-0 py-3">
+            
+<div class="bg-secondary p-3 mt-3 sticky-top" style="z-index:1;top:65px;">
+	<div class="commercial-unit commercial-unit--sidebar  " aria-hidden="true" data-ad-slot-hidden="false" data-ad-slot-id="advert_tmg_mpu" data-perf="commercial-unit-sidebar" data-test="commercial-unit-sidebar" style="padding-bottom: 8px;">
+		<div class="commercial-unit__content">
+			<div class="advert-label advert-label--sidebar">Advertisement</div>
+			<div class="advert js-advert advert--mpu" id="advert_tmg_mpu" data-adtype="mpu"></div>
+		</div>
+	</div>
+	    <div class="OUTBRAIN d-block d-lg-none" data-src="https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters" data-widget-id="KSMB_3"></div>
+    <div class="OUTBRAIN_desktop d-none d-lg-block" data-src="https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-copy-the-old-masters" data-widget-id="KS_3"></div>
+	<h4 class="font-primary">More Oil Painting</h4>
+
+        <div class="row">
+            <hr class="my-2 text-third opacity-100">
+            <div class="col-4">
+                <a href="https://www.artistsandillustrators.co.uk/how-to/oil-painting/a-complete-guide-to-alla-prima-painting/">
+                    <img class="img-fluid mb-3 mb-md-0" style="max-height:80px;" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2021/02/new-feature1310-150x150.jpg" alt="A complete guide to alla prima painting">
+                </a>
+            </div>
+            <div class="col-8">
+                <a class="text-decoration-none text-black" href="https://www.artistsandillustrators.co.uk/how-to/oil-painting/a-complete-guide-to-alla-prima-painting/">
+                    <h5 class="text-decoration-none fs-6 text-start">A complete guide to alla prima painting</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <hr class="my-2 text-third opacity-100">
+            <div class="col-4">
+                <a href="https://www.artistsandillustrators.co.uk/how-to/how-to-paint-alla-prima-still-life/">
+                    <img class="img-fluid mb-3 mb-md-0" style="max-height:80px;" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2022/09/cowboy-final-150x150.png" alt="How to paint an alla prima still life">
+                </a>
+            </div>
+            <div class="col-8">
+                <a class="text-decoration-none text-black" href="https://www.artistsandillustrators.co.uk/how-to/how-to-paint-alla-prima-still-life/">
+                    <h5 class="text-decoration-none fs-6 text-start">How to paint an alla prima still life</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <hr class="my-2 text-third opacity-100">
+            <div class="col-4">
+                <a href="https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-master-wet-into-wet-oil-painting/">
+                    <img class="img-fluid mb-3 mb-md-0" style="max-height:80px;" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2022/04/painting-wet-into-wet-final-e1650557744381-150x150.jpg" alt="How to master wet-into-wet oil painting">
+                </a>
+            </div>
+            <div class="col-8">
+                <a class="text-decoration-none text-black" href="https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-master-wet-into-wet-oil-painting/">
+                    <h5 class="text-decoration-none fs-6 text-start">How to master wet-into-wet oil painting</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <hr class="my-2 text-third opacity-100">
+            <div class="col-4">
+                <a href="https://www.artistsandillustrators.co.uk/how-to/watercolour/how-to-layer-colours-5-glazing-essentials/">
+                    <img class="img-fluid mb-3 mb-md-0" style="max-height:80px;" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2021/02/bcf95e31eee1c96e66b3daaf2228a9caa5091aa7-150x150.jpg" alt="How to layer colours: 5 glazing essentials">
+                </a>
+            </div>
+            <div class="col-8">
+                <a class="text-decoration-none text-black" href="https://www.artistsandillustrators.co.uk/how-to/watercolour/how-to-layer-colours-5-glazing-essentials/">
+                    <h5 class="text-decoration-none fs-6 text-start">How to layer colours: 5 glazing essentials</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <hr class="my-2 text-third opacity-100">
+            <div class="col-4">
+                <a href="https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-perfect-autumn-colours/">
+                    <img class="img-fluid mb-3 mb-md-0" style="max-height:80px;" src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2021/02/7854947c8b521f73112a026651e5eb629b9e556e-150x150.jpg" alt="How to perfect autumn colours">
+                </a>
+            </div>
+            <div class="col-8">
+                <a class="text-decoration-none text-black" href="https://www.artistsandillustrators.co.uk/how-to/oil-painting/how-to-perfect-autumn-colours/">
+                    <h5 class="text-decoration-none fs-6 text-start">How to perfect autumn colours</h5>
+                </a>
+            </div>
+        </div>
+
+</div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- option 1 added to header.php -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -- >
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>-->
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+-->
+<!-- DDigital tracking -->
+<script src="https://ddlnk.net/DM-9523784041-01/ddgtag.js"></script>
+<!-- End DotDigital tracking -->
+
+
+
+
+<!-- Footer -->
+<!-- icons for socials - move to header -->
+<link href="https://use.fontawesome.com/774e1ab09c.css" media="all" rel="stylesheet">
+<script src="https://use.fontawesome.com/774e1ab09c.js"></script>
+<div id="advert_tmg_nat_story_newarticle_1_placeholder"></div>
+<div class="footer mt-3">
+	<div id="advert_tmg_tmg" class="js-advert advert advert--tmg  " data-adtype="tmg" data-ad-slot-hidden="false" data-ad-slot-id="advert_tmg_tmg">
+	</div>
+	<div id="advert_tmg_ftr" class="js-advert advert advert--ftr  " data-adtype="ftr" data-ad-slot-hidden="false" data-ad-slot-id="advert_tmg_ftr">
+	</div>
+	<div class="row footer-nav-outer m-0" style="max-width:100%;">
+		<div class="text-center d-lg-flex justify-content-center px-0">
+			<!--<img class="d-lg-inline-block d-none my-auto" src="/img/AAI-title-more.png" style="height:48px!important;width:120px!important">-- >
+<p class="d-lg-flex justify-content-center align-items-center d-none m-0 px-3 text-white py-1 font-primary fst-italic" style="font-size:22px;line-height:22px">More</p>-->
+			<button class="btn btn-link text-decoration-none text-white d-inline-block d-lg-none font-primary fst-italic fs-4" data-bs-toggle="collapse" data-bs-target="#footer-nav-mobile" aria-label="Footer Menu" aria-expanded="false" aria-controls="collapseExample">More<!--<img src="/img/AAI-title-more.png" alt="Expand Footer Menu" style="width:120px!important;height:48px!important">-->
+				<!-- <div class="mx-auto" style="width:100%;height:1px;background:#5f80a4">
+</div>-->
+			</button>
+			<div id="footer-nav" class="d-none d-lg-block my-2"><ul id="menu-footer" class="footer-nav text-center list-unstyled my-0" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li  id="menu-item-18085" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-18085 nav-item list-inline-item d-inline-block m-0 px-3 py-1 text-uppercase fw-bold font-third"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/" class="nav-link"><span itemprop="name">How To Guides</span></a></li>
+<li  id="menu-item-18087" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18087 nav-item list-inline-item d-inline-block m-0 px-3 py-1 text-uppercase fw-bold font-third"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/competitions/" class="nav-link"><span itemprop="name">Competitions</span></a></li>
+<li  id="menu-item-18088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18088 nav-item list-inline-item d-inline-block m-0 px-3 py-1 text-uppercase fw-bold font-third"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/events-and-exhibitions/" class="nav-link"><span itemprop="name">Events and Exhibitions</span></a></li>
+<li  id="menu-item-18092" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18092 nav-item list-inline-item d-inline-block m-0 px-3 py-1 text-uppercase fw-bold font-third"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/exclusive-offers/" class="nav-link"><span itemprop="name">Offers</span></a></li>
+<li  id="menu-item-18090" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18090 nav-item list-inline-item d-inline-block m-0 px-3 py-1 text-uppercase fw-bold font-third"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/news/" class="nav-link"><span itemprop="name">News</span></a></li>
+<li  id="menu-item-23405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23405 nav-item list-inline-item d-inline-block m-0 px-3 py-1 text-uppercase fw-bold font-third"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://www.britishartclub.co.uk/" class="nav-link"><span itemprop="name">British Art Club</span></a></li>
+</ul></div><div id="footer-nav-mobile" class="collapse d-lg-none"><ul id="menu-footer-1" class="footer-nav text-center list-unstyled" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li  class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-18085 nav-item m-0 px-3 py-1 fs-5 text-uppercase fw-bold  font-third"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/how-to/" class="nav-link"><span itemprop="name">How To Guides</span></a></li>
+<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18087 nav-item m-0 px-3 py-1 fs-5 text-uppercase fw-bold  font-third"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/competitions/" class="nav-link"><span itemprop="name">Competitions</span></a></li>
+<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18088 nav-item m-0 px-3 py-1 fs-5 text-uppercase fw-bold  font-third"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/events-and-exhibitions/" class="nav-link"><span itemprop="name">Events and Exhibitions</span></a></li>
+<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18092 nav-item m-0 px-3 py-1 fs-5 text-uppercase fw-bold  font-third"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/exclusive-offers/" class="nav-link"><span itemprop="name">Offers</span></a></li>
+<li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18090 nav-item m-0 px-3 py-1 fs-5 text-uppercase fw-bold  font-third"><a itemprop="url" href="https://www.artistsandillustrators.co.uk/category/news/" class="nav-link"><span itemprop="name">News</span></a></li>
+<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23405 nav-item m-0 px-3 py-1 fs-5 text-uppercase fw-bold  font-third"><a target="_blank" rel="noopener noreferrer" itemprop="url" href="https://www.britishartclub.co.uk/" class="nav-link"><span itemprop="name">British Art Club</span></a></li>
+</ul></div>		</div>
+	</div>
+	<div class="row mx-auto d-flex flex-column-reverse flex-md-row px-2" style="max-width:1300px;">
+		<div class="col-md-6 p-3 mt-md-3 mb-3 d-flex justify-content-center align-middle align-items-center">
+			<div id="about-foot" class="media-body text-md-start text-center">
+				<div class="py-2"><img src="/img/logos/artists-logo-red.png" alt="Artists & Illustrators" style="width:225px!important; height:85px !important"></div>
+				<div class="foot-social-outer mt-2 mb-3">
+					<a target="_blank" class="btn fa fa-facebook opacity-100 me-2" aria-label="Facebook" href="https://www.facebook.com/ArtistsAndIllustrators"></a>
+					<a target="_blank" class="btn fa fa-twitter opacity-100 me-2" aria-label="Twitter" href="https://twitter.com/AandImagazine"></a>
+					<a target="_blank" class="btn fa fa-instagram opacity-100 me-2" aria-label="Instagram" href="https://www.instagram.com/aandimagazine"></a>
+					<a target="_blank" class="btn fa fa-pinterest opacity-100 me-2" aria-label="Pinterest" href="https://www.pinterest.com/aandimagazine"></a>
+				</div>
+				<h4 class="media-heading text-black">About Us</h4>
+				<p class="text-black"><span class="fst-italic">Artists &amp; Illustrators</span> is Britain’s most popular magazine for practising artists, while also being equally relevant to professionals, aspiring amateurs or to those who paint purely for pleasure.
+					<a class="text-black" href="/about-us" aria-label="About Us" title="About Us">Read more</a>
+				</p>
+			</div>
+		</div>
+		<div class="col-md-6 p-3 mb-md-3 mt-3 d-flex justify-content-center align-middle align-items-center">
+			<div id="foot-newsletter" class="newsletter border-0">
+				<p class="font-third text-black text-center"><img src="/img/logos/artists-logo-red.png" alt="Artists &amp; Illustrators" style="width:225px!important; height:85px !important"></br><span class="align-top text-primary text-uppercase fw-bold" style="font-size:43px;line-height:37px">Weekly</span></p>
+		<h4 class="text-black text-center fs-6 mb-3 fw-bold">Your weekly dose of artistic inspiration - direct to your inbox!</h4><!--<p class="text-black text-center">Also, receive art news and competitions with our monthly newsletter</p>-->
+		<div class="form d-flex flex-column flex-md-row mx-auto justify-content-center">
+			<input class="text-center rounded-0 fs-6 mx-auto mx-md-0 py-2 px-3 font-third mb-2 mb-md-0" style="width:66%" type="text" name="email" id="newsletter-email-footer" placeholder="EMAIL ADDRESS">
+			<a class="newsletter-btn btn btn-primary rounded-0 text-uppercase fw-bold font-third fs-6 mt-1 mt-md-0 mx-auto mx-md-0 py-2 px-3" href="https://thechelseamagazinecompany.com/p/6NM-ST0/artists-illustrators-newsletter?brand=AAI&src=footer" id="newsletter-submit-footer" target="_blank">Sign me up</a>
+		</div>
+	</div>
+</div>
+
+</div>
+<div class="mx-auto mt-2" style="width:90%;height:1px;background:var(--third-color)">
+
+</div>
+<div class="sub container-fluid footer-tc">
+	<div class="row mx-auto container">
+		<div class="container footer-container d-md-flex text-center">
+			<div class="col-md-6 text-black my-3">&copy; <a class="text-black text-decoration-none" href="http://chelseamagazines.com" target="_blank">The Chelsea Magazine Company Limited </a>2026<br>
+				&copy; <a class="text-black text-decoration-none" href="https://telegraphmediagroup.com" target="_blank">Telegraph Media Group</a>
+			</div>
+			<div class="col-md-6 text-black my-3">
+				<ul class="text-center list-unstyled footer-privacy my-0" data-cmp="cmc-footer-link-list">
+					<li class="list-inline-item m-0 px-2"><a class="text-black text-decoration-none" href="https://chelseamagazines.com/terms-and-conditions/" target="_blank">Terms and Conditions</a></li>
+					<li class="list-inline-item m-0 px-2"><a class="text-black text-decoration-none" href="https://chelseamagazines.com/privacy/" target="_blank">Privacy Policy</a></li>
+					<li class="list-inline-item m-0 px-2"><a class="text-black text-decoration-none" href="https://chelseamagazines.com/cookies/" target="_blank">Cookie Policy</a></li>
+					<li class="list-inline-item m-0 px-2"><a class="text-black text-decoration-none" href="https://www.telegraph.co.uk" target="_blank">Telegraph.co.uk</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<script>
+	var newsletter_footer = document.getElementById("newsletter-email-footer");
+	newsletter_footer.addEventListener("keyup", function(event) {
+		// Number 13 is the "Enter" key on the keyboard
+		if (event.keyCode === 13) {
+			// Cancel the default action, if needed
+			event.preventDefault();
+			// Trigger the button element with a click
+			document.getElementById("newsletter-submit-footer").click();
+		}
+	});
+	$(function() {
+		$('#newsletter-submit-footer').click( function() {
+			var newsletter_email = $("#newsletter-email-footer").val();
+			window.dataLayer.push({'newsletter-email': newsletter_email});
+			sessionStorage.setItem('newsletter-email',$('#newsletter-email').val());
+			window.open($(this).attr('href') + '&email=' + $('#newsletter-email-footer').val());
+			return false;
+		});
+	});
+</script>
+<script src="https://www.artistsandillustrators.co.uk/wp-content/themes/artists/js/lazyload.js"></script>
+</body>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/artists\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+</html>

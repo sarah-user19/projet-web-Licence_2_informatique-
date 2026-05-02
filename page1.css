@@ -65,7 +65,7 @@ header {
     top: 100%;
     left: 50%; /* positionne juste à droite du menu parent */
     margin-left: 20px; /* un petit décalage supplémentaire */
-    width: 150px;
+    width: 190px;
     list-style: none;
     display: none;
     border-radius: 0.5cm;
@@ -419,6 +419,7 @@ header {
   border-radius: 0CM 10CM 0CM 14CM;
   animation-duration: 1S;
   opacity: 0.9;
+
 }
 
 #vt2:hover{
@@ -722,74 +723,6 @@ margin: 0vh;
 
 
 
-#pricing {
-    padding: 50px 20px;
-    text-align: center;
-    font-family: 'Segoe UI', sans-serif;
-    color:#8C7D9C;
-    margin-bottom: 300px;
-   
-}
-
-  
-  #pricing h2 {
-    color:#8C7D9C;
-    margin-bottom: 40px;
-  }
-  #pricing h3 {
-    color:rgba(0, 0, 0, 0.675);
-    margin-bottom: 40px;
-  }
-  
-  .pricing-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .pricing-card {
-    background-color:#9e6e0584;
-    border-radius: 15px;
-    margin: 60px;
-    padding: 25px;
-    width: 250px;
-    box-shadow: 0 8px 8px rgba(0,0,0,0.1);
-    
-}
-
-  
-    
-   
-  
-  .pricing-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .pricing-card.popular {
-    border: 2px solid #8C7D9C;
-    background-color: whitesmoke;
-  }
-  
-  .price {
-    font-size: 28px;
-    font-weight: bold;
-    color:#66537a;
-    margin: 15px 0;
-  }
-  
-  .pricing-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-  }
-  
-  .pricing-card ul li {
-    margin-bottom: 10px;
-  }
-  
-
-
 
 
 
@@ -801,37 +734,109 @@ margin: 0vh;
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
     border-radius: 15px;
-     max-width: 500px;
+    width: 700px;
     border-radius: 1CM 1CM 0CM 0CM;
     box-shadow:  5px 5px 5PX 5PX gray;
+    
   }
   
   #reviews h2 {
-    color:#8C7D9C; /* couleur lavande/rose */
+    color:#582222; /* couleur lavande/rose */
     margin-bottom: 30px;
   }
   
-  .review {
-    display: none;
-    transition: opacity 0.5s ease;
-    opacity: 0;
-  }
   
-  .review.active {
-    display: block;
-    opacity: 1;
-  }
   
-  .review p {
-    margin: 10px 0;
-    color: #444;
-  }
+ 
   
   strong {
     color:#8C7D9C;
   }
   
+  #reviews {
   
+    padding: 60px 0;
+    overflow: hidden;
+    background: #fdf8f2;
+}
+
+.carousel-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.carousel-text {
+    text-align: center;
+    padding: 0 32px;
+    max-width: 600px;
+}
+
+.carousel-text h2 {
+    font-size: 2rem;
+    color: #2C1A0A;
+    margin-bottom: 12px;
+}
+
+.carousel-text p {
+    font-size: 0.95rem;
+    color: #7a6e5f;
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+.carousel-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #BA7517, #EF9F27);
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    box-shadow: 0 4px 16px rgba(186,117,23,0.3);
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.carousel-btn:hover {
+    opacity: 0.88;
+    transform: translateY(-2px);
+}
+
+/* Carousel infini */
+.carousel-images {
+    width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.carousel-track {
+    display: flex;
+    gap: 16px;
+    animation: scroll-carousel 20s linear infinite;
+    width: max-content;
+}
+
+.carousel-track img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    flex-shrink: 0;
+}
+
+.carousel-track img:hover {
+    transform: scale(1.05);
+    animation-play-state: paused;
+}
+
+@keyframes scroll-carousel {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
 
 footer{
    

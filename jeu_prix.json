@@ -1,0 +1,12 @@
+{
+    "1": {
+        "sarah": 2340,
+        "__vrai_prix__": 3800,
+        "__gagnant__": "sarah"
+    },
+    "2": {
+        "sarah": 2000,
+        "__vrai_prix__": 2200,
+        "__gagnant__": "sarah"
+    }
+}
