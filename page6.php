@@ -375,7 +375,7 @@ function chargerJeu() {
 
             if (data.ma_proposition !== null) {
                 html += `<div class="jeu-ma-proposition">Votre proposition : ${parseFloat(data.ma_proposition).toFixed(2)} €</div>`;
-                html += `<button class="btn-voir-resultat" onclick="voirResultat()">Voir le résultat 🏆</button>`;
+                html += `<button class="btn-voir-resultat" onclick="voirResultat()">Voir le résultat <img src="image/win.png" style="height:20xpx;" alt=""></button>`;
             } else if (jeuUserCourant !== jeuProprietaire) {
                 html += `
                     <div class="jeu-input-row">
@@ -415,6 +415,23 @@ function voirResultat() {
 }
 
 chargerJeu();
+
+setInterval(() => chargerCommentaires(<?php echo $id; ?>), 5000); // modifié ça
+ 
+setInterval(() => { // ça
+    fetch("get_histoires.php")
+        .then(r => r.json())
+        .then(data => {
+            const obj = data.find(h => h.id == jeuHistoireId);
+            if (!obj) return;
+            const total = obj.vrai + obj.faux;
+            const pct = total > 0 ? Math.round((obj.vrai / total) * 100) : 0;
+            document.querySelector(".barre").style.width = pct + "%";
+            document.querySelector(".veracite").textContent = "Véracité : " + pct + "%";
+            document.querySelector(`button[onclick="voterHistoire(${jeuHistoireId}, 'vrai')"]`).innerHTML = '<img style="height:20px;" src="image/like.png" alt=""> ' + obj.vrai;
+            document.querySelector(`button[onclick="voterHistoire(${jeuHistoireId}, 'faux')"]`).innerHTML = '<img style="height:20px;" src="image/dislike.png" alt=""> ' + obj.faux;
+        });
+}, 5000);
 
 fetch("get_mes_votes.php")
     .then(r => r.json())

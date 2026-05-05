@@ -9,7 +9,7 @@
         "lieu": "Paris",
         "categorie": "arme",
         "prix_reel": 3800,
-        "vrai": 11,
+        "vrai": 12,
         "faux": 0
     },
     {
@@ -74,7 +74,7 @@
         "lieu": "Londres, Angleterre",
         "categorie": "Objet religieux",
         "prix_reel": 4600,
-        "vrai": 0,
+        "vrai": 1,
         "faux": 0
     },
     {
@@ -158,8 +158,8 @@
         "categorie": "photo",
         "img": "image\/img_69f4ca4170c6f3.12148055.jpg",
         "story": "Sa m\u00e8re ne savait pas lire. Ni sa grand-m\u00e8re avant elle. Ni aucune femme de la famille, aussi loin que la m\u00e9moire remontait.\r\nDihia avait sept ans quand elle entra pour la premi\u00e8re fois dans cette salle de classe. Elle portait sa robe brod\u00e9e du dimanche \u2014 la plus belle qu'elle avait \u2014 comme si c'\u00e9tait une f\u00eate. Pour elle, c'en \u00e9tait une.\r\nLe cahier \u00e9tait neuf, les pages blanches et lisses. Elle passa sa main dessus plusieurs fois avant d'oser \u00e9crire. Sa voisine de table, une fille du m\u00eame quartier qui s'appelait Nadia, faisait la m\u00eame chose sans le dire.\r\nL'institutrice s'appelait Mademoiselle Ferrandi. Elle \u00e9tait petite, stricte, et connaissait le pr\u00e9nom de chaque enfant avant m\u00eame le premier jour de classe. Elle avait appris par c\u0153ur la liste la veille au soir.\r\nCe matin-l\u00e0, un photographe de presse entra dans la classe. Dihia ne leva pas les yeux de son cahier. Nadia, elle, regarda l'objectif en souriant. Elle souriait toujours, Nadia. M\u00eame quand il n'y avait pas grand chose pour sourire.\r\nLa photo parut dans un journal fran\u00e7ais. Personne dans la famille de Dihia ne la vit. Ils ne lisaient pas les journaux fran\u00e7ais.\r\nDihia, elle, apprit \u00e0 lire cette ann\u00e9e-l\u00e0. Et l'ann\u00e9e suivante, elle lut tout ce qu'elle trouvait \u2014 les journaux, les affiches dans la rue, les \u00e9tiquettes des bo\u00eetes de conserve. Sa m\u00e8re la regardait faire sans comprendre les mots. Mais elle comprenait autre chose. Et elle \u00e9tait fi\u00e8re sans savoir comment le dire.",
-        "vrai": 1,
-        "faux": 0
+        "vrai": 2,
+        "faux": 1
     },
     {
         "id": 14,
@@ -198,7 +198,7 @@
         "story": "Son p\u00e8re lui avait appris \u00e0 tirer avant de lui apprendre \u00e0 conduire. Il disait que c'\u00e9tait plus utile. Sa m\u00e8re n'\u00e9tait pas d'accord, mais elle n'avait jamais vraiment su comment contredire son mari.\r\nEllen avait dix-neuf ans sur cette photo. Elle portait sa robe \u00e0 fleurs du dimanche parce que c'\u00e9tait un dimanche, et que personne chez les Calloway ne changeait de tenue pour aller tirer dans le jardin. On faisait les deux. La messe et les cibles. Dans le m\u00eame ordre chaque semaine.\r\nElle ne ratait jamais. Pas par chance. Par m\u00e9thode. Elle fermait les yeux une seconde avant de viser, respirait lentement, puis ouvrait un \u0153il. Son p\u00e8re disait qu'elle visait avec quelque chose que lui n'avait jamais eu. Il ne savait pas comment appeler \u00e7a. Du calme, peut-\u00eatre. Ou de la certitude.\r\nEn 1950, Ellen quitta le Tennessee pour Nashville. Elle voulait travailler dans la radio. Tout le monde lui dit que c'\u00e9tait un m\u00e9tier d'hommes. Elle sourit, comme elle souriait toujours quand on lui disait qu'elle ne pouvait pas faire quelque chose.\r\nElle passa trente ans \u00e0 la radio de Nashville. Des milliers d'\u00e9missions. Une voix que tout le comt\u00e9 reconnaissait sans m\u00eame avoir besoin d'entendre son nom.\r\nElle ne retourna jamais tirer dans le jardin de son enfance. La maison fut vendue en 1962, apr\u00e8s la mort de son p\u00e8re. Mais ses coll\u00e8gues \u00e0 la radio racontaient qu'elle avait toujours ce regard \u2014 calme, concentr\u00e9 \u2014 quand elle s'installait devant le micro. Comme si elle visait quelque chose que les autres ne voyaient pas encore.",
         "prix_reel": 0,
         "vrai": 1,
-        "faux": 0
+        "faux": 2
     },
     {
         "id": 17,
@@ -210,8 +210,8 @@
         "img": "image\/img_69f5345df06ae2.18011680.jpg",
         "story": "Il s'appelait Gustave. Personne ne connaissait son nom de famille. Sur les quais de Marseille, tout le monde l'appelait simplement l'Orchestre.\r\nIl avait construit son \u00e9quipement lui-m\u00eame, pi\u00e8ce par pi\u00e8ce, sur vingt ans. La grosse caisse dans le dos, actionn\u00e9e par une ficelle attach\u00e9e au pied droit. L'accord\u00e9on entre les mains. Les cymbales sur les \u00e9paules, les clochettes sur le chapeau, une sorte de sifflet coinc\u00e9 au coin de la bouche pour les moments importants. Quand il jouait \u00e0 pleine puissance, on l'entendait depuis le Vieux-Port.\r\nLes enfants le suivaient dans les rues. Les marins s'arr\u00eataient. Les marchandes de poisson posaient leurs paniers. Pendant trois minutes, tout le monde oubliait ce qu'il avait \u00e0 faire.\r\nGustave ne jouait jamais deux fois le m\u00eame morceau de la m\u00eame fa\u00e7on. Il disait que la musique devait ressembler \u00e0 la journ\u00e9e \u2014 jamais tout \u00e0 fait pareille, jamais tout \u00e0 fait pr\u00e9visible.\r\nIl mourut un matin de novembre 1903, assis contre un mur du quartier du Panier, tous ses instruments encore sur lui. Les voisins qui le trouv\u00e8rent dirent qu'il avait l'air paisible. Comme endormi.\r\nOn ne sut jamais o\u00f9 l'enterrer. Personne ne connaissait sa famille, sa ville d'origine, son histoire avant Marseille. Le cur\u00e9 du quartier fit une messe courte, devant six personnes.\r\nSes instruments furent gard\u00e9s par un gamin de douze ans qui tra\u00eenait souvent pr\u00e8s de lui. Le gamin devint musicien. Il ne parla jamais vraiment de Gustave. Mais il jouait toujours debout, jamais assis. Comme lui.",
         "prix_reel": 0,
-        "vrai": 0,
-        "faux": 0
+        "vrai": 1,
+        "faux": 1
     },
     {
         "id": 18,
@@ -223,7 +223,7 @@
         "img": "image\/img_69f5353c04c4a7.32990306.jpg",
         "story": "C'est une photo d'entra\u00eenement militaire, prise dans une brasserie r\u00e9quisitionn\u00e9e par l'arm\u00e9e britannique pendant la Seconde Guerre mondiale.\r\nCes soldats testaient une technique simple : se glisser dans un tonneau vide pour se cacher rapidement en cas d'alerte. Dans les entrep\u00f4ts, les docks et les usines des villes occup\u00e9es, les tonneaux \u00e9taient partout. Un homme qui savait y entrer vite et y rester immobile pouvait passer inaper\u00e7u lors d'une fouille rapide.\r\nL'exercice \u00e9tait aussi physique que psychologique. Rester accroupi dans un espace \u00e9troit, sans voir ce qui se passe autour, sans bouger, sans bruit \u2014 pendant plusieurs minutes, parfois plus d'une heure. Certains soldats supportaient mal la claustrophobie. C'\u00e9tait justement le but de l'exercice : le d\u00e9couvrir avant d'\u00eatre sur le terrain.\r\nLe sergent qui supervisait la s\u00e9ance notait dans son registre les noms de ceux qui tenaient et ceux qui abandonnaient. Pas pour les p\u00e9naliser. Pour les orienter vers d'autres missions.\r\nLa brasserie fut rendue \u00e0 ses propri\u00e9taires en 1945. Les tonneaux furent remis en service. Le brasseur qui reprit son activit\u00e9 dit qu'il avait trouv\u00e9 des marques de clous et d'ongles \u00e0 l'int\u00e9rieur de plusieurs d'entre eux. Il ne comprit pas tout de suite d'o\u00f9 elles venaient. Puis il se souvint \u00e0 qui il avait lou\u00e9 ses locaux pendant la guerre. Et il n'en parla plus.",
         "prix_reel": 0,
-        "vrai": 0,
+        "vrai": 1,
         "faux": 0
     },
     {
@@ -236,7 +236,7 @@
         "img": "image\/img_69f536c2e3d755.38547803.webp",
         "story": "Henri Dar\u00e9 avait pass\u00e9 quarante ans \u00e0 enseigner le dessin dans un lyc\u00e9e du cinqui\u00e8me arrondissement de Paris. Pas de gloire, pas de fortune. Juste des centaines d'\u00e9l\u00e8ves \u00e0 qui il avait appris \u00e0 regarder le monde avant de le reproduire.\r\nIl r\u00e9p\u00e9tait toujours la m\u00eame chose le premier jour de classe : un crayon ne ment pas. C'est la main qui ment. Apprenez \u00e0 tenir le crayon, et votre main suivra.\r\nCertains de ses \u00e9l\u00e8ves devinrent peintres. D'autres architectes. Un devint sculpteur \u2014 un certain Joseph Taman, qui avait \u00e9t\u00e9 assis au premier rang en 1871, \u00e0 douze ans, les oreilles d\u00e9coll\u00e9es et les doigts toujours tach\u00e9s d'encre.\r\nTaman n'oublia jamais son professeur. Quand Dar\u00e9 prit sa retraite en 1895, apr\u00e8s quarante ans de service, ses anciens \u00e9l\u00e8ves organis\u00e8rent une collecte discr\u00e8te. Taman fondit lui-m\u00eame la m\u00e9daille dans son atelier de Montparnasse. Il travailla le portrait de m\u00e9moire, sans mod\u00e8le, sans photo. Juste ce visage qu'il avait regard\u00e9 pendant trois ans depuis son premier rang.\r\nLa c\u00e9r\u00e9monie eut lieu un jeudi soir, dans la salle des professeurs du lyc\u00e9e. Une vingtaine d'anciens \u00e9l\u00e8ves, quelques coll\u00e8gues. Dar\u00e9 re\u00e7ut la m\u00e9daille sans rien dire pendant un long moment. Puis il la retourna dans ses mains, regarda le portrait, et dit simplement : vous m'avez fait plus de cheveux que je n'en ai.\r\nTout le monde rit. Taman aussi.",
         "prix_reel": 300,
-        "vrai": 0,
+        "vrai": 1,
         "faux": 0
     },
     {
@@ -249,7 +249,7 @@
         "img": "image\/img_69f53780a75234.33028031.webp",
         "story": "On ne sait pas comment il s'appelait. On ne sait pas quel peuple l'a fabriqu\u00e9. On sait seulement qu'il a \u00e9t\u00e9 trouv\u00e9 dans la terre rouge d'Amazonie, intact apr\u00e8s douze si\u00e8cles, les mains crois\u00e9es devant la bouche comme s'il chantait encore.\r\nDans les cultures amazoniennes de cette \u00e9poque, les vases fun\u00e9raires n'\u00e9taient pas de simples contenants. Ils \u00e9taient des gardiens. On y pla\u00e7ait les cendres ou les os des anc\u00eatres importants \u2014 chamans, chefs, m\u00e9moires vivantes du groupe. La forme humaine n'\u00e9tait pas d\u00e9corative. Elle signifiait que quelqu'un veillait de l'int\u00e9rieur.\r\nLes spirales et les entrelacs grav\u00e9s sur tout le corps ne sont pas des ornements. Chaque motif avait un sens pr\u00e9cis dans la cosmologie amazonienne \u2014 des chemins entre le monde des vivants et celui des esprits, des fronti\u00e8res que seul le chaman pouvait traverser.\r\nLa posture des mains devant la bouche est particuli\u00e8rement rare. Les arch\u00e9ologues pensent qu'elle repr\u00e9sente le chant sacr\u00e9 \u2014 cette voix qui, selon les croyances de la r\u00e9gion, \u00e9tait le seul pont fiable entre les deux mondes. Tant que quelqu'un chantait, les anc\u00eatres pouvaient entendre.\r\nLe vase fut d\u00e9pos\u00e9 dans une tombe collective avec six autres personnes. Il \u00e9tait plac\u00e9 au centre, face \u00e0 l'entr\u00e9e. Comme si on lui avait confi\u00e9 la garde du seuil.\r\nIl est aujourd'hui dans un mus\u00e9e. Derri\u00e8re une vitre. Les mains toujours devant la bouche. Chantant pour personne. Ou peut-\u00eatre pour tout le monde.",
         "prix_reel": 1170,
-        "vrai": 0,
+        "vrai": 1,
         "faux": 0
     },
     {
@@ -262,8 +262,8 @@
         "img": "image\/img_69f537fd2b3219.23256959.webp",
         "story": "Il ne nous a pas laiss\u00e9 son nom. Juste cette image.\r\nC'\u00e9tait un chef de guerre Moro de l'\u00eele de Mindanao, photographi\u00e9 par un soldat am\u00e9ricain peu apr\u00e8s le d\u00e9but de l'occupation des Philippines. Des milliers de photos comme celle-ci furent prises entre 1899 et 1910 \u2014 des hommes, des femmes, des chefs, des guerriers, immortalis\u00e9s par des objectifs \u00e9trangers qui ne demandaient pas la permission. On les d\u00e9veloppait, on les envoyait aux \u00c9tats-Unis comme des cartes postales exotiques. Preuve que l'empire avan\u00e7ait. Que les peuples \u00e9taient document\u00e9s, classifi\u00e9s, ma\u00eetris\u00e9s.\r\nCelui-ci r\u00e9sistait \u00e0 cette logique, m\u00eame sur papier.\r\nLe chapeau aux \u00e9toiles \u00e0 huit branches n'est pas d\u00e9coratif. Dans la tradition Moro, chaque ornement port\u00e9 en public \u2014 et surtout au combat \u2014 a une signification pr\u00e9cise. Le rang. Les victoires. Les alliances. Les protections spirituelles invoqu\u00e9es avant la bataille. Les \u00e9toiles \u00e0 huit branches \u00e9taient associ\u00e9es aux navigateurs et aux guerriers d'\u00e9lite, ceux qui connaissaient les chemins de la mer et du ciel, ceux \u00e0 qui on confiait les d\u00e9cisions importantes quand les autres h\u00e9sitaient.\r\nLe fusil dans sa main droite est un fusil espagnol r\u00e9cup\u00e9r\u00e9 \u2014 les Moros avaient combattu les Espagnols pendant trois si\u00e8cles avant l'arriv\u00e9e des Am\u00e9ricains. Trois si\u00e8cles de r\u00e9sistance. Ils n'avaient pas \u00e9t\u00e9 conquis. Pas vraiment. Les Espagnols contr\u00f4laient les c\u00f4tes, les villes, les registres. Mais dans les terres de Mindanao, dans les montagnes et les for\u00eats, les sultans Moros gouvernaient encore. Le fusil qu'il tient est le symbole de cette continuit\u00e9 \u2014 une arme prise \u00e0 l'ennemi, retourn\u00e9e, gard\u00e9e.\r\nLe kriss gliss\u00e9 dans sa ceinture est plus ancien encore. Le kriss est une lame \u00e0 double tranchant, ondul\u00e9e, forg\u00e9e selon des techniques transmises de p\u00e8re en fils depuis des si\u00e8cles. On disait qu'un bon kriss avait une \u00e2me \u2014 pas m\u00e9taphoriquement. Litt\u00e9ralement. Qu'il choisissait son propri\u00e9taire autant que son propri\u00e9taire le choisissait. Certains kriss \u00e9taient h\u00e9rit\u00e9s, jamais achet\u00e9s. Jamais vendus. Passer un kriss \u00e0 quelqu'un, c'\u00e9tait passer une responsabilit\u00e9.\r\nLes broderies sur sa veste, les colliers crois\u00e9s sur sa poitrine, l'\u00e9charpe nou\u00e9e \u00e0 la taille \u2014 tout cela constitue un langage. Un langage que le soldat am\u00e9ricain qui tenait l'appareil photo ne lisait pas. Il voyait un indig\u00e8ne en costume. Il ne voyait pas un homme qui portait sur lui l'histoire de son peuple, cousue, grav\u00e9e, nou\u00e9e fil par fil.\r\nIl regarde l'objectif sans sourire, sans peur, sans curiosit\u00e9. Le regard droit, les \u00e9paules carr\u00e9es, le menton l\u00e9g\u00e8rement relev\u00e9. Pas d'hostilit\u00e9 visible. Quelque chose de plus difficile \u00e0 nommer \u2014 une pr\u00e9sence totale. Comme quelqu'un qui sait exactement qui il est, ce qu'il repr\u00e9sente, et ce que la sc\u00e8ne qui se joue signifie vraiment. Un homme de l'autre c\u00f4t\u00e9 de l'objectif, conscient d'\u00eatre regard\u00e9, choisissant comment il veut \u00eatre vu.\r\nLes Moros de Mindanao r\u00e9sist\u00e8rent \u00e0 l'occupation am\u00e9ricaine pendant des ann\u00e9es. La guerre qui suivit fut brutale \u2014 des villages br\u00fbl\u00e9s, des massacres document\u00e9s dans les rapports militaires am\u00e9ricains eux-m\u00eames. Le plus c\u00e9l\u00e8bre fut le massacre de Bud Dajo en 1906, o\u00f9 plus de neuf cents hommes, femmes et enfants Moros p\u00e9rirent dans une forteresse sur les flancs d'un volcan. Les journaux am\u00e9ricains le pr\u00e9sent\u00e8rent comme une victoire. Mark Twain, lui, \u00e9crivit que c'\u00e9tait un massacre et qu'il fallait appeler les choses par leur nom.\r\nOn ne sait pas ce que devint l'homme sur cette photo. Les archives am\u00e9ricaines de cette p\u00e9riode ne retiennent que les noms des officiers. Pas ceux des hommes qu'ils photographiaient. Pas ceux des peuples qu'ils traversaient.\r\nIl est l\u00e0 pourtant. Debout. Immobile dans le temps. Les \u00e9toiles sur son chapeau brillent encore, m\u00eame sur ce papier jauni, m\u00eame \u00e0 cent vingt ans de distance. Il regarde. Il attend, peut-\u00eatre, que quelqu'un prenne enfin le temps de lire ce qu'il a \u00e9crit sur lui, avec ses ornements, ses armes, sa posture.\r\nNous lisons. Trop tard, peut-\u00eatre. Mais nous lisons.",
         "prix_reel": 0,
-        "vrai": 1,
-        "faux": 0
+        "vrai": 0,
+        "faux": 2
     },
     {
         "id": 22,
@@ -470,7 +470,7 @@
         "img": "image\/32.jpg",
         "story": "Il mesurait exactement une heure.\nPas plus. Pas moins.\nUne heure \u2014 le temps qu'un m\u00e9decin passait au chevet d'un pestif\u00e9r\u00e9\navant de devoir quitter la chambre, se laver, changer de v\u00eatements\net passer au suivant.\n\nVenise, 1348.\nLa Peste Noire venait d'arriver par les bateaux en provenance de Crim\u00e9e.\nEn six mois, la ville perdit un tiers de sa population.\nLes m\u00e9decins travaillaient sans rel\u00e2che, sans comprendre ce qu'ils combattaient,\nsans savoir pourquoi certains mouraient et d'autres survivaient.\n\nCe sablier appartenait au docteur Marco Foscari.\nIl l'avait fait fabriquer par un orf\u00e8vre de Murano \u2014\nle verre souffl\u00e9 dans l'atelier, le cadre en argent command\u00e9 s\u00e9par\u00e9ment,\nles deux assembl\u00e9s avec une pr\u00e9cision inhabituelle pour l'\u00e9poque.\nIl voulait quelque chose de solide. Quelque chose qui tiendrait.\n\nChaque matin il le retournait en entrant chez son premier patient.\nChaque soir il le posait sur sa table, vide de sable,\net comptait combien de fois il l'avait retourn\u00e9 dans la journ\u00e9e.\nC'\u00e9tait sa fa\u00e7on de mesurer non pas le temps,\nmais ce qu'il avait pu faire avec.\n\nIl surv\u00e9cut \u00e0 la premi\u00e8re vague de peste.\nEt \u00e0 la deuxi\u00e8me.\nIl mourut en 1362, d'une fi\u00e8vre ordinaire, dans son lit,\nentour\u00e9 de ses livres et de ses instruments.\nLe sablier \u00e9tait sur la table de nuit.\n\nSes \u00e9l\u00e8ves le gard\u00e8rent comme une relique.\nPas parce qu'il \u00e9tait beau, bien qu'il le f\u00fbt.\nParce qu'il repr\u00e9sentait quelque chose qu'aucun livre de m\u00e9decine ne pouvait enseigner \u2014\nla discipline de continuer, heure apr\u00e8s heure,\nquand tout autour de soi s'effondre.",
         "prix_reel": 2000,
-        "vrai": 0,
+        "vrai": 1,
         "faux": 0
     },
     {
@@ -484,6 +484,19 @@
         "story": "Il \u00e9crivait toujours \u00e0 l'encre verte.\nPas par fantaisie \u2014 par conviction.\nIl disait que l'encre noire \u00e9tait l'encre des actes officiels, des contrats, des condamnations.\nL'encre verte \u00e9tait celle de la po\u00e9sie. De ce qui dure autrement.\n\nSon nom \u00e9tait Kemal Bey.\nPo\u00e8te ottoman, n\u00e9 \u00e0 Istanbul en 1789,\nexil\u00e9 \u00e0 Rhodes en 1821 pour avoir \u00e9crit des vers jug\u00e9s s\u00e9ditieux par le Sultan.\nIl avait trente-deux ans.\nIl emporta trois choses dans son exil \u2014 ses livres, sa plume de bronze, son encrier.\n\nL'encrier \u00e9tait en verre sombre serti de m\u00e9tal grav\u00e9,\nfabriqu\u00e9 par un artisan du Grand Bazar qu'il connaissait depuis l'enfance.\nLa plume \u00e9tait en bronze \u00e9galement, avec une fleur de lys sculpt\u00e9e \u00e0 la jonction \u2014\nun ornement qu'on trouvait dans toute la M\u00e9diterran\u00e9e \u00e0 cette \u00e9poque,\nfronti\u00e8re floue entre les cultures qui se touchaient sans se dire qu'elles se touchaient.\n\n\u00c0 Rhodes, il continua \u00e0 \u00e9crire.\nPas des pamphlets. Pas des textes politiques.\nDes po\u00e8mes sur la mer, sur la lumi\u00e8re du soir sur les pierres blanches,\nsur les oiseaux qui passaient sans savoir qu'il y avait une fronti\u00e8re.\n\nIl envoyait ses po\u00e8mes \u00e0 Istanbul en secret,\ngliss\u00e9s dans des lettres commerciales, entre deux lignes de comptabilit\u00e9 invent\u00e9e.\nSes amis les copiaient \u00e0 la main et les faisaient circuler dans les caf\u00e9s.\nLe Sultan n'en sut rien. Ou fit semblant de ne rien savoir.\n\nKemal Bey rentra \u00e0 Istanbul en 1831, dix ans apr\u00e8s son exil.\nLa ville avait chang\u00e9. Lui aussi.\nIl posa son encrier sur son bureau, le m\u00eame bureau qu'avant,\net trempa sa plume dans l'encre verte.\n\nIl \u00e9crivit toute la nuit.\nComme si dix ans n'avaient pas pass\u00e9.\nComme si les mots l'avaient attendu.",
         "prix_reel": 1000,
         "vrai": 0,
-        "faux": 0
+        "faux": 1
+    },
+    {
+        "id": 39,
+        "nom": "sarah",
+        "titre": "Le Premier Cahier de Dihia ",
+        "epoque": 1900,
+        "lieu": "France",
+        "categorie": "culture",
+        "img": "image\/img_69f657460cfa11.71386088.webp",
+        "story": "ecrire histoire",
+        "prix_reel": 1999,
+        "vrai": 0,
+        "faux": 1
     }
 ]

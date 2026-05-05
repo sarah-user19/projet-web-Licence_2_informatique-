@@ -126,3 +126,26 @@ if ($obj['categorie']!='photo' && $obj['nom']=='admin'):
 <?php endforeach; ?>
 </div>
 </section>
+
+
+<footer class="footer-knot">
+    <div class="footer-content">
+        <div>
+        <h1 class="footer-logo">Archive Of Truth</h1>
+        <img style="width: 150px;" src="image/logo2.svg" alt="">
+        </div>
+        <p>
+           Découvrez et partagez les histoires cachées derrière chaque objet ancien.
+Une communauté passionnée qui donne vie aux souvenirs du passé.
+        </p>
+        <div class="social-icons">
+            <p>Contact</p>
+            <a href="#"><img src="image/instagram.svg" alt=""></a>
+            <a href="#"><img src="image/wats.svg" alt=""></a>
+            <a id="gmail" href="#">Archive.of.truth@gmail.com</a>
+        </div>
+      
+    </div>
+
+    <p class="footer-note">© 2026 Chaque objet a une histoire, partagez la vôtre. <img src="image/cr.svg" alt=""></p>
+ </footer>

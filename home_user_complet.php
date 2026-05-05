@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reliques — Mon espace</title>
+    <title>Mon espace</title>
     <link rel="stylesheet" href="page2.css">
 </head>
 <body>
@@ -46,7 +46,7 @@ $nb_objets = count($mes_objets);
             <a href="#">Categories <img src="image/chevron.svg" id="flech1"></a>
             <ul class="dropdown-content">
                 <li><a href="page2.php">Souvenirs élégants</a></li>
-                <li><a href="page2.php">Souvenirs visuels</a></li>
+                <li><a href="page3.php">Souvenirs visuels</a></li>
                 <li><a href="page4.php">Vos trésors</a></li>
             </ul>
         </li>

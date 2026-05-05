@@ -53,6 +53,6 @@ file_put_contents("data.json", json_encode($data, JSON_PRETTY_PRINT));
 $votes_users[$user][$cle] = $type;
 file_put_contents($fichier_votes, json_encode($votes_users, JSON_PRETTY_PRINT));
 
-// ✅ Retourner les nouveaux compteurs
+// Retourner les nouveaux compteurs
 echo json_encode(["status" => "ok", "vrai" => $vrai, "faux" => $faux]);
 ?>

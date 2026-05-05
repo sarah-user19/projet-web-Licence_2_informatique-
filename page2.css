@@ -932,11 +932,7 @@ footer {
  
 
 
-/* ============================================
-   RELIQUES — Home utilisateur
-   Palette : brun chaud #2C2C2A, or #BA7517,
-             crème #F1EFE8, sable #D3C5B0
-   ============================================ */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=DM+Sans:wght@400;500;600&display=swap');
 
@@ -1034,7 +1030,7 @@ footer {
 }
 .hero {
     background: linear-gradient(145deg, #2C1A0A 0%, #6b3a1a 50%, #BA7517 100%);
-    padding: 100px 94px 120px; /* ✅ un peu plus en bas pour la vague */
+    padding: 100px 94px 120px; /*  un peu plus en bas pour la vague */
     position: relative;
     overflow: hidden;
 }
@@ -1511,7 +1507,7 @@ footer {
 }
 
 
- /* ✍️ formulaire */
+ /* formulaire */
 .formulaire {
     display: flex;
     flex-direction: column;
@@ -1544,7 +1540,7 @@ button:hover {
     background-color: #4834d4;
 }
 
-/* 💬 commentaires */
+/*  commentaires */
 #commentaires {
     width: 60%;
     margin: auto;
@@ -1558,7 +1554,7 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* 📊 barre de véracité */
+/*  barre de véracité */
 .barre-container {
     background: #ddd;
     border-radius: 10px;
@@ -1574,7 +1570,7 @@ button:hover {
     transition: width 0.5s ease;
 }
 
-/* 👍👎 boutons */
+/* boutons */
 .commentaire button {
     margin-right: 10px;
     background-color: #dfe6e9;

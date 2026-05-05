@@ -92,6 +92,78 @@
         "histoire_id": 21,
         "auteur": "sarah",
         "texte": "c'est tr\u00e9s int\u00e9r\u00e9ssant comme histoire\n",
+        "vrai": 0,
+        "faux": 2
+    },
+    {
+        "id": "69f644e1894df",
+        "histoire_id": 13,
+        "auteur": "sara",
+        "texte": "salut",
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": "69f64ee2ec58b",
+        "histoire_id": 13,
+        "auteur": "sarah",
+        "texte": "partie commentaire",
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": "69f654842affa",
+        "histoire_id": 17,
+        "auteur": "sarah",
+        "texte": "partie commentaire",
+        "vrai": 2,
+        "faux": 0
+    },
+    {
+        "id": "69f65702d672e",
+        "histoire_id": 6,
+        "auteur": "sarah",
+        "texte": "partie commentaire",
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": "69f657aace216",
+        "histoire_id": 39,
+        "auteur": "sara",
+        "texte": "salut",
+        "vrai": 0,
+        "faux": 0
+    },
+    {
+        "id": "69f663d47967d",
+        "histoire_id": 38,
+        "auteur": "sarah",
+        "texte": "partie commentaire",
+        "vrai": 0,
+        "faux": 1
+    },
+    {
+        "id": "69f88bdc589ef",
+        "histoire_id": 21,
+        "auteur": "sarah",
+        "texte": "c'est pas vrai",
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": "69fa109d9a844",
+        "histoire_id": 21,
+        "auteur": "sarahzz",
+        "texte": "c'est une belle histoire mais elle ne l'est pas vrai\nla vrai histoire:\nPersonne ne connaissait son vrai nom. Dans le sert\u00e3o, les hommes changeaient de nom comme ils changeaient de route \u2014 quand c'\u00e9tait n\u00e9cessaire, sans c\u00e9r\u00e9monie. On l'appelait \u00c9toile. \u00c0 cause du chapeau.\nLe chapeau \u00e9tait sa signature. Cuir tann\u00e9, brod\u00e9 \u00e0 la main avec des \u00e9toiles \u00e0 huit branches, chacune cousue par lui-m\u00eame dans les longues nuits du sert\u00e3o. Il disait que les \u00e9toiles le prot\u00e9geaient. Que tant que le ciel aurait des \u00e9toiles, il aurait un chemin.\nIl \u00e9tait cangaceiro depuis ses dix-huit ans. Pas par vocation \u2014 par n\u00e9cessit\u00e9. La s\u00e9cheresse de 1915 avait emport\u00e9 le b\u00e9tail, la r\u00e9colte, puis le p\u00e8re. Il s'\u00e9tait retrouv\u00e9 sans terre, sans travail, sans avenir visible. Le canga\u00e7o \u00e9tait la seule organisation qui acceptait les hommes sans rien.\nIl suivit Lampi\u00e3o pendant trois ans. Il apprit \u00e0 marcher dans le noir sans faire de bruit. Il apprit \u00e0 porter tout ce dont il avait besoin sur le dos et \u00e0 la ceinture \u2014 la carabine, le couteau, les munitions, la nourriture pour deux jours. Il apprit \u00e0 ne pas s'attacher aux endroits.\nLa photo fut prise par un photographe ambulant dans une foire de l'int\u00e9rieur. \u00c9toile s'arr\u00eata, regarda l'objectif, ne sourit pas. Ce n'\u00e9tait pas de la m\u00e9fiance. C'\u00e9tait une habitude. Dans le sert\u00e3o, montrer les dents pouvait \u00eatre confondu avec une provocation.\nIl mourut en 1928, dans une embuscade pr\u00e8s de Mossor\u00f3. Ce ne fut pas la police qui l'eut. Ce fut la s\u00e9cheresse encore \u2014 sans eau, sans issue, sans \u00e9toiles cette nuit-l\u00e0.\nLe chapeau fut r\u00e9cup\u00e9r\u00e9 par un soldat. Il passa ensuite par plusieurs mains. Personne ne sait o\u00f9 il est aujourd'hui. Mais celui qui le voit reconna\u00eet les \u00e9toiles.\n",
+        "vrai": 1,
+        "faux": 0
+    },
+    {
+        "id": "69fa13ee828c3",
+        "histoire_id": 1,
+        "auteur": "sarahzz",
+        "texte": "c'est une histoire tr\u00e9s int\u00e9r\u00e9ssante",
         "vrai": 1,
         "faux": 0
     }

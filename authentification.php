@@ -1,8 +1,5 @@
 <?php
 require_once("users.inc.php");
-if(isset($_GET["msg"])){
-    echo "<p style='color:red'>" . $_GET["msg"] . "</p>";
-}
 
 if(isset($_POST["btn"])){
     
@@ -22,17 +19,14 @@ if(isset($_POST["btn"])){
     }
      else{
         addUser($login,$mdp,$email);
-        header("Location: home_user_complet.php?msg=Inscription réussie");
-        return;
+        session_start();
+        $_SESSION["login"]=$login;
+        header("Location: home_user_complet.php");
+        exit;
     }
     
     header("Location: authentification.php?msg=$msg");
-        return;
-
-
-
-
-
+        exit;
 }
 
 ?>
@@ -52,6 +46,17 @@ if(isset($_POST["btn"])){
   body{
      background-image: url('./image/1.jpg');
   }
+
+  .error-msg {
+    background: rgba(220, 50, 50, 0.12);
+    border: 1px solid rgba(220, 50, 50, 0.4);
+    color: #c0392b;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
 </style>
 <body>
 
@@ -60,9 +65,12 @@ if(isset($_POST["btn"])){
     <!-- Formulaire Connexion -->
     <div id="login-form">
       <h2>Connexion</h2>
+      <?php if(isset($_GET["msg"]) && !isset($_POST["btn"])): ?>
+        <div class="error-msg"><?php echo htmlspecialchars($_GET["msg"]); ?></div>
+      <?php endif; ?>
       <form action="access.php" method="POST">
         <div class="form-group">
-          <label for="login">Nom</label>
+          <label for="login">Username</label>
           <input type="text" id="login-email" name="login" required />
         </div>
         <div class="form-group">
@@ -79,9 +87,12 @@ if(isset($_POST["btn"])){
     <!-- Formulaire Inscription -->
     <div id="register-form" class="hidden">
       <h2>Créer un compte</h2>
+      <?php if(isset($_GET["msg"])): ?>
+        <div class="error-msg"><?php echo htmlspecialchars($_GET["msg"]); ?></div>
+      <?php endif; ?>
       <form action="authentification.php" method="POST">
         <div class="form-group">
-          <label for="name">Nom complet</label>
+          <label for="name">Username</label>
           <input type="text" id="name" name="login" required />
         </div>
         <div class="form-group">
@@ -109,6 +120,11 @@ if(isset($_POST["btn"])){
       document.getElementById("login-form").classList.toggle("hidden");
       document.getElementById("register-form").classList.toggle("hidden");
     }
+
+    // Si erreur venant d'une inscription, afficher le bon formulaire
+    <?php if(isset($_GET["msg"]) && isset($_SERVER['HTTP_REFERER']) && strpos($_SERVER['HTTP_REFERER'], 'authentification.php') !== false): ?>
+    toggleForms(); // l'erreur vient du formulaire inscription → on l'affiche
+    <?php endif; ?>
   </script>
 </body>
 </html>

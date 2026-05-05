@@ -16,8 +16,41 @@
         "histoire_34": "faux",
         "histoire_7": "faux",
         "histoire_13": "vrai",
+        "histoire_16": "faux",
+        "histoire_21": "faux",
+        "commentaire_69f5e144228e0": "faux",
+        "histoire_39": "faux",
+        "histoire_40": "vrai",
+        "commentaire_69f64792776a6": "vrai",
+        "commentaire_69f64a0ec53b0": "faux",
+        "histoire_17": "faux",
+        "commentaire_69f654842affa": "vrai",
+        "histoire_6": "vrai",
+        "commentaire_69f65702d672e": "vrai",
+        "histoire_38": "faux",
+        "commentaire_69f663d47967d": "faux"
+    },
+    "sara": {
+        "commentaire_69f644e1894df": "vrai",
+        "histoire_39": "vrai",
+        "commentaire_69f6466a9c56d": "vrai",
+        "histoire_13": "faux",
+        "histoire_16": "faux",
+        "histoire_37": "vrai"
+    },
+    "sarahzz": {
+        "commentaire_69fa109d9a844": "vrai",
+        "commentaire_69f88bdc589ef": "vrai",
+        "histoire_21": "faux",
+        "commentaire_69f5e144228e0": "faux",
+        "histoire_13": "vrai",
         "histoire_16": "vrai",
-        "histoire_21": "vrai",
-        "commentaire_69f5e144228e0": "vrai"
+        "histoire_17": "vrai",
+        "commentaire_69f654842affa": "vrai",
+        "histoire_18": "vrai",
+        "histoire_19": "vrai",
+        "histoire_20": "vrai",
+        "commentaire_69fa13ee828c3": "vrai",
+        "histoire_1": "vrai"
     }
 }
